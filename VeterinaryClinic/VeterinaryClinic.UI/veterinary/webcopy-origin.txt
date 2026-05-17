@@ -1,0 +1,808 @@
+Uri: https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-7DW3z.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-7DW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDG3z.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDG3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDW3z.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat-JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8gCm3z.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8gCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JCm3z.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JDW3z.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat8JDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9uCm3z.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9uCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9XCm3z.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat9XCm3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat_XDW3z.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2rp2ywxg089UriCZaSExd86J3t9jz86Mvy4qCRAL19DksVat_XDW3z.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAC5thTg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAC5thTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthTg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAfJthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpthTg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpxhTg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAIpxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAkJxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAop1hTg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAop1hTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwAopxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwARZthTg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/dmsans/v17/rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwA_JxhTg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\s\dmsans\v17\rP2tp2ywxg089UriI5-g4vlH9VoD8CmcqZG40F9JadbnoEwA_JxhTg.ttf
+Content Type: font/ttf
+
+Uri: https://wpocean.com/html/tf/petlox-live/404.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\404.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/about.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\about.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/animate.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\animate.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/bootstrap.min.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/flaticon.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\flaticon.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/jquery.fancybox.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\jquery.fancybox.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/odometer-theme-default.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\odometer-theme-default.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/owl.carousel.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\owl.carousel.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/owl.theme.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\owl.theme.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/owl.transitions.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\owl.transitions.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/slick-theme.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\slick-theme.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/slick.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\slick.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/swiper.min.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\swiper.min.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/css/themify-icons.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\css\themify-icons.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/flaticon.eot?7be827e199392bb56ae95dacf43f5036
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\flaticon.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/flaticon.svg?7be827e199392bb56ae95dacf43f5036
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\flaticon.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/flaticon.ttf?7be827e199392bb56ae95dacf43f5036
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\flaticon.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/flaticon.woff2?7be827e199392bb56ae95dacf43f5036
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\flaticon.woff2
+Content Type: font/woff2
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/flaticon.woff?7be827e199392bb56ae95dacf43f5036
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\flaticon.woff
+Content Type: font/woff
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/slick.eot
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\slick.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/slick.eot?
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\slick-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/slick.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\slick.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/slick.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\slick.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/slick.woff
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\slick.woff
+Content Type: font/woff
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/text-font/fredokaone-regular-webfont.woff
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\text-font\fredokaone-regular-webfont.woff
+Content Type: font/woff
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/text-font/fredokaone-regular-webfont.woff2
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\text-font\fredokaone-regular-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/themify.eot?
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\themify-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/themify.eot?-fvbane
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\themify.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/themify.svg?-fvbane
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\themify.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/themify.ttf?-fvbane
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\themify.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/fonts/themify.woff?-fvbane
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\fonts\themify.woff
+Content Type: font/woff
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/ab-icon.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\ab-icon.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about/about-10.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about\about-10.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about/about-8.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about\about-8.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about/about-9.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about\about-9.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about/aut-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about\aut-1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about/aut-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about\aut-2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about/aut-3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about\aut-3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about/call.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about\call.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about/dog-sid-img.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about\dog-sid-img.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about/shape10.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about\shape10.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about/shape13.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about\shape13.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/about/shape14.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\about\shape14.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/ajax-loader.gif
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\ajax-loader.gif
+Content Type: image/gif
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog-details/1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog-details\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog-details/2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog-details\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog-details/author.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog-details\author.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog-details/comments-author/img-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog-details\comments-author\img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog-details/comments-author/img-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog-details\comments-author\img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog-details/comments-author/img-3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog-details\comments-author\img-3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog-details/img-4.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog-details\img-4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog/img-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog\img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog/img-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog\img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog/img-3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog\img-3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog/img-4.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog\img-4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog/img-5.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog\img-5.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/blog/img-6.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\blog\img-6.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/cart/1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\cart\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/cart/2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\cart\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/checkout/img-1.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\checkout\img-1.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/checkout/img-2.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\checkout\img-2.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/checkout/img-3.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\checkout\img-3.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/checkout/img-4.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\checkout\img-4.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/client-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\client-1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/client-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\client-2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/cta.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\cta.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/fancybox/blank.gif
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\fancybox\blank.gif
+Content Type: image/gif
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/fancybox/fancybox_loading.gif
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\fancybox\fancybox_loading.gif
+Content Type: image/gif
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/fancybox/fancybox_loading@2x.gif
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\fancybox\fancybox_loading@2x.gif
+Content Type: image/gif
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/fancybox/fancybox_overlay.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\fancybox\fancybox_overlay.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/fancybox/fancybox_sprite.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\fancybox\fancybox_sprite.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/fancybox/fancybox_sprite@2x.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\fancybox\fancybox_sprite@2x.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/favicon.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\favicon.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/funfact/1.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\funfact\1.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/funfact/2.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\funfact\2.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/funfact/3.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\funfact\3.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/funfact/4.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\funfact\4.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/funfact/top-image.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\funfact\top-image.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/get-quate-bg.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\get-quate-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/gq-shap-2.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\gq-shap-2.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/gq-shap.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\gq-shap.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/instragram/10.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\instragram\10.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/instragram/11.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\instragram\11.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/instragram/12.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\instragram\12.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/instragram/7.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\instragram\7.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/instragram/8.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\instragram\8.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/instragram/9.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\instragram\9.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/left-arrow.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\left-arrow.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/logo.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\logo.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/page-title.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\page-title.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/partners/1.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\partners\1.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/partners/2.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\partners\2.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/partners/3.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\partners\3.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/partners/4.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\partners\4.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/partners/5.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\partners\5.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/partners/6.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\partners\6.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/partners/7.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\partners\7.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/paws-10.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\paws-10.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/paws-11.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\paws-11.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/paws-6.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\paws-6.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/paws-7.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\paws-7.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/paws-8.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\paws-8.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/paws-9.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\paws-9.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/preloader.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\preloader.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/recent-posts/img-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\recent-posts\img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/recent-posts/img-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\recent-posts\img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/recent-posts/img-3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\recent-posts\img-3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/right-arrow.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\right-arrow.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/select-icon.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\select-icon.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/select-icon2.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\select-icon2.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/service-single/1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\service-single\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/service-single/2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\service-single\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/service-single/3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\service-single\3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/service/1.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\service\1.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/service/2.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\service\2.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/service/3.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\service\3.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/service/4.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\service\4.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/service/top-img-1.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\service\top-img-1.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/service/top-img-2.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\service\top-img-2.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/service/top-img-3.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\service\top-img-3.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/4.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/5.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\5.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/6.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\6.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/mini-cart/img-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\mini-cart\img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/mini-cart/img-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\mini-cart\img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/4.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/5.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\5.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/6.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\6.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/review/img-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\review\img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/review/img-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\review\img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/thumb/img-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\thumb\img-1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/thumb/img-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\thumb\img-2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/thumb/img-3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\thumb\img-3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/thumb/img-4.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\thumb\img-4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/thumb/img-5.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\thumb\img-5.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/shop/shop-single/thumb/img-6.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\shop\shop-single\thumb\img-6.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/1.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\1.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/2.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\2.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/3.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\3.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/4.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\4.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/shape-1.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\shape-1.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/shape-2.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\shape-2.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/shape-3.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\shape-3.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/shape-4.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\shape-4.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/shape-bg.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\shape-bg.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/slide-1.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\slide-1.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/slide-2.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\slide-2.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/slide-3.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\slide-3.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/slider/slide-4.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\slider\slide-4.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/terms/1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\terms\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/terms/2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\terms\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/terms/terms.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\terms\terms.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/terms/terms2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\terms\terms2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/testimonial-icon.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\testimonial-icon.svg
+Content Type: image/svg+xml
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/images/testimonial.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\images\testimonial.png
+Content Type: image/png
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/js/bootstrap.bundle.min.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/js/jquery-plugin-collection.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\js\jquery-plugin-collection.js
+Content Type: application/javascript
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/js/jquery.min.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/js/modernizr.custom.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\js\modernizr.custom.js
+Content Type: application/javascript
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/js/script.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\js\script.js
+Content Type: application/javascript
+
+Uri: https://wpocean.com/html/tf/petlox-live/assets/sass/style.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\assets\sass\style.css
+Content Type: text/css
+
+Uri: https://wpocean.com/html/tf/petlox-live/blog-single.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\blog-single.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/blog.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\blog.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/cart.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\cart.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/checkout.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\checkout.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/contact.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\contact.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/faq.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\faq.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/index-2.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\index-2.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/index.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\index.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/pricing.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\pricing.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/privace.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\privace.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/service-single.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\service-single.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/service.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\service.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/shop-single.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\shop-single.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/shop.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\shop.html
+Content Type: text/html
+
+Uri: https://wpocean.com/html/tf/petlox-live/terms.html
+File Name: C:\Users\BURHAN\Desktop\Veteriner\wpocean.com\html\tf\petlox-live\terms.html
+Content Type: text/html
+

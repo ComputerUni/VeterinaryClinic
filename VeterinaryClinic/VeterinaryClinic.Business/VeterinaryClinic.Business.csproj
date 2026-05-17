@@ -11,9 +11,4 @@
     <ProjectReference Include="..\VeterinaryClinic.Entities\VeterinaryClinic.Entities.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Concrete\" />
-  </ItemGroup>
-
 </Project>

@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="VeterinaryClinic.API/VeterinaryClinic.API.csproj" Id="01463f7f-8f9d-44a2-a31f-52901d18a53c" />
   <Project Path="VeterinaryClinic.Business/VeterinaryClinic.Business.csproj" />
   <Project Path="VeterinaryClinic.DataAccess/VeterinaryClinic.DataAccess.csproj" />
   <Project Path="VeterinaryClinic.Entities/VeterinaryClinic.Entities.csproj" />
