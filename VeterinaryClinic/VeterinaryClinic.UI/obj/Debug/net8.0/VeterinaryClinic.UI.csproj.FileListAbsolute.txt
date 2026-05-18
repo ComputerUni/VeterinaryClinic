@@ -144,3 +144,4 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\obj\Debug\net8.0\VeterinaryClinic.UI.csproj.AssemblyReference.cache
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\VeterinaryClinic.Business.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\VeterinaryClinic.Business.pdb
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\obj\Debug\net8.0\VeterinaryClinic.UI.sourcelink.json

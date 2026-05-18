@@ -13,7 +13,7 @@ namespace VeterinaryClinic.Entities.Concrete
         public int AppointmentId { get; set; }
         public decimal AmountPaid { get; set; }
         public DateTime PaymentDate { get; set; }
-        public PaymentMethod PaymentMethod { get; set; }
+        public string PaymentMethod { get; set; }
 
     }
 }

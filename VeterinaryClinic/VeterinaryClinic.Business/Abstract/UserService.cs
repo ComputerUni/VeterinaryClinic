@@ -8,6 +8,9 @@ namespace VeterinaryClinic.Business.Abstract
 {
     public interface UserService
     {
+        void Login(string username, string password);
+        void Register(string username, string password, string email);
+        void Authorization(string username, string password);
 
     }
 }
