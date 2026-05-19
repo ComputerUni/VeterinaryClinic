@@ -7,7 +7,7 @@ using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.Business.Abstract
 {
-    public interface PaymentService
+    public interface IPaymentService
     {
         List<Payment> GetList();
         void PaymentAdd(Payment payment);

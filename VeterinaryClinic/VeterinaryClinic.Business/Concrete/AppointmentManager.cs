@@ -9,7 +9,7 @@ using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.Business.Concrete
 {
-    public class AppointmentManager : AppointmentService
+    public class AppointmentManager : IAppointmentService
     {
         IAppointmentDal _appointmentDal;
 

@@ -6,36 +6,38 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using VeterinaryClinic.DataAccess.Abstract;
+using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.DataAccess.Concrete.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : class
     {
-        Context c = new Context();
-        DbSet<T> _object;
+        private readonly Context _context;
+        private readonly DbSet<T> _object;
 
-        public GenericRepository()
+        public GenericRepository(Context context)
         {
-            _object = c.Set<T>();
+            _context = context;
+            _object = _context.Set<T>();
         }
 
         public void Delete(T p)
         {
-            var deleteEntity = c.Entry(p);
+            var deleteEntity = _context.Entry(p);
             deleteEntity.State = EntityState.Deleted;
-            c.SaveChanges();
+            _context.SaveChanges();
         }
 
         public T Get(Expression<Func<T, bool>> filter)
         {
-            return _object.SingleOrDefault(filter); 
+            return _object.SingleOrDefault(filter);
         }
 
         public void Insert(T p)
         {
-            var addedEntity = c.Entry(p);
+            var addedEntity = _context.Entry(p);
             addedEntity.State = EntityState.Added;
-            c.SaveChanges();
+            _context.SaveChanges();
         }
 
         public List<T> List()
@@ -50,9 +52,9 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
 
         public void Update(T p)
         {
-            var updatedEntity = c.Entry(p);
+            var updatedEntity = _context.Entry(p);
             updatedEntity.State = EntityState.Modified;
-            c.SaveChanges();
+            _context.SaveChanges();
         }
     }
 }

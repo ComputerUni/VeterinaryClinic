@@ -9,7 +9,7 @@ using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.Business.Concrete
 {
-    public class AnimalManager : AnimalService
+    public class AnimalManager : IAnimalService
     {
         IAnimalDal _animalDal;
 
@@ -30,17 +30,17 @@ namespace VeterinaryClinic.Business.Concrete
 
         public void AnimalUpdate(Animal animal)
         {
-            throw new NotImplementedException();
+            _animalDal.Update(animal);
         }
 
         public Animal GetByID(int id)
         {
-            throw new NotImplementedException();
+            return _animalDal.Get(x => x.Id == id); 
         }
 
         public List<Animal> GetList()
         {
-            throw new NotImplementedException();
+            return _animalDal.List();
         }
     }
 }

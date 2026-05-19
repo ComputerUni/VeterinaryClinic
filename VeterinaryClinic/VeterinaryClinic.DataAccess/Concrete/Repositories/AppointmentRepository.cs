@@ -12,13 +12,13 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
 {
     public class AppointmentRepository : IAppointmentDal
     {
-        Context c = new Context();
-        DbSet<Appointment> _object;
+        private readonly Context _context;
+        private readonly DbSet<Appointment> _object;
 
         public void Delete(Appointment p)
         {
             _object.Remove(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
 
         public Appointment Get(Expression<Func<Appointment, bool>> filter)
@@ -29,7 +29,7 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
         public void Insert(Appointment p)
         {
             _object.Add(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
 
         public List<Appointment> List()
@@ -45,7 +45,7 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
         public void Update(Appointment p)
         {
             _object.Update(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
     }
 }

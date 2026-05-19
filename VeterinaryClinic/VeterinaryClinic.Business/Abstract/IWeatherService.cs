@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace VeterinaryClinic.Business.Abstract
 {
-    public interface WeatherService
+    public interface IWeatherService
     {
 
     }

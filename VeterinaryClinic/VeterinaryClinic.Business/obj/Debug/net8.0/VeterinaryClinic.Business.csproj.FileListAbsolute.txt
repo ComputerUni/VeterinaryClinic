@@ -10,9 +10,9 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Business\obj\Debug\net8.0\VeterinaryClinic.Business.AssemblyInfoInputs.cache
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Business\obj\Debug\net8.0\VeterinaryClinic.Business.AssemblyInfo.cs
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Business\obj\Debug\net8.0\VeterinaryClinic.Business.csproj.CoreCompileInputs.cache
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Business\obj\Debug\net8.0\VeterinaryClinic.Business.sourcelink.json
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Business\obj\Debug\net8.0\Veterina.46D30855.Up2Date
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Business\obj\Debug\net8.0\VeterinaryClinic.Business.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Business\obj\Debug\net8.0\refint\VeterinaryClinic.Business.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Business\obj\Debug\net8.0\VeterinaryClinic.Business.pdb
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Business\obj\Debug\net8.0\ref\VeterinaryClinic.Business.dll
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Business\obj\Debug\net8.0\VeterinaryClinic.Business.sourcelink.json

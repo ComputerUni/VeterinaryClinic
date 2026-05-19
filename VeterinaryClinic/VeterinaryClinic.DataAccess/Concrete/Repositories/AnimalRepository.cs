@@ -12,13 +12,13 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
 {
     public class AnimalRepository : IAnimalDal
     {
-        Context c = new Context();
-        DbSet<Animal> _object;
+        private readonly Context _context;
+        private readonly DbSet<Animal> _object;
 
         public void Delete(Animal p)
         {
             _object.Remove(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
 
         public Animal Get(Expression<Func<Animal, bool>> filter)
@@ -29,7 +29,7 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
         public void Insert(Animal p)
         {
             _object.Add(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
 
         public List<Animal> List()
@@ -45,7 +45,7 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
         public void Update(Animal p)
         {
             _object.Update(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
     }
 }

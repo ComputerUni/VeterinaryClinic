@@ -9,7 +9,7 @@ using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.Business.Concrete
 {
-    public class TreatmentManager : TreatmentService
+    public class TreatmentManager : ITreatmentService
     {
         ITreatmentDal _treatmentDal;
 

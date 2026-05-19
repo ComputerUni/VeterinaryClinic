@@ -8,7 +8,7 @@ using VeterinaryClinic.DataAccess.Abstract;
 
 namespace VeterinaryClinic.Business.Concrete
 {
-    public class UserManager : UserService
+    public class UserManager : IUserService
     {
         IUserDal _userDal;
 

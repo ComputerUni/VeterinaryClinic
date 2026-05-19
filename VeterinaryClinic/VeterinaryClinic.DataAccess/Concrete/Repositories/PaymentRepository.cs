@@ -12,12 +12,13 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
 {
     public class PaymentRepository : IPaymentDal
     {
-        Context c = new Context();
-        DbSet<Payment> _object;
+        private readonly Context _context;
+        private readonly DbSet<Payment> _object;
+
         public void Delete(Payment p)
         {
             _object.Remove(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
 
         public Payment Get(Expression<Func<Payment, bool>> filter)
@@ -28,7 +29,7 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
         public void Insert(Payment p)
         {
             _object.Add(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
 
         public List<Payment> List()
@@ -44,7 +45,7 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
         public void Update(Payment p)
         {
             _object.Update(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
     }
 }

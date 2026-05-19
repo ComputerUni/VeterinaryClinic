@@ -7,7 +7,7 @@ using VeterinaryClinic.Business.Abstract;
 
 namespace VeterinaryClinic.Business.Concrete
 {
-    public class WeatherManager : WeatherService
+    public class WeatherManager : IWeatherService
     {
 
     }

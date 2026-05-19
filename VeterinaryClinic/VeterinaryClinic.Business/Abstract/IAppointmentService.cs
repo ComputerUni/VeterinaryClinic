@@ -7,7 +7,7 @@ using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.Business.Abstract
 {
-    public interface AppointmentService
+    public interface IAppointmentService
     {
         List<Appointment> GetList();
         void AppointmentAdd(Appointment appointment);

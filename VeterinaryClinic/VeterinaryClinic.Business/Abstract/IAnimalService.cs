@@ -7,7 +7,7 @@ using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.Business.Abstract
 {
-    public interface AnimalService
+    public interface IAnimalService
     {
         List<Animal> GetList();
         void AnimalAdd(Animal animal);

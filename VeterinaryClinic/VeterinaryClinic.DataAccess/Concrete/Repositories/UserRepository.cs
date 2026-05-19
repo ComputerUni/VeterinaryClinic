@@ -12,13 +12,13 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
 {
     public class UserRepository : IUserDal
     {
-        Context c = new Context();
-        DbSet<User> _object;
+        private readonly Context _context;
+        private readonly DbSet<User> _object;
 
         public void Delete(User p)
         {
             _object.Remove(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
 
         public User Get(Expression<Func<User, bool>> filter)
@@ -29,7 +29,7 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
         public void Insert(User p)
         {
             _object.Add(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
 
         public List<User> List()
@@ -45,7 +45,7 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
         public void Update(User p)
         {
             _object.Update(p);
-            c.SaveChanges();
+            _context.SaveChanges();
         }
     }
 }

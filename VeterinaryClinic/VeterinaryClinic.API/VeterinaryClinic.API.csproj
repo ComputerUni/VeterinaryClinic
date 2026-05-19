@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VeterinaryClinic.Business\VeterinaryClinic.Business.csproj" />
+    <ProjectReference Include="..\VeterinaryClinic.DataAccess\VeterinaryClinic.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

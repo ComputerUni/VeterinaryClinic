@@ -9,10 +9,10 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.DataAccess\obj\Debug\net8.0\VeterinaryClinic.DataAccess.AssemblyInfoInputs.cache
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.DataAccess\obj\Debug\net8.0\VeterinaryClinic.DataAccess.AssemblyInfo.cs
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.DataAccess\obj\Debug\net8.0\VeterinaryClinic.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.DataAccess\obj\Debug\net8.0\VeterinaryClinic.DataAccess.sourcelink.json
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.DataAccess\obj\Debug\net8.0\Veterina.AC71D705.Up2Date
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.DataAccess\obj\Debug\net8.0\VeterinaryClinic.DataAccess.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.DataAccess\obj\Debug\net8.0\refint\VeterinaryClinic.DataAccess.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.DataAccess\obj\Debug\net8.0\VeterinaryClinic.DataAccess.pdb
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.DataAccess\obj\Debug\net8.0\VeterinaryClinic.DataAccess.genruntimeconfig.cache
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.DataAccess\obj\Debug\net8.0\ref\VeterinaryClinic.DataAccess.dll
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.DataAccess\obj\Debug\net8.0\VeterinaryClinic.DataAccess.sourcelink.json

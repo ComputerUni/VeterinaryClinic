@@ -9,7 +9,7 @@ using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.Business.Concrete
 {
-    public class PaymentManager : PaymentService
+    public class PaymentManager : IPaymentService
     {
         IPaymentDal _paymentDal;
 
