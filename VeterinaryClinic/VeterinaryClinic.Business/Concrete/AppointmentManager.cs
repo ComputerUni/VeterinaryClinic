@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.DataAccess.Abstract;
 using VeterinaryClinic.Entities.Concrete;
+using VeterinaryClinic.Entities.Status;
 
 namespace VeterinaryClinic.Business.Concrete
 {
@@ -25,12 +26,22 @@ namespace VeterinaryClinic.Business.Concrete
 
         public void AppointmentCancel(Appointment appointment)
         {
-            throw new NotImplementedException();
+            var result = _appointmentDal.Get(x => x.Id == appointment.Id);
+            if(result != null)
+            {
+                result.Status = AppointmentStatus.Cancelled;
+                _appointmentDal.Update(result);
+            }
         }
 
         public void AppointmentUpdate(Appointment appointment)
         {
             _appointmentDal.Update(appointment);
+        }
+
+        public Appointment GetById(int id)
+        {
+            return _appointmentDal.Get(x => x.Id == id);
         }
 
         public List<Appointment> GetList()
