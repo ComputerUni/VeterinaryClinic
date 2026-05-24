@@ -1,11 +1,38 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.Business.Concrete;
+using VeterinaryClinic.Business.Configuration;
 using VeterinaryClinic.DataAccess.Abstract;
 using VeterinaryClinic.DataAccess.Concrete;
 using VeterinaryClinic.DataAccess.EntityFramework;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var jwtSettingsSection = builder.Configuration.GetSection("JwtSettings");
+builder.Services.Configure<JwtSettings>(jwtSettingsSection);
+
+var jwtSettings = jwtSettingsSection.Get<JwtSettings>();
+var key = Encoding.UTF8.GetBytes(jwtSettings.Key);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = jwtSettings.Issuer,
+            ValidAudience = jwtSettings.Audience,
+            IssuerSigningKey = new SymmetricSecurityKey(key)
+        };
+    });
+
+
 
 // Add services to the container.
 
@@ -30,6 +57,7 @@ builder.Services.AddScoped<IAppointmentService, AppointmentManager>();
 builder.Services.AddScoped<IPaymentService, PaymentManager>();
 builder.Services.AddScoped<ITreatmentService, TreatmentManager>();
 builder.Services.AddScoped<IUserService, UserManager>();
+builder.Services.AddScoped<ITokenService, TokenManager>();
 
 //Swagger'da CORS hatası vermişti o yüzden ekledim.
 builder.Services.AddCors(option =>

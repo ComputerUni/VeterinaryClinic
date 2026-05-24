@@ -7,12 +7,8 @@ using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.Business.Abstract
 {
-    public interface IUserService
+    public interface ITokenService
     {
-        User GetUser(int id);
-        User Login(User user);
-        User Register(User user);
-        User Authorization(User user);
-
+        string CreateToken(User user);
     }
 }

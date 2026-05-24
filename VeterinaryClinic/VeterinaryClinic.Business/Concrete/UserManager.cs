@@ -1,10 +1,12 @@
-﻿using System;
+﻿using BCrypt.Net;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.DataAccess.Abstract;
+using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.Business.Concrete
 {
@@ -17,19 +19,37 @@ namespace VeterinaryClinic.Business.Concrete
             _userDal = userDal;
         }
 
-        public void Authorization(string username, string password)
+        public User Authorization(User user)
         {
-            throw new NotImplementedException();
+            var existingUser = _userDal.Get(u => u.Id == user.Id);
+            return existingUser;
         }
 
-        public void Login(string username, string password)
+        public User GetUser(int id)
         {
-            throw new NotImplementedException();
+            return _userDal.Get(u => u.Id == id);
         }
 
-        public void Register(string username, string password, string email)
+        public User Login(User user)
         {
-            throw new NotImplementedException();
+            var existingUser = _userDal.Get(u => u.Email == user.Email);
+
+            if(existingUser != null)
+            {
+                if(BCrypt.Net.BCrypt.Verify(user.PasswordHash, existingUser.PasswordHash))
+                {
+                    return existingUser;
+                }
+            }
+            return null;
+        }
+
+        
+        public User Register(User user)
+        {
+            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
+            _userDal.Insert(user);
+            return user;
         }
     }
 }
