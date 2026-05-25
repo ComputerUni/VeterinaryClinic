@@ -1,4 +1,5 @@
 ﻿using BCrypt.Net;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,49 +8,63 @@ using System.Threading.Tasks;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.DataAccess.Abstract;
 using VeterinaryClinic.Entities.Concrete;
+using VeterinaryClinic.Entities.Models;
 
 namespace VeterinaryClinic.Business.Concrete
 {
     public class UserManager : IUserService
     {
-        IUserDal _userDal;
+        private readonly IUserDal _userDal;
+        private readonly UserManager<User> _userManager;
+        private readonly SignInManager<User> _signInManager;
 
-        public UserManager(IUserDal userDal)
+        public UserManager(IUserDal userDal, UserManager<User> userManager, SignInManager<User> signInManager)
         {
             _userDal = userDal;
+            _userManager = userManager;
+            _signInManager = signInManager;
         }
 
-        public User Authorization(User user)
+        public async Task<User> GetUserById(int id)
         {
-            var existingUser = _userDal.Get(u => u.Id == user.Id);
-            return existingUser;
+            return await Task.FromResult(_userDal.Get(u => u.Id == id));
         }
 
-        public User GetUser(int id)
+        public async Task<User> GetUserByUsername(string username)
         {
-            return _userDal.Get(u => u.Id == id);
+            return await _userManager.FindByNameAsync(username);
         }
 
-        public User Login(User user)
+        public async Task<SignInResult> Login(LoginDto model)
         {
-            var existingUser = _userDal.Get(u => u.Email == user.Email);
-
-            if(existingUser != null)
+            var existingUser = await _userManager.FindByNameAsync(model.Username);
+            if (existingUser == null)
             {
-                if(BCrypt.Net.BCrypt.Verify(user.PasswordHash, existingUser.PasswordHash))
-                {
-                    return existingUser;
-                }
+                return SignInResult.Failed;
             }
-            return null;
+
+            var result = await _signInManager.CheckPasswordSignInAsync(existingUser, model.Password, false);
+            return result;
         }
 
-        
-        public User Register(User user)
+        public async Task<IdentityResult> Register(RegisterDto model)
         {
-            user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(user.PasswordHash);
-            _userDal.Insert(user);
-            return user;
+            var newUser = new User
+            {
+                UserName = model.Username,
+                Email = model.Email,
+                FullName = model.FullName
+            };
+
+            var result = await _userManager.CreateAsync(newUser, model.Password);
+
+            if (result.Succeeded)
+            {
+                await _userManager.AddToRoleAsync(newUser, model.Role);
+            }
+
+            return result;
+
         }
     }
 }
