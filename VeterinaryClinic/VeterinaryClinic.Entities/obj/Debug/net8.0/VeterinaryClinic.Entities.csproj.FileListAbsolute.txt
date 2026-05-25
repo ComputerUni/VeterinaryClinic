@@ -12,3 +12,4 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\VeterinaryClinic.Entities.pdb
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\VeterinaryClinic.Entities.genruntimeconfig.cache
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\ref\VeterinaryClinic.Entities.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\VeterinaryClinic.Entities.csproj.AssemblyReference.cache

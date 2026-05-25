@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +10,7 @@ using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.DataAccess.Concrete
 {
-    public class Context:DbContext
+    public class Context : IdentityDbContext<User, IdentityRole<int>, int>
     {
         public Context(DbContextOptions<Context> options) : base(options)
         {
@@ -18,8 +20,18 @@ namespace VeterinaryClinic.DataAccess.Concrete
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Treatment> Treatments { get; set; }
-        public DbSet<User> Users { get; set; }
         public DbSet<WeatherInfo> WeatherInfos { get; set; }
+
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            builder.Entity<IdentityRole<int>>().HasData(
+                new IdentityRole<int> { Id = 1, Name = "Manager", NormalizedName = "MANAGER" },
+                new IdentityRole<int> { Id = 2, Name = "Customer", NormalizedName = "CUSTOMER" }
+                );
+        }
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{

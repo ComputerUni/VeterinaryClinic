@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Options;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -16,20 +17,29 @@ namespace VeterinaryClinic.Business.Concrete
     public class TokenManager : ITokenService
     {
         private readonly JwtSettings _jwtSettings;
+        private readonly UserManager<User> _userManager;
 
-        public TokenManager(IOptions<JwtSettings> jwtSettingsOptions)
+        public TokenManager(IOptions<JwtSettings> jwtSettingsOptions, UserManager<User> userManager)
         {
             _jwtSettings = jwtSettingsOptions.Value;
+            _userManager = userManager;
         }
 
-        public string CreateToken(User user)
+        public async Task<string> CreateToken(User user)
         {
+            var userRoles = await _userManager.GetRolesAsync(user);
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                new Claim(ClaimTypes.Name, user.UserName),
                 new Claim(ClaimTypes.Email, user.Email),
-                new Claim(ClaimTypes.Role, user.Role)
+                
             };
+
+            foreach(var role in userRoles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role));
+            }
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
