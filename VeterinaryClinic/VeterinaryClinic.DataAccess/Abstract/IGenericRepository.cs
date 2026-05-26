@@ -16,5 +16,14 @@ namespace VeterinaryClinic.DataAccess.Abstract
         void Delete(T p);
         List<T> List(Expression<Func<T, bool>> filter);
 
+
+        //Task<List<T>> ListAsync();
+        //Task InsertAsync(T p);
+        //Task<T> GetAsync(Expression<Func<T, bool>> filter);
+        //Task UpdateAsync(T p);
+        //Task DeleteAsync(T p);
+        //Task<List<T>> ListAsync(Expression<Func<T, bool>> filter);
+
+
     }
 }

@@ -18,24 +18,31 @@ namespace VeterinaryClinic.Business.Concrete
             _treatmentDal = treatmentDal;
         }
 
-        public void CalculateTreatmentCost(Treatment treatment)
+        public Task CalculateTreatmentCost(Treatment treatment)
         {
             throw new NotImplementedException();
         }
 
-        public List<Treatment> GetList()
+        public async Task<List<Treatment>> GetList()
         {
-            return _treatmentDal.List();
+            return await _treatmentDal.ListAsync();
         }
 
-        public void TreatmentAdd(Treatment treatment)
+        public async Task<Treatment> TreatmentAdd(Treatment treatment)
         {
-            _treatmentDal.Insert(treatment);
+            await _treatmentDal.InsertAsync(treatment);
+            return treatment;
+
         }
 
-        public void TreatmentDelete(Treatment treatment)
+        public async Task TreatmentDelete(int id)
         {
-            _treatmentDal.Delete(treatment);
+            var deleteTreatment = await _treatmentDal.GetAsync(t => t.Id == id);
+            if(deleteTreatment != null)
+            {
+                await _treatmentDal.DeleteAsync(deleteTreatment);
+            }
+
         }
     }
 }

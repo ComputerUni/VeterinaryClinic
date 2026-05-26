@@ -9,9 +9,9 @@ namespace VeterinaryClinic.Business.Abstract
 {
     public interface ITreatmentService
     {
-        List<Treatment> GetList();
-        void TreatmentAdd(Treatment treatment);
-        void TreatmentDelete(Treatment treatment);
-        void CalculateTreatmentCost(Treatment treatment);
+        Task<List<Treatment>> GetList();
+        Task<Treatment> TreatmentAdd(Treatment treatment);
+        Task TreatmentDelete(int id);
+        Task CalculateTreatmentCost(Treatment treatment);
     }
 }
