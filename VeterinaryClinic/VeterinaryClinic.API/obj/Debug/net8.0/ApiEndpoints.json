@@ -155,8 +155,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "VeterinaryClinic.Entities.Concrete.User",
+        "Name": "model",
+        "Type": "VeterinaryClinic.Entities.Models.LoginDto",
         "IsRequired": true
       }
     ],
@@ -171,8 +171,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "user",
-        "Type": "VeterinaryClinic.Entities.Concrete.User",
+        "Name": "model",
+        "Type": "VeterinaryClinic.Entities.Models.RegisterDto",
         "IsRequired": true
       }
     ],
