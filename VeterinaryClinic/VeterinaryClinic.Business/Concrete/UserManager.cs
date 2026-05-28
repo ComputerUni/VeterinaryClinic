@@ -27,7 +27,7 @@ namespace VeterinaryClinic.Business.Concrete
 
         public async Task<User> GetUserById(int id)
         {
-            return await Task.FromResult(_userDal.Get(u => u.Id == id));
+            return await _userDal.GetAsync(u => u.Id == id);
         }
 
         public async Task<User> GetUserByUsername(string username)

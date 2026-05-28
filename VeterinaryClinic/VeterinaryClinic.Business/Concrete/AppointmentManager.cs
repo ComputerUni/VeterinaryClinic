@@ -19,34 +19,35 @@ namespace VeterinaryClinic.Business.Concrete
             _appointmentDal = appointmentDal;
         }
 
-        public void AppointmentAdd(Appointment appointment)
+        public async Task<Appointment> AppointmentAddAsync(Appointment appointment)
         {
-            _appointmentDal.Insert(appointment);
+            await _appointmentDal.InsertAsync(appointment);
+            return appointment;
         }
 
-        public void AppointmentCancel(Appointment appointment)
+        public async Task AppointmentCancelAsync(Appointment appointment)
         {
-            var result = _appointmentDal.Get(x => x.Id == appointment.Id);
+            var result = await _appointmentDal.GetAsync(x => x.Id == appointment.Id);
             if(result != null)
             {
                 result.Status = AppointmentStatus.Cancelled;
-                _appointmentDal.Update(result);
+                await _appointmentDal.UpdateAsync(result);
             }
         }
 
-        public void AppointmentUpdate(Appointment appointment)
+        public async Task AppointmentUpdateAsync(Appointment appointment)
         {
-            _appointmentDal.Update(appointment);
+            await _appointmentDal.UpdateAsync(appointment);
         }
 
-        public Appointment GetById(int id)
+        public async Task<Appointment> GetByIdAsync(int id)
         {
-            return _appointmentDal.Get(x => x.Id == id);
+            return await _appointmentDal.GetAsync(x => x.Id == id);
         }
 
-        public List<Appointment> GetList()
+        public async Task<List<Appointment>> GetListAsync()
         {
-            return _appointmentDal.List();
+            return await _appointmentDal.ListAsync();
         }
     }
 }

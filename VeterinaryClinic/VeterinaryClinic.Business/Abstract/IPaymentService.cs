@@ -9,10 +9,10 @@ namespace VeterinaryClinic.Business.Abstract
 {
     public interface IPaymentService
     {
-        List<Payment> GetList();
-        void PaymentAdd(Payment payment);
-        void PaymentUpdate(Payment payment);
-        void CalculateTotalAmount(Payment payment);
+        Task<List<Payment>> GetListAsync();
+        Task<Payment> PaymentAddAsync(Payment payment);
+        Task PaymentUpdateAsync(Payment payment);
+        Task CalculateTotalAmountAsync(Payment payment);
 
     }
 }

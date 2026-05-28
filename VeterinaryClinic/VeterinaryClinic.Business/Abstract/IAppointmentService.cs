@@ -9,11 +9,11 @@ namespace VeterinaryClinic.Business.Abstract
 {
     public interface IAppointmentService
     {
-        List<Appointment> GetList();
-        Appointment GetById(int id);
-        void AppointmentAdd(Appointment appointment);
-        void AppointmentCancel(Appointment appointment);
-        void AppointmentUpdate(Appointment appointment);
+        Task<List<Appointment>> GetListAsync();
+        Task<Appointment> GetByIdAsync(int id);
+        Task<Appointment> AppointmentAddAsync(Appointment appointment);
+        Task AppointmentCancelAsync(Appointment appointment);
+        Task AppointmentUpdateAsync(Appointment appointment);
 
     }
 }

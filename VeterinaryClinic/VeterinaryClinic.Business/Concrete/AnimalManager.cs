@@ -18,29 +18,36 @@ namespace VeterinaryClinic.Business.Concrete
             _animalDal = animalDal;
         }
 
-        public void AnimalAdd(Animal animal)
+        public async Task<Animal> AnimalAddAsync(Animal animal)
         {
-            _animalDal.Insert(animal);
+            await _animalDal.InsertAsync(animal);
+            return animal;
         }
 
-        public void AnimalDelete(Animal animal)
+        public async Task AnimalDeleteAsync(int id)
         {
-            _animalDal.Delete(animal);
+            var deletedAnimal = await _animalDal.GetAsync(a => a.Id == id);
+            if(deletedAnimal != null)
+            {
+                await _animalDal.DeleteAsync(deletedAnimal);
+            }
+            
         }
 
-        public void AnimalUpdate(Animal animal)
+        public async Task AnimalUpdateAsync(Animal animal)
         {
-            _animalDal.Update(animal);
+            await _animalDal.UpdateAsync(animal);
         }
 
-        public Animal GetByID(int id)
+        public async Task<Animal> GetByIDAsync(int id)
         {
-            return _animalDal.Get(x => x.Id == id); 
+            var result = await _animalDal.GetAsync(x => x.Id == id);
+            return result;
         }
 
-        public List<Animal> GetList()
+        public async Task<List<Animal>> GetListAsync()
         {
-            return _animalDal.List();
+            return await _animalDal.ListAsync();
         }
     }
 }

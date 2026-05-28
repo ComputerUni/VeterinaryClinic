@@ -9,11 +9,11 @@ namespace VeterinaryClinic.Business.Abstract
 {
     public interface IAnimalService
     {
-        List<Animal> GetList();
-        void AnimalAdd(Animal animal);
-        void AnimalDelete(Animal animal);
-        void AnimalUpdate(Animal animal);
-        Animal GetByID(int id);
+        Task <List<Animal>> GetListAsync();
+        Task<Animal> AnimalAddAsync(Animal animal);
+        Task AnimalDeleteAsync(int id);
+        Task AnimalUpdateAsync(Animal animal);
+        Task<Animal> GetByIDAsync(int id);
 
     }
 }

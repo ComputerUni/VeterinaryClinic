@@ -18,24 +18,25 @@ namespace VeterinaryClinic.Business.Concrete
             _paymentDal = paymentDal;
         }
 
-        public void CalculateTotalAmount(Payment payment)
+        public Task CalculateTotalAmountAsync(Payment payment)
         {
             throw new NotImplementedException();
         }
 
-        public List<Payment> GetList()
+        public async Task<List<Payment>> GetListAsync()
         {
-            return _paymentDal.List();
+            return await _paymentDal.ListAsync();
         }
 
-        public void PaymentAdd(Payment payment)
+        public async Task<Payment> PaymentAddAsync(Payment payment)
         {
-            _paymentDal.Insert(payment);
+            await _paymentDal.InsertAsync(payment);
+            return payment;
         }
 
-        public void PaymentUpdate(Payment payment)
+        public async Task PaymentUpdateAsync(Payment payment)
         {
-            _paymentDal.Update(payment);
+            await _paymentDal.UpdateAsync(payment);
         }
     }
 }

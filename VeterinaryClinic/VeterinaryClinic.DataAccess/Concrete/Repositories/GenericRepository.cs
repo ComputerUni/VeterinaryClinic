@@ -21,36 +21,36 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
             _object = _context.Set<T>();
         }
 
-        public void Delete(T p)
+        public async Task DeleteAsync(T p)
         {
             var deleteEntity = _context.Entry(p);
             deleteEntity.State = EntityState.Deleted;
             _context.SaveChanges();
         }
 
-        public T Get(Expression<Func<T, bool>> filter)
+        public async Task<T> GetAsync(Expression<Func<T, bool>> filter)
         {
             return _object.SingleOrDefault(filter);
         }
 
-        public void Insert(T p)
+        public async Task InsertAsync(T p)
         {
             var addedEntity = _context.Entry(p);
             addedEntity.State = EntityState.Added;
             _context.SaveChanges();
         }
 
-        public List<T> List()
+        public async Task<List<T>> ListAsync()
         {
             return _object.ToList();
         }
 
-        public List<T> List(Expression<Func<T, bool>> filter)
+        public async Task <List<T>> ListAsync(Expression<Func<T, bool>> filter)
         {
             return _object.Where(filter).ToList();
         }
 
-        public void Update(T p)
+        public async Task UpdateAsync(T p)
         {
             var updatedEntity = _context.Entry(p);
             updatedEntity.State = EntityState.Modified;

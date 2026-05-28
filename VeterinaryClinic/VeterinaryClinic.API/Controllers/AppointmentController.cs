@@ -17,16 +17,16 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var result = _appointmentService.GetList();
+            var result = await _appointmentService.GetListAsync();
             return Ok(result);
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            var result = _appointmentService.GetById(id);
+            var result = await _appointmentService.GetByIdAsync(id);
             if (result == null)
             {
                 return NotFound("Böyle bir randevu bulunamadı");
@@ -35,31 +35,36 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddAppointment(Appointment appointment)
+        public async Task<IActionResult> AddAppointment([FromBody] Appointment appointment)
         {
-            _appointmentService.AppointmentAdd(appointment);
+            if(appointment == null)
+            {
+                return BadRequest("Randevu verisi boş olamaz");
+            }
+
+            await _appointmentService.AppointmentAddAsync(appointment);
             return Ok("Randevu başarıyla eklendi");
         }
 
         [HttpPut("{id}")]
-        public IActionResult AppointmentUpdate(int id, Appointment appointment)
+        public async Task<IActionResult> AppointmentUpdate(int id, [FromBody] Appointment appointment)
         {
             if (id != appointment.Id)
             {
-                return BadRequest("Geçersiz Hayvan Id'si");
+                return BadRequest("Geçersiz Randevu Id'si");
             }
-            _appointmentService.AppointmentUpdate(appointment);
+            await _appointmentService.AppointmentUpdateAsync(appointment);
             return Ok("Randevu başarıyla güncellendi");
         }
 
         [HttpPut("{id}/cancel")]
-        public ActionResult AppointmentCancel(int id, Appointment appointment)
+        public async Task<IActionResult> AppointmentCancel(int id, Appointment appointment)
         {
             if (id != appointment.Id)
             {
                 return BadRequest("Geçersiz Randevu Id");
             }
-            _appointmentService.AppointmentCancel(appointment);
+            await _appointmentService.AppointmentCancelAsync(appointment);
             return Ok("Randevu başarıyla iptal edildi");
         }
 

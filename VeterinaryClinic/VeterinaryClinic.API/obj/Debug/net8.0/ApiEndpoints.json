@@ -147,6 +147,48 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentController",
+    "Method": "Get",
+    "RelativePath": "api/treatments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentController",
+    "Method": "Add",
+    "RelativePath": "api/treatments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "treatment",
+        "Type": "VeterinaryClinic.Entities.Concrete.Treatment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentController",
+    "Method": "Delete",
+    "RelativePath": "api/treatments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VeterinaryClinic.API.Controllers.UserController",
     "Method": "Login",
     "RelativePath": "api/user/login",

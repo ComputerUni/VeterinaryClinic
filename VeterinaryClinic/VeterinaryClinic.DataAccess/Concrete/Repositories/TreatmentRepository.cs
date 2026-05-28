@@ -15,34 +15,34 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
         private readonly Context _context;
         private readonly DbSet<Treatment> _object;
 
-        public void Delete(Treatment p)
+        public async Task DeleteAsync(Treatment p)
         {
             _object.Remove(p);
             _context.SaveChanges();
         }
 
-        public Treatment Get(Expression<Func<Treatment, bool>> filter)
+        public async Task<Treatment> GetAsync(Expression<Func<Treatment, bool>> filter)
         {
             return _object.SingleOrDefault(filter);
         }
 
-        public void Insert(Treatment p)
+        public async Task InsertAsync(Treatment p)
         {
             _object.Add(p);
             _context.SaveChanges();
         }
 
-        public List<Treatment> List()
+        public async Task<List<Treatment>> ListAsync()
         {
             return _object.ToList();
         }
 
-        public List<Treatment> List(Expression<Func<Treatment, bool>> filter)
+        public async Task<List<Treatment>> ListAsync(Expression<Func<Treatment, bool>> filter)
         {
             return _object.Where(filter).ToList();
         }
 
-        public void Update(Treatment p)
+        public async Task UpdateAsync(Treatment p)
         {
             _object.Update(p);
             _context.SaveChanges();

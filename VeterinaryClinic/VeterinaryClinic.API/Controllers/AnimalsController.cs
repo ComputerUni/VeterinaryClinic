@@ -17,16 +17,16 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            var result = _animalService.GetList();
+            var result = await _animalService.GetListAsync();
             return Ok(result);
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            var result = _animalService.GetByID(id);
+            var result = await _animalService.GetByIDAsync(id);
             if (result == null)
             {
                 return NotFound("Hayvan Bulunamadı");
@@ -35,21 +35,25 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult AddAnimal(Animal animal)
+        public async Task<IActionResult> AddAnimal([FromBody] Animal animal)
         {
-            _animalService.AnimalAdd(animal);
-            return StatusCode(201, animal);
+            if(animal == null)
+            {
+                return BadRequest("Hayvan verisi boş olamaz");
+            }
+            var createdAnimal = await _animalService.AnimalAddAsync(animal);
+            return StatusCode(201, createdAnimal);
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateAnimal(int id, Animal animal)
+        public async Task<IActionResult> UpdateAnimal(int id, [FromBody] Animal animal)
         {
             if(id != animal.Id)
             {
                 return BadRequest("Geçersiz Hayvan ID'si");
             }
-            _animalService.AnimalUpdate(animal);
-            return StatusCode(200, animal);
+            await _animalService.AnimalUpdateAsync(animal);
+            return Ok(animal);
         }
 
     }
