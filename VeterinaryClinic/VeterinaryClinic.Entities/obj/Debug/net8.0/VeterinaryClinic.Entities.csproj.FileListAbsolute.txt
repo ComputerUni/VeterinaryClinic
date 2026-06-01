@@ -2,6 +2,7 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\bin\Debug\net8.0\VeterinaryClinic.Entities.runtimeconfig.json
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\bin\Debug\net8.0\VeterinaryClinic.Entities.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\bin\Debug\net8.0\VeterinaryClinic.Entities.pdb
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\VeterinaryClinic.Entities.csproj.AssemblyReference.cache
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\VeterinaryClinic.Entities.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\VeterinaryClinic.Entities.AssemblyInfoInputs.cache
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\VeterinaryClinic.Entities.AssemblyInfo.cs
@@ -12,4 +13,3 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\VeterinaryClinic.Entities.pdb
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\VeterinaryClinic.Entities.genruntimeconfig.cache
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\ref\VeterinaryClinic.Entities.dll
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.Entities\obj\Debug\net8.0\VeterinaryClinic.Entities.csproj.AssemblyReference.cache

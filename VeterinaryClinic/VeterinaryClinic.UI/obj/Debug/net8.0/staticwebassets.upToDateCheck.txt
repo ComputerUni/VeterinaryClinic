@@ -1,4 +1,7 @@
 wwwroot\css\site.css
+wwwroot\eco-wellness\index.htm
+wwwroot\eco-wellness\script.js
+wwwroot\eco-wellness\style.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\LICENSE

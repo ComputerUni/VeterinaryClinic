@@ -1,0 +1,656 @@
+Uri: https://demo.plainadmin.com/
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\index.htm
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/accordion
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\accordion.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/alerts
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\alerts.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/analytics-dashboard
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\analytics-dashboard.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/apex-chart
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\apex-chart.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/assets/css/bootstrap.min.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://demo.plainadmin.com/assets/css/datatable.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\css\datatable.css
+Content Type: text/css
+
+Uri: https://demo.plainadmin.com/assets/css/fullcalendar.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\css\fullcalendar.css
+Content Type: text/css
+
+Uri: https://demo.plainadmin.com/assets/css/lineicons.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\css\lineicons.css
+Content Type: text/css
+
+Uri: https://demo.plainadmin.com/assets/css/loading-bar.min.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\css\loading-bar.min.css
+Content Type: text/css
+
+Uri: https://demo.plainadmin.com/assets/css/main.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\css\main.css
+Content Type: text/css
+
+Uri: https://demo.plainadmin.com/assets/css/materialdesignicons.min.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\css\materialdesignicons.min.css
+Content Type: text/css
+
+Uri: https://demo.plainadmin.com/assets/css/morris.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\css\morris.css
+Content Type: text/css
+
+Uri: https://demo.plainadmin.com/assets/css/quill/bubble.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\css\quill\bubble.css
+Content Type: text/css
+
+Uri: https://demo.plainadmin.com/assets/css/quill/snow.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\css\quill\snow.css
+Content Type: text/css
+
+Uri: https://demo.plainadmin.com/assets/css/swiper-bundle.min.css
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\css\swiper-bundle.min.css
+Content Type: text/css
+
+Uri: https://demo.plainadmin.com/assets/fonts/lineicons.eot
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\fonts\lineicons.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://demo.plainadmin.com/assets/fonts/lineicons.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\fonts\lineicons.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/fonts/lineicons.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\fonts\lineicons.ttf
+Content Type: font/ttf
+
+Uri: https://demo.plainadmin.com/assets/fonts/lineicons.woff
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\fonts\lineicons.woff
+Content Type: font/woff
+
+Uri: https://demo.plainadmin.com/assets/fonts/lineicons.woff2
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\fonts\lineicons.woff2
+Content Type: font/woff2
+
+Uri: https://demo.plainadmin.com/assets/fonts/materialdesignicons-webfont.eot?
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\fonts\materialdesignicons-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://demo.plainadmin.com/assets/fonts/materialdesignicons-webfont.eot?v=5.9.55
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\fonts\materialdesignicons-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://demo.plainadmin.com/assets/fonts/materialdesignicons-webfont.ttf?v=5.9.55
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\fonts\materialdesignicons-webfont.ttf
+Content Type: font/ttf
+
+Uri: https://demo.plainadmin.com/assets/fonts/materialdesignicons-webfont.woff2?v=5.9.55
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\fonts\materialdesignicons-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://demo.plainadmin.com/assets/fonts/materialdesignicons-webfont.woff?v=5.9.55
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\fonts\materialdesignicons-webfont.woff
+Content Type: font/woff
+
+Uri: https://demo.plainadmin.com/assets/images/auth/reset-password.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\auth\reset-password.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/auth/shape.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\auth\shape.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/auth/signin-image.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\auth\signin-image.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-1/admin-1.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-1\admin-1.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-1/admin-2.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-1\admin-2.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-1/admin-3.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-1\admin-3.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-1/card-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-1\card-1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-1/card-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-1\card-2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-1/card-3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-1\card-3.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-2/card-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-2\card-1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-2/card-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-2\card-2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-2/card-3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-2\card-3.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-4/card-1.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-4\card-1.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-4/card-2.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-4\card-2.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-4/card-3.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-4\card-3.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-5/card-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-5\card-1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-5/card-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-5\card-2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-6/card-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-6\card-1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-6/card-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-6\card-2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-6/card-3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-6\card-3.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/cards/card-style-6/card-4.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\cards\card-style-6\card-4.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/carousel/carousel-01.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\carousel\carousel-01.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/clients/client-profile.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\clients\client-profile.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/clients/clients-cover.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\clients\clients-cover.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/error.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\error.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/favicon.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\favicon.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/file-manager/recent-files/icon-1.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\file-manager\recent-files\icon-1.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/file-manager/recent-files/icon-2.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\file-manager\recent-files\icon-2.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/file-manager/recent-files/icon-3.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\file-manager\recent-files\icon-3.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/file-manager/recent-files/icon-4.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\file-manager\recent-files\icon-4.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/file-manager/recent-files/icon-5.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\file-manager\recent-files\icon-5.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/file-manager/recent-files/icon-6.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\file-manager\recent-files\icon-6.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/invoice/uideck-logo.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\invoice\uideck-logo.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/kanban/members/member-1.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\kanban\members\member-1.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/kanban/members/member-2.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\kanban\members\member-2.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/kanban/members/member-3.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\kanban\members\member-3.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/kanban/members/member-4.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\kanban\members\member-4.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/lead/lead-1.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\lead\lead-1.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/lead/lead-2.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\lead\lead-2.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/lead/lead-3.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\lead\lead-3.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/lead/lead-4.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\lead\lead-4.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/lead/lead-5.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\lead\lead-5.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/lead/lead-6.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\lead\lead-6.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/logo/logo-icon-big.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\logo\logo-icon-big.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/logo/logo.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\logo\logo.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/modals/image-1.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\modals\image-1.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/products/product-mini-1.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\products\product-mini-1.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/products/product-mini-2.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\products\product-mini-2.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/products/product-mini-3.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\products\product-mini-3.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/products/product-mini-4.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\products\product-mini-4.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/profile/profile-1.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\profile\profile-1.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/profile/profile-cover.jpg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\profile\profile-cover.jpg
+Content Type: image/jpeg
+
+Uri: https://demo.plainadmin.com/assets/images/profile/profile-image.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\profile\profile-image.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/projects/image-1.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\projects\image-1.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/projects/image-2.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\projects\image-2.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/projects/image-3.png
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\projects\image-3.png
+Content Type: image/png
+
+Uri: https://demo.plainadmin.com/assets/images/refarrals/ayroui.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\refarrals\ayroui.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/refarrals/ecomhtml.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\refarrals\ecomhtml.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/refarrals/graygrids.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\refarrals\graygrids.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/refarrals/lineicons.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\refarrals\lineicons.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/refarrals/tailgrids.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\refarrals\tailgrids.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/images/refarrals/uideck.svg
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\images\refarrals\uideck.svg
+Content Type: image/svg+xml
+
+Uri: https://demo.plainadmin.com/assets/js/apexcharts.min.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\apexcharts.min.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/bootstrap.bundle.min.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/Chart.min.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\Chart.min.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/datatable.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\datatable.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/dynamic-pie-chart.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\dynamic-pie-chart.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/fullcalendar.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\fullcalendar.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/jvectormap.min.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\jvectormap.min.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/loading-bar.min.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\loading-bar.min.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/main.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\main.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/moment.min.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\moment.min.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/polyfill.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\polyfill.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/quill.min.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\quill.min.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/Sortable.min.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\Sortable.min.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/swiper-bundle.min.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\swiper-bundle.min.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/assets/js/world-merc.js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\assets\js\world-merc.js
+Content Type: application/javascript
+
+Uri: https://demo.plainadmin.com/badges
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\badges.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/basic-table
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\basic-table.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/blank-page
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\blank-page.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/breadcrumb
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\breadcrumb.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/button-group
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\button-group.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/buttons
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\buttons.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/calendar
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\calendar.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/cards
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\cards.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/carousel
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\carousel.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/chart-js
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\chart-js.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/chat
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\chat.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/clients
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\clients.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/crm-dashboard
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\crm-dashboard.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/crypto
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\crypto.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/datatables
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\datatables.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/dropdown
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\dropdown.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/error-page
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\error-page.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/file-manager
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\file-manager.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/form-edit
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\form-edit.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/form-elements
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\form-elements.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/form-layout
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\form-layout.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/form-validation
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\form-validation.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/icons
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\icons.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/inv'
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\inv'.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/invoice
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\invoice.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/kanban
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\kanban.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/list
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\list.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/marketing-dashboard
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\marketing-dashboard.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/mdi-icons
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\mdi-icons.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/modals
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\modals.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/notification
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\notification.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/pagination
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\pagination.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/pricing
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\pricing.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/profile
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\profile.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/progress-bars
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\progress-bars.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/projects
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\projects.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/reset-password
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\reset-password.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/settings
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\settings.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/signin
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\signin.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/signup
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\signup.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/tables
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\tables.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/tables-responsive
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\tables-responsive.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/tabs
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\tabs.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/task
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\task.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/typography
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\typography.html
+Content Type: text/html
+
+Uri: https://demo.plainadmin.com/videos
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\videos.html
+Content Type: text/html
+
+Uri: https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_907NSg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_907NSg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0nNSg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0nNSg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_KU7NSg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_KU7NSg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_KUnNSg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_KUnNSg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_m07NSg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_m07NSg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_qU7NSg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_qU7NSg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_TknNSg.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_TknNSg.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ0lCR_Q.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ0lCR_Q.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ0XCR_Q.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ0XCR_Q.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ17CR_Q.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ17CR_Q.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ2lCR_Q.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ2lCR_Q.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ2lDh_Q.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ2lDh_Q.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ37Dh_Q.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ37Dh_Q.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/plusjakartasans/v12/LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ3CDh_Q.ttf
+File Name: C:\Users\BURHAN\Desktop\Veteriner\demo.plainadmin.com\s\plusjakartasans\v12\LDIZaomQNQcsA88c7O9yZ4KMCoOg4KozySKCdSNG9OcqYQ3CDh_Q.ttf
+Content Type: font/ttf
+

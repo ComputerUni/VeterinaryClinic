@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Yeni Profil",
+    "Projects": [
+      {
+        "Path": "VeterinaryClinic.API\\VeterinaryClinic.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
