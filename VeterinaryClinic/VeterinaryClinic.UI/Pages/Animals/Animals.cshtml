@@ -1,5 +1,6 @@
 ﻿@page
 @model VeterinaryClinic.UI.Pages.Animals.AnimalsModel
+@using System.Linq
 @{
     Layout = "~/Pages/Shared/_DashboardLayout.cshtml";
 }
@@ -9,7 +10,7 @@
     <div class="row align-items-center">
         <div class="col-md-6">
             <div class="title">
-                <h2>CRM Dashboard</h2>
+                <h2>Veteriner Klinik Dashboard</h2>
             </div>
         </div>
         <!-- end col -->
@@ -37,15 +38,15 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon purple">
-                    <i class="lni lni-smile"></i>
+                    <i class="lni lni-heart"></i>
                 </div>
                 <div class="content">
-                    <h6 class="mb-10">Happy Clients</h6>
-                    <h3 class="text-bold mb-10">65K</h3>
+                    <h6 class="mb-10">Toplam Hayvan Sayısı</h6>
+                    <h3 class="text-bold mb-10">@Model.AnimalList.Count()</h3>
                 </div>
             </div>
             <div class="progress bg-purple-100">
-                <div class="progress-bar purple-bg" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar purple-bg" role="progressbar" style="width: 85%" aria-valuenow="@Model.AnimalList.Count()" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
         <!-- End Icon Cart -->
@@ -55,16 +56,16 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon success">
-                    <i class="lni lni-users"></i>
+                    <i class="lni lni-timer"></i>
                 </div>
                 <div class="content">
-                    <h6 class="mb-10">New Customers</h6>
-                    <h3 class="text-bold mb-10">10K</h3>
+                    <h6 class="mb-10">Hayvanların Yaş Ortalaması</h6>
+                    <h3 class="text-bold mb-10">@Model.AnimalList.Average(a => a.Age).ToString("0.00")</h3>
                 </div>
             </div>
 
             <div class="progress bg-success-100">
-                <div class="progress-bar success-bg" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar success-bg" role="progressbar" style="width: 65%" aria-valuenow="@Model.AnimalList.Average(a => a.Age).ToString("0.00")" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
         <!-- End Icon Cart -->
@@ -74,16 +75,16 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon primary">
-                    <i class="lni lni-headphone"></i>
+                    <i class="lni lni-ruler"></i>
                 </div>
                 <div class="content">
-                    <h6 class="mb-10">New Deals</h6>
-                    <h3 class="text-bold mb-10">755</h3>
+                    <h6 class="mb-10">Hayvanların Boy Ortalaması</h6>
+                    <h3 class="text-bold mb-10">@Model.AnimalList.Average(a => a.Height).ToString("0.00")</h3>
                 </div>
             </div>
 
             <div class="progress bg-primary-100">
-                <div class="progress-bar primary-bg" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar primary-bg" role="progressbar" style="width: 55%" aria-valuenow="@Model.AnimalList.Average(a => a.Height).ToString("0.00")" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
         <!-- End Icon Cart -->
@@ -93,16 +94,16 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon orange">
-                    <i class="lni lni-bullhorn"></i>
+                    <i class="lni lni-dashboard"></i>
                 </div>
                 <div class="content">
-                    <h6 class="mb-10">Campaign Leads</h6>
-                    <h3 class="text-bold mb-10">34K</h3>
+                    <h6 class="mb-10">Hayvanların Ağırlık Ortalaması</h6>
+                    <h3 class="text-bold mb-10">@Model.AnimalList.Average(a => a.Weight).ToString("0.00")</h3>
                 </div>
             </div>
 
             <div class="progress bg-orange-100">
-                <div class="progress-bar orange-bg" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar orange-bg" role="progressbar" style="width: 80%" aria-valuenow="@Model.AnimalList.Average(a => a.Weight).ToString("0.00")" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
         <!-- End Icon Cart -->
@@ -115,7 +116,7 @@
     <div class="col-lg-12">
         <div class="card-style clients-table-card mb-30">
             <div class="title d-flex justify-content-between align-items-center">
-                <h6 class="mb-10">Leads Report</h6>
+                <h6 class="mb-10">Hayvanlar</h6>
                 <div class="more-btn-wrapper">
                     <button class="more-btn dropdown-toggle" id="moreAction" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="lni lni-more-alt"></i>
@@ -138,19 +139,22 @@
                                 <h6>#</h6>
                             </th>
                             <th class="name">
-                                <h6>Name</h6>
+                                <h6>Hayvan Adı</h6>
                             </th>
-                            <th class="email">
-                                <h6>Email</h6>
+                            <th class="age">
+                                <h6>Yaş</h6>
                             </th>
-                            <th class="project">
-                                <h6>Project</h6>
+                            <th class="weight">
+                                <h6>Ağırlık</h6>
                             </th>
-                            <th class="status">
-                                <h6>Status</h6>
+                            <th class="height">
+                                <h6>Boy</h6>
                             </th>
-                            <th class="action">
-                                <h6>Action</h6>
+                            <th class="species">
+                                <h6>Irk</h6>
+                            </th>
+                            <th class="breed">
+                                <h6>Tür</h6>
                             </th>
                         </tr>
                         <!-- end table row-->
@@ -160,28 +164,25 @@
                         {
                             <tr>
                                 <td>
-                                    <div class="employee-image">
-                                        <img src="assets/images/lead/lead-1.png" alt="">
-                                    </div>
+                                    <p>@animal.Id</p>
                                 </td>
                                 <td>
                                     <p>@animal.Name</p>
                                 </td>
                                 <td>
-                                    <p><a href="#0">yourmail@gmail.com</a></p>
+                                    <p>@animal.Age</p>
                                 </td>
                                 <td>
-                                    <p>Admin Dashboard Design</p>
-                                </td>
-                                <td class="text-center">
-                                    <span class="status-btn active-btn">Active</span>
+                                    <p>@animal.Weight</p>
                                 </td>
                                 <td>
-                                    <div class="action">
-                                        <button class="text-danger">
-                                            <i class="lni lni-trash-can"></i>
-                                        </button>
-                                    </div>
+                                    <p>@animal.Height</p>
+                                </td>
+                                <td>
+                                    <p>@animal.Species</p>
+                                </td>
+                                <td>
+                                    <p>@animal.Breed</p>
                                 </td>
                             </tr>
                         }
