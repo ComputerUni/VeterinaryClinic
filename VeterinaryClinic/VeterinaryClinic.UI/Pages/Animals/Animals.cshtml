@@ -1,0 +1,320 @@
+﻿@page
+@model VeterinaryClinic.UI.Pages.Animals.AnimalsModel
+@{
+    Layout = "~/Pages/Shared/_DashboardLayout.cshtml";
+}
+
+<!-- ========== title-wrapper start ========== -->
+<div class="title-wrapper pt-30">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <div class="title">
+                <h2>CRM Dashboard</h2>
+            </div>
+        </div>
+        <!-- end col -->
+        <div class="col-md-6">
+            <div class="breadcrumb-wrapper">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="#0">Dashboard</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            CRM
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- end col -->
+    </div>
+    <!-- end row -->
+</div>
+<!-- ========== title-wrapper end ========== -->
+<div class="row">
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+        <div class="icon-card icon-card-2 mb-30">
+            <div class="d-flex align-items-center">
+                <div class="icon purple">
+                    <i class="lni lni-smile"></i>
+                </div>
+                <div class="content">
+                    <h6 class="mb-10">Happy Clients</h6>
+                    <h3 class="text-bold mb-10">65K</h3>
+                </div>
+            </div>
+            <div class="progress bg-purple-100">
+                <div class="progress-bar purple-bg" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <!-- End Icon Cart -->
+    </div>
+    <!-- End Col -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+        <div class="icon-card icon-card-2 mb-30">
+            <div class="d-flex align-items-center">
+                <div class="icon success">
+                    <i class="lni lni-users"></i>
+                </div>
+                <div class="content">
+                    <h6 class="mb-10">New Customers</h6>
+                    <h3 class="text-bold mb-10">10K</h3>
+                </div>
+            </div>
+
+            <div class="progress bg-success-100">
+                <div class="progress-bar success-bg" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <!-- End Icon Cart -->
+    </div>
+    <!-- End Col -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+        <div class="icon-card icon-card-2 mb-30">
+            <div class="d-flex align-items-center">
+                <div class="icon primary">
+                    <i class="lni lni-headphone"></i>
+                </div>
+                <div class="content">
+                    <h6 class="mb-10">New Deals</h6>
+                    <h3 class="text-bold mb-10">755</h3>
+                </div>
+            </div>
+
+            <div class="progress bg-primary-100">
+                <div class="progress-bar primary-bg" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <!-- End Icon Cart -->
+    </div>
+    <!-- End Col -->
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+        <div class="icon-card icon-card-2 mb-30">
+            <div class="d-flex align-items-center">
+                <div class="icon orange">
+                    <i class="lni lni-bullhorn"></i>
+                </div>
+                <div class="content">
+                    <h6 class="mb-10">Campaign Leads</h6>
+                    <h3 class="text-bold mb-10">34K</h3>
+                </div>
+            </div>
+
+            <div class="progress bg-orange-100">
+                <div class="progress-bar orange-bg" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <!-- End Icon Cart -->
+    </div>
+    <!-- End Col -->
+</div>
+<!-- End Row -->
+<!-- End Row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card-style clients-table-card mb-30">
+            <div class="title d-flex justify-content-between align-items-center">
+                <h6 class="mb-10">Leads Report</h6>
+                <div class="more-btn-wrapper">
+                    <button class="more-btn dropdown-toggle" id="moreAction" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="lni lni-more-alt"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="moreAction">
+                        <li class="dropdown-item">
+                            <a href="#0" class="text-gray">Mark as Read</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#0" class="text-gray">Reply</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="table-wrapper table-responsive">
+                <table class="table lead-table">
+                    <thead>
+                        <tr>
+                            <th class="image">
+                                <h6>#</h6>
+                            </th>
+                            <th class="name">
+                                <h6>Name</h6>
+                            </th>
+                            <th class="email">
+                                <h6>Email</h6>
+                            </th>
+                            <th class="project">
+                                <h6>Project</h6>
+                            </th>
+                            <th class="status">
+                                <h6>Status</h6>
+                            </th>
+                            <th class="action">
+                                <h6>Action</h6>
+                            </th>
+                        </tr>
+                        <!-- end table row-->
+                    </thead>
+                    <tbody>
+                        @foreach (var animal in Model.AnimalList)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="employee-image">
+                                        <img src="assets/images/lead/lead-1.png" alt="">
+                                    </div>
+                                </td>
+                                <td>
+                                    <p>@animal.Name</p>
+                                </td>
+                                <td>
+                                    <p><a href="#0">yourmail@gmail.com</a></p>
+                                </td>
+                                <td>
+                                    <p>Admin Dashboard Design</p>
+                                </td>
+                                <td class="text-center">
+                                    <span class="status-btn active-btn">Active</span>
+                                </td>
+                                <td>
+                                    <div class="action">
+                                        <button class="text-danger">
+                                            <i class="lni lni-trash-can"></i>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <!-- end table -->
+            </div>
+        </div>
+        <!-- end card -->
+    </div>
+</div>
+<!-- End Row -->
+<div class="row">
+    <div class="col-lg-6">
+        <div class="card-style mb-30">
+            <div class="title mb-10 d-flex justify-content-between align-items-center">
+                <h6 class="mb-10">To Do List</h6>
+                <div class="more-btn-wrapper">
+                    <button class="more-btn dropdown-toggle" id="moreAction" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="lni lni-more-alt"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="moreAction">
+                        <li class="dropdown-item">
+                            <a href="#0" class="text-gray">Mark as Read</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#0" class="text-gray">Reply</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="todo-list-wrapper">
+                <ul>
+                    <li class="todo-list-item success">
+                        <div class="todo-content">
+                            <p class="text-sm mb-2">
+                                <i class="lni lni-calendar"></i>
+                                14 February,2024
+                            </p>
+                            <h5 class="text-bold mb-10">Uideck Yearly Meetings</h5>
+                            <p class="text-sm">
+                                <i class="lni lni-alarm-clock"></i>
+                                10:20 AM - 3:00 PM
+                            </p>
+                        </div>
+                        <div class="todo-status">
+                            <span class="status-btn success-btn">Completed</span>
+                        </div>
+                    </li>
+                    <li class="todo-list-item primary">
+                        <div class="todo-content">
+                            <p class="text-sm mb-2">
+                                <i class="lni lni-calendar"></i>
+                                14 February,2024
+                            </p>
+                            <h5 class="text-bold mb-10">2024 Dribbble Meet Up</h5>
+                            <p class="text-sm">
+                                <i class="lni lni-alarm-clock"></i>
+                                10:20 AM - 3:00 PM
+                            </p>
+                        </div>
+                        <div class="todo-status">
+                            <span class="status-btn active-btn">Upcoming</span>
+                        </div>
+                    </li>
+                    <li class="todo-list-item orange">
+                        <div class="todo-content">
+                            <p class="text-sm mb-2">
+                                <i class="lni lni-calendar"></i>
+                                14 February,2024
+                            </p>
+                            <h5 class="text-bold mb-10">
+                                Plain Admin Dashboard Meeting
+                            </h5>
+                            <p class="text-sm">
+                                <i class="lni lni-alarm-clock"></i>
+                                10:20 AM - 3:00 PM
+                            </p>
+                        </div>
+                        <div class="todo-status">
+                            <span class="status-btn orange-btn">Pending</span>
+                        </div>
+                    </li>
+                    <li class="todo-list-item danger">
+                        <div class="todo-content">
+                            <p class="text-sm mb-2">
+                                <i class="lni lni-calendar"></i>
+                                14 February,2024
+                            </p>
+                            <h5 class="text-bold mb-10">Uideck Yearly Meetings</h5>
+                            <p class="text-sm">
+                                <i class="lni lni-alarm-clock"></i>
+                                10:20 AM - 3:00 PM
+                            </p>
+                        </div>
+                        <div class="todo-status">
+                            <span class="status-btn close-btn">Canceled</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Cart -->
+    </div>
+    <!-- End Col -->
+    <div class="col-lg-6">
+        <div class="card-style mb-30">
+            <div class="title d-flex flex-wrap align-items-center justify-content-between">
+                <div class="left">
+                    <h6 class="text-medium mb-2">Campaigns</h6>
+                </div>
+                <div class="right">
+                    <div class="select-style-1 mb-2">
+                        <div class="select-position select-sm">
+                            <select class="light-bg">
+                                <option value="">Weekly</option>
+                                <option value="">Monthly</option>
+                                <option value="">Daily</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- end select -->
+                </div>
+            </div>
+            <!-- End Title -->
+            <div class="chart">
+                <canvas id="Chart4" style="width: 100%; height: 380px"></canvas>
+            </div>
+            <!-- End Chart -->
+        </div>
+    </div>
+    <!-- End Col -->
+</div>
+<!-- End Row -->
+
+    

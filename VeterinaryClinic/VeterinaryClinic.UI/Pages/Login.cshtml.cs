@@ -40,7 +40,7 @@ namespace VeterinaryClinic.UI.Pages
                     Expires = DateTimeOffset.UtcNow.AddHours(1)
                 });
 
-                return RedirectToPage("/Dashboard");
+                return RedirectToPage("/Animals/Animals");
             }
 
             ErrorMessage = $"Status: {response.StatusCode} | {content}";
