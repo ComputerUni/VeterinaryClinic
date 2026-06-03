@@ -160,8 +160,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   },
   {
     "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentController",

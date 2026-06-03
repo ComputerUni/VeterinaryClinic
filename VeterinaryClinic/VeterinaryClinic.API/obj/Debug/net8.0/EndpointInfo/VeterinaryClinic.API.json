@@ -386,7 +386,6 @@
         "tags": [
           "WeatherForecast"
         ],
-        "operationId": "GetWeatherForecast",
         "parameters": [
           {
             "name": "city_name",

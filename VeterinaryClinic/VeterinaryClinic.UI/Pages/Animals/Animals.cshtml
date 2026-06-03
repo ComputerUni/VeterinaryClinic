@@ -45,9 +45,6 @@
                     <h3 class="text-bold mb-10">@Model.AnimalList.Count()</h3>
                 </div>
             </div>
-            <div class="progress bg-purple-100">
-                <div class="progress-bar purple-bg" role="progressbar" style="width: 85%" aria-valuenow="@Model.AnimalList.Count()" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
         </div>
         <!-- End Icon Cart -->
     </div>
@@ -63,10 +60,6 @@
                     <h3 class="text-bold mb-10">@Model.AnimalList.Average(a => a.Age).ToString("0.00")</h3>
                 </div>
             </div>
-
-            <div class="progress bg-success-100">
-                <div class="progress-bar success-bg" role="progressbar" style="width: 65%" aria-valuenow="@Model.AnimalList.Average(a => a.Age).ToString("0.00")" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
         </div>
         <!-- End Icon Cart -->
     </div>
@@ -81,10 +74,6 @@
                     <h6 class="mb-10">Hayvanların Boy Ortalaması</h6>
                     <h3 class="text-bold mb-10">@Model.AnimalList.Average(a => a.Height).ToString("0.00")</h3>
                 </div>
-            </div>
-
-            <div class="progress bg-primary-100">
-                <div class="progress-bar primary-bg" role="progressbar" style="width: 55%" aria-valuenow="@Model.AnimalList.Average(a => a.Height).ToString("0.00")" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
         </div>
         <!-- End Icon Cart -->

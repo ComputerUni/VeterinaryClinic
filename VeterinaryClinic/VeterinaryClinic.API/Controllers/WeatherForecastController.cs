@@ -15,7 +15,7 @@ namespace VeterinaryClinic.API.Controllers
             _logger = logger;
         }
 
-        [HttpGet("city/{city_name}", Name = "GetWeatherForecast")]
+        [HttpGet("city/{city_name}")]
         public async Task<IActionResult> GetWeatherByCity(string city_name)
         {
             _logger.LogInformation("Hava durumu isteği alındı.", city_name);
@@ -28,7 +28,7 @@ namespace VeterinaryClinic.API.Controllers
                 if (response.IsSuccessStatusCode)
                 {
                     var content = await response.Content.ReadAsStringAsync();
-                    return Ok(content);
+                    return Content(content, "application/json");
                 }
                 _logger.LogWarning("Hava durumu verisi alınamadı.");
                 return StatusCode((int)response.StatusCode, "Error fetching weather data");
