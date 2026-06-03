@@ -2,32 +2,44 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace VeterinaryClinic.API.Controllers
 {
+    [Route("api/external/weather")]
     [ApiController]
-    [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
-
         private readonly ILogger<WeatherForecastController> _logger;
+        private string API_KEY = "129c9cd8ce88fb9717261d352fa82c44";
+        private string BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpGet("city/{city_name}", Name = "GetWeatherForecast")]
+        public async Task<IActionResult> GetWeatherByCity(string city_name)
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            _logger.LogInformation("Hava durumu isteği alındı.", city_name);
+            using var httpClient = new HttpClient();
+            var url = $"{BASE_URL}?q={city_name}&appid={API_KEY}&units=metric";
+            var response = await httpClient.GetAsync(url);
+            try
             {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+                
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    return Ok(content);
+                }
+                _logger.LogWarning("Hava durumu verisi alınamadı.");
+                return StatusCode((int)response.StatusCode, "Error fetching weather data");
+            }
+            catch (Exception e)
+            {
+                _logger.LogError(e, "Hata oluştu");
+                return StatusCode((int)response.StatusCode, "Error fetching weather data");
+            }
+
+
         }
     }
 }

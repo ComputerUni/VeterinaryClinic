@@ -4,6 +4,7 @@ using System.Text.Json;
 using VeterinaryClinic.Business.Concrete;
 using VeterinaryClinic.DataAccess.EntityFramework;
 using VeterinaryClinic.Entities.Concrete;
+using VeterinaryClinic.Entities.Models;
 
 namespace VeterinaryClinic.UI.Pages.Animals
 {
@@ -17,6 +18,7 @@ namespace VeterinaryClinic.UI.Pages.Animals
         }
 
         public List<Animal> AnimalList { get; set; } = new List<Animal>();
+        public WeatherDto Weather { get; set; } 
 
         public async Task<IActionResult> OnGetAsync()
         {
@@ -39,6 +41,23 @@ namespace VeterinaryClinic.UI.Pages.Animals
             {
                 AnimalList = new List<Animal>();
             }
+
+            var weatherResponse = await client.GetAsync("https://localhost:7037/api/external/weather/city/Gaziantep");
+
+            if(weatherResponse.IsSuccessStatusCode)
+            {
+                var content = await weatherResponse.Content.ReadAsStringAsync();
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
+                Weather = JsonSerializer.Deserialize<WeatherDto>(content, options) ?? new WeatherDto();
+            }
+            else
+            {
+                Weather = new WeatherDto();
+            }
+
             return Page();
         }
     }

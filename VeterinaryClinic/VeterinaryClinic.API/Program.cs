@@ -10,8 +10,12 @@ using VeterinaryClinic.DataAccess.Abstract;
 using VeterinaryClinic.DataAccess.Concrete;
 using VeterinaryClinic.DataAccess.EntityFramework;
 using VeterinaryClinic.Entities.Concrete;
+using Serilog;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
+
 
 var jwtSettingsSection = builder.Configuration.GetSection("JwtSettings");
 builder.Services.Configure<JwtSettings>(jwtSettingsSection);
@@ -115,6 +119,13 @@ builder.Services.AddCors(option =>
         });
 });
 
+
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("Logs/clinic-log-.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 
 var app = builder.Build();

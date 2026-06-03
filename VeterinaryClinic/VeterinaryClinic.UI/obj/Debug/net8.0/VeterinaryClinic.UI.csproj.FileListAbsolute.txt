@@ -36,6 +36,15 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Serilog.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\System.Composition.Convention.dll
