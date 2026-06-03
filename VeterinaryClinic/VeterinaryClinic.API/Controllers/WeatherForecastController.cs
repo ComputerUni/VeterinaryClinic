@@ -7,7 +7,7 @@ namespace VeterinaryClinic.API.Controllers
     public class WeatherForecastController : ControllerBase
     {
         private readonly ILogger<WeatherForecastController> _logger;
-        private string API_KEY = "129c9cd8ce88fb9717261d352fa82c44";
+        private string API_KEY = "YOUR_API_KEY";
         private string BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
