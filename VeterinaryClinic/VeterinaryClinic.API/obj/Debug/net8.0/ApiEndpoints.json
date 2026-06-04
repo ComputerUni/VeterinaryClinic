@@ -63,9 +63,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentController",
+    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentsController",
     "Method": "GetAll",
-    "RelativePath": "api/appointment",
+    "RelativePath": "api/appointments",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -73,9 +73,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentController",
+    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentsController",
     "Method": "AddAppointment",
-    "RelativePath": "api/appointment",
+    "RelativePath": "api/appointments",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -89,9 +89,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentController",
+    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentsController",
     "Method": "GetById",
-    "RelativePath": "api/appointment/{id}",
+    "RelativePath": "api/appointments/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -105,9 +105,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentController",
+    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentsController",
     "Method": "AppointmentUpdate",
-    "RelativePath": "api/appointment/{id}",
+    "RelativePath": "api/appointments/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -126,9 +126,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentController",
+    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentsController",
     "Method": "AppointmentCancel",
-    "RelativePath": "api/appointment/{id}/cancel",
+    "RelativePath": "api/appointments/{id}/cancel",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -163,7 +163,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentController",
+    "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentsController",
     "Method": "Get",
     "RelativePath": "api/treatments",
     "HttpMethod": "GET",
@@ -173,7 +173,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentController",
+    "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentsController",
     "Method": "Add",
     "RelativePath": "api/treatments",
     "HttpMethod": "POST",
@@ -189,7 +189,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentController",
+    "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentsController",
     "Method": "Delete",
     "RelativePath": "api/treatments/{id}",
     "HttpMethod": "DELETE",
@@ -205,9 +205,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "VeterinaryClinic.API.Controllers.UserController",
+    "ContainingType": "VeterinaryClinic.API.Controllers.UsersController",
     "Method": "Login",
-    "RelativePath": "api/user/login",
+    "RelativePath": "api/users/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -221,9 +221,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "VeterinaryClinic.API.Controllers.UserController",
+    "ContainingType": "VeterinaryClinic.API.Controllers.UsersController",
     "Method": "Register",
-    "RelativePath": "api/user/register",
+    "RelativePath": "api/users/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

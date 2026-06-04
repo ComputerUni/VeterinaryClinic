@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.Entities.Concrete;
@@ -6,13 +8,12 @@ using VeterinaryClinic.Entities.Models;
 
 namespace VeterinaryClinic.API.Controllers
 {
-    [Route("api/user")]
-    [ApiController]
-    public class UserController : ControllerBase
+    [Route("api/users")]
+    public class UsersController : BaseController
     {
         private readonly IUserService _userService;
         private readonly ITokenService _tokenService;
-        public UserController(IUserService userService, ITokenService tokenService)
+        public UsersController(IUserService userService, ITokenService tokenService)
         {
             _userService = userService;
             _tokenService = tokenService;
@@ -20,6 +21,7 @@ namespace VeterinaryClinic.API.Controllers
 
 
         [HttpPost("register")]
+        [AllowAnonymous]
         public async Task<IActionResult> Register([FromBody] RegisterDto model)
         {
             var registeredUser = await _userService.Register(model);
@@ -32,6 +34,7 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpPost("login")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginDto model)
         {
             var loginUser = await _userService.Login(model);

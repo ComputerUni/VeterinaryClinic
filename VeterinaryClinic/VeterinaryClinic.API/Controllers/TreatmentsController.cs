@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.Entities.Concrete;
@@ -6,12 +8,11 @@ using VeterinaryClinic.Entities.Concrete;
 namespace VeterinaryClinic.API.Controllers
 {
     [Route("api/treatments")]
-    [ApiController]
-    public class TreatmentController : ControllerBase
+    public class TreatmentsController : BaseController
     {
         private readonly ITreatmentService _treatmentService;
 
-        public TreatmentController(ITreatmentService treatmentService)
+        public TreatmentsController(ITreatmentService treatmentService)
         {
             _treatmentService = treatmentService;
         }

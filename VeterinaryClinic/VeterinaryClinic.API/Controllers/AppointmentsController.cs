@@ -1,17 +1,18 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.API.Controllers
 {
-    [Route("api/appointment")]
-    [ApiController]
-    public class AppointmentController : ControllerBase
+    [Route("api/appointments")]
+    public class AppointmentsController : BaseController
     {
         private readonly IAppointmentService _appointmentService;
 
-        public AppointmentController(IAppointmentService appointmentService)
+        public AppointmentsController(IAppointmentService appointmentService)
         {
             _appointmentService = appointmentService;
         }

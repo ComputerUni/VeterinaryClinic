@@ -109,10 +109,10 @@
         }
       }
     },
-    "/api/appointment": {
+    "/api/appointments": {
       "get": {
         "tags": [
-          "Appointment"
+          "Appointments"
         ],
         "responses": {
           "200": {
@@ -122,7 +122,7 @@
       },
       "post": {
         "tags": [
-          "Appointment"
+          "Appointments"
         ],
         "requestBody": {
           "content": {
@@ -150,10 +150,10 @@
         }
       }
     },
-    "/api/appointment/{id}": {
+    "/api/appointments/{id}": {
       "get": {
         "tags": [
-          "Appointment"
+          "Appointments"
         ],
         "parameters": [
           {
@@ -174,7 +174,7 @@
       },
       "put": {
         "tags": [
-          "Appointment"
+          "Appointments"
         ],
         "parameters": [
           {
@@ -213,10 +213,10 @@
         }
       }
     },
-    "/api/appointment/{id}/cancel": {
+    "/api/appointments/{id}/cancel": {
       "put": {
         "tags": [
-          "Appointment"
+          "Appointments"
         ],
         "parameters": [
           {
@@ -258,7 +258,7 @@
     "/api/treatments": {
       "get": {
         "tags": [
-          "Treatment"
+          "Treatments"
         ],
         "responses": {
           "200": {
@@ -268,7 +268,7 @@
       },
       "post": {
         "tags": [
-          "Treatment"
+          "Treatments"
         ],
         "requestBody": {
           "content": {
@@ -299,7 +299,7 @@
     "/api/treatments/{id}": {
       "delete": {
         "tags": [
-          "Treatment"
+          "Treatments"
         ],
         "parameters": [
           {
@@ -319,10 +319,10 @@
         }
       }
     },
-    "/api/user/register": {
+    "/api/users/register": {
       "post": {
         "tags": [
-          "User"
+          "Users"
         ],
         "requestBody": {
           "content": {
@@ -350,10 +350,10 @@
         }
       }
     },
-    "/api/user/login": {
+    "/api/users/login": {
       "post": {
         "tags": [
-          "User"
+          "Users"
         ],
         "requestBody": {
           "content": {

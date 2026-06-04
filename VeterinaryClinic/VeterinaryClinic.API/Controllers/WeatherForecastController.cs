@@ -1,13 +1,13 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace VeterinaryClinic.API.Controllers
 {
     [Route("api/external/weather")]
-    [ApiController]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastController : BaseController
     {
         private readonly ILogger<WeatherForecastController> _logger;
-        private string API_KEY = "YOUR_API_KEY";
+        private string API_KEY = "129c9cd8ce88fb9717261d352fa82c44";
         private string BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
@@ -16,6 +16,7 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpGet("city/{city_name}")]
+        [AllowAnonymous]
         public async Task<IActionResult> GetWeatherByCity(string city_name)
         {
             _logger.LogInformation("Hava durumu isteği alındı.", city_name);

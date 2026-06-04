@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.Entities.Concrete;
@@ -6,8 +8,7 @@ using VeterinaryClinic.Entities.Concrete;
 namespace VeterinaryClinic.API.Controllers
 {
     [Route("api/animals")]
-    [ApiController]
-    public class AnimalsController : ControllerBase
+    public class AnimalsController : BaseController
     {
         private readonly IAnimalService _animalService;
 
@@ -19,8 +20,23 @@ namespace VeterinaryClinic.API.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var result = await _animalService.GetListAsync();
-            return Ok(result);
+            try
+            {
+                // 🎯 Burası tetiklendiğinde hata veriyorsa catch bloguna düşecek
+                var result = await _animalService.GetListAsync();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                // 🚨 Sinsi hatayı maskelemeyi bırak, ekrana neyse yazdır!
+                return Ok(new
+                {
+                    Error = "Arka planda sinsi bir hata oluştu!",
+                    Message = ex.Message,
+                    InnerException = ex.InnerException?.Message,
+                    Details = ex.StackTrace
+                });
+            }
         }
 
         [HttpGet("{id}")]

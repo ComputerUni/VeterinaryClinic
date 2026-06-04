@@ -1,12 +1,3 @@
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.csproj.AssemblyReference.cache
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.AssemblyInfoInputs.cache
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.AssemblyInfo.cs
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.csproj.CoreCompileInputs.cache
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.sourcelink.json
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\appsettings.json
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\VeterinaryClinic.API.staticwebassets.endpoints.json
@@ -22,6 +13,7 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\Microsoft.Bcl.Cryptography.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
@@ -78,6 +70,7 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\System.Formats.Asn1.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\System.IO.Pipelines.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\System.Memory.Data.dll
@@ -158,6 +151,15 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\VeterinaryClinic.Business.pdb
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\VeterinaryClinic.DataAccess.pdb
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\bin\Debug\net8.0\VeterinaryClinic.Entities.pdb
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.csproj.AssemblyReference.cache
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.AssemblyInfoInputs.cache
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.AssemblyInfo.cs
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.csproj.CoreCompileInputs.cache
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\VeterinaryClinic.API.sourcelink.json
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
