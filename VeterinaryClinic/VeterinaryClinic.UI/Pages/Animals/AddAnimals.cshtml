@@ -1,0 +1,109 @@
+﻿@page
+@model VeterinaryClinic.UI.Pages.Animals.AddAnimalsModel
+@{
+    Layout = "~/Pages/Shared/_DashboardLayout.cshtml";
+}
+
+
+<div class="container p-4">
+    <div class="form-layout-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card-style mb-30">
+                    <h6 class="mb-15">Yeni Hayvan Kaydı</h6>
+                    <p class="text-sm mb-25">
+                        Yeni hayvan kaydınızı bu kısımdan ekleyiniz.
+                    </p>
+                    <form class="row needs-validation" novalidate="">
+                        <div class="col-12">
+                            <div class="input-style-1">
+                                <label for="f-name" class="form-label">
+                                    Hayvan Adı
+                                </label>
+                                <input type="text" class="form-control" id="f-name" value="John" required="">
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="input-style-1">
+                                <label for="l-name" class="form-label">
+                                    Yaş
+                                </label>
+                                <input type="text" class="form-control" id="l-name" value="Doe" required="">
+
+                                <div class="valid-feedback">Looks good!</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6-md">
+                                <div class="input-style-1">
+                                    <label for="l-name" class="form-label">
+                                        Ağırlık
+                                    </label>
+                                    <input type="text" class="form-control" id="l-name" value="Doe" required="">
+
+                                    <div class="valid-feedback">Looks good!</div>
+                                </div>
+                            </div>
+                            <div class="col-6-md">
+                                <div class="input-style-1">
+                                    <label for="l-name" class="form-label">
+                                        Uzunluk
+                                    </label>
+                                    <input type="text" class="form-control" id="l-name" value="Doe" required="">
+
+                                    <div class="valid-feedback">Looks good!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6-md">
+                                <div class="input-style-1">
+                                    <label for="l-name" class="form-label">
+                                        Irk
+                                    </label>
+                                    <input type="text" class="form-control" id="l-name" value="Doe" required="">
+
+                                    <div class="valid-feedback">Looks good!</div>
+                                </div>
+                            </div>
+                            <div class="col-6-md">
+                                <div class="input-style-1">
+                                    <label for="l-name" class="form-label">
+                                        Tür
+                                    </label>
+                                    <input type="text" class="form-control" id="l-name" value="Doe" required="">
+
+                                    <div class="valid-feedback">Looks good!</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12">
+                            <div class="input-style-1">
+                                <label for="email" class="form-label"> Email </label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required="">
+                                <div class="invalid-feedback">
+                                    Please Enter a valid Email.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="input-style-1">
+                                <label for="address" class="form-label">
+                                    Sağlık Tarihi
+                                </label>
+                                <input type="text" class="form-control" id="address" placeholder="Address" required="">
+                                <div class="invalid-feedback">
+                                    Please provide a valid Address.
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!-- end card -->
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+</div>

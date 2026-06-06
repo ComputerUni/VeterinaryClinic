@@ -24,7 +24,7 @@ namespace VeterinaryClinic.UI.Pages
         public async Task<IActionResult> OnPostAsync()
         {
             var client = _httpClientFactory.CreateClient();
-            var response = await client.PostAsJsonAsync("https://localhost:7037/api/user/login", LoginInput);
+            var response = await client.PostAsJsonAsync("https://localhost:7037/api/users/login", LoginInput);
             var content = await response.Content.ReadAsStringAsync();
             
             if (response.IsSuccessStatusCode)

@@ -42,7 +42,7 @@
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Toplam Hayvan Sayısı</h6>
-                    <h3 class="text-bold mb-10">@Model.AnimalList.Count()</h3>
+                    <h3 class="text-bold mb-10">@(Model.AnimalList != null ? Model.AnimalList.Count() : 0)</h3>
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Hayvanların Yaş Ortalaması</h6>
-                    <h3 class="text-bold mb-10">@Model.AnimalList.Average(a => a.Age).ToString("0.00")</h3>
+                    <h3 class="text-bold mb-10">@(Model.AnimalList != null ? Model.AnimalList.Average(a => a.Age).ToString("0.00"): "0.00")</h3>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Hayvanların Boy Ortalaması</h6>
-                    <h3 class="text-bold mb-10">@Model.AnimalList.Average(a => a.Height).ToString("0.00")</h3>
+                    <h3 class="text-bold mb-10">@(Model.AnimalList != null ? Model.AnimalList.Average(a => a.Height).ToString("0.00") : "0.00")</h3>
                 </div>
             </div>
         </div>
@@ -108,10 +108,7 @@
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="moreAction">
                         <li class="dropdown-item">
-                            <a href="#0" class="text-gray">Mark as Read</a>
-                        </li>
-                        <li class="dropdown-item">
-                            <a href="#0" class="text-gray">Reply</a>
+                            <a asp-page="/Animals/AddAnimals" class="text-gray">Hayvan Ekle</a>
                         </li>
                     </ul>
                 </div>
