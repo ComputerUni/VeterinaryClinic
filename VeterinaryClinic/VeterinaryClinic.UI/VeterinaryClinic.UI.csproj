@@ -184,6 +184,7 @@
     </PackageReference>
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+    <PackageReference Include="X.PagedList" Version="8.0.5" />
   </ItemGroup>
 
   <ItemGroup>

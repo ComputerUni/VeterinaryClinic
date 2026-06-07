@@ -13,7 +13,8 @@
           "Serilog.Sinks.File": "7.0.0",
           "VeterinaryClinic.Business": "1.0.0",
           "VeterinaryClinic.DataAccess": "1.0.0",
-          "VeterinaryClinic.Entities": "1.0.0"
+          "VeterinaryClinic.Entities": "1.0.0",
+          "X.PagedList": "8.0.5"
         },
         "runtime": {
           "VeterinaryClinic.UI.dll": {}
@@ -841,6 +842,14 @@
           }
         }
       },
+      "X.PagedList/8.0.5": {
+        "runtime": {
+          "lib/netstandard2.0/X.PagedList.dll": {
+            "assemblyVersion": "8.0.5.0",
+            "fileVersion": "8.0.5.0"
+          }
+        }
+      },
       "VeterinaryClinic.Business/1.0.0": {
         "dependencies": {
           "BCrypt.Net-Next": "4.2.0",
@@ -1266,6 +1275,13 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "X.PagedList/8.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mq9be8Qkphepd5oL5zXzNoZ96+1knNETltLNNIxH+mZEyoMD7fuRkbEQpzDWcBoGiAglw0YD/fKUoLPmAF7SCA==",
+      "path": "x.pagedlist/8.0.5",
+      "hashPath": "x.pagedlist.8.0.5.nupkg.sha512"
     },
     "VeterinaryClinic.Business/1.0.0": {
       "type": "project",

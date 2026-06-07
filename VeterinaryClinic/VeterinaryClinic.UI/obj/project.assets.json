@@ -1760,6 +1760,15 @@
           }
         }
       },
+      "X.PagedList/8.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/X.PagedList.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/X.PagedList.dll": {}
+        }
+      },
       "VeterinaryClinic.Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4558,6 +4567,18 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "X.PagedList/8.0.5": {
+      "sha512": "Mq9be8Qkphepd5oL5zXzNoZ96+1knNETltLNNIxH+mZEyoMD7fuRkbEQpzDWcBoGiAglw0YD/fKUoLPmAF7SCA==",
+      "type": "package",
+      "path": "x.pagedlist/8.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/X.PagedList.dll",
+        "x.pagedlist.8.0.5.nupkg.sha512",
+        "x.pagedlist.nuspec"
+      ]
+    },
     "VeterinaryClinic.Business/1.0.0": {
       "type": "project",
       "path": "../VeterinaryClinic.Business/VeterinaryClinic.Business.csproj",
@@ -4581,7 +4602,8 @@
       "Serilog.Sinks.File >= 7.0.0",
       "VeterinaryClinic.Business >= 1.0.0",
       "VeterinaryClinic.DataAccess >= 1.0.0",
-      "VeterinaryClinic.Entities >= 1.0.0"
+      "VeterinaryClinic.Entities >= 1.0.0",
+      "X.PagedList >= 8.0.5"
     ]
   },
   "packageFolders": {
@@ -4660,6 +4682,10 @@
           "Serilog.Sinks.File": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "X.PagedList": {
+            "target": "Package",
+            "version": "[8.0.5, )"
           }
         },
         "imports": [

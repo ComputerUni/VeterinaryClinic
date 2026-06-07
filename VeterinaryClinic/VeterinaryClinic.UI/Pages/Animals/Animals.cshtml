@@ -1,6 +1,8 @@
 ﻿@page
 @model VeterinaryClinic.UI.Pages.Animals.AnimalsModel
 @using System.Linq
+@using X.PagedList;
+
 @{
     Layout = "~/Pages/Shared/_DashboardLayout.cshtml";
 }
@@ -145,7 +147,7 @@
                         <!-- end table row-->
                     </thead>
                     <tbody>
-                        @foreach (var animal in Model.AnimalList)
+                        @foreach (var animal in Model.PagedAnimalList)
                         {
                             <tr>
                                 <td>
@@ -172,7 +174,11 @@
                                 <td>
                                     <div>
                                         <a class="btn btn-primary" asp-page="/Animals/EditAnimals" asp-route-id="@animal.Id"><i class="fa-solid fa-pencil"></i></a>
-                                        <a class="btn btn-danger" asp-page="/Animals/DeleteAnimals" asp-route-id="@animal.Id"><i class="fa-solid fa-trash"></i></a>
+                                        @* <form asp-page="/Animals/Animals" asp-page-handler="Delete" asp-route-id="@animal.Id" method="post" style="display:inline;">
+                                            <button type="submit" class="btn btn-danger" onclick="return confirm('@animal.Name adlı hayvanı silmek istediğinize emin misiniz?')">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </form> *@
                                     </div>
                                 </td>
                             </tr>
@@ -180,13 +186,24 @@
                     </tbody>
                 </table>
                 <!-- end table -->
+
             </div>
         </div>
         <!-- end card -->
     </div>
+    <div class="row mt-3 mb-3">
+        @for (int i = 1; i <= Model.PagedAnimalList.PageCount; i++)
+        {
+            <div class="col-auto">
+                <a asp-page="/Animals/Animals" asp-route-pageNumber="@i" class="btn @(i == Model.PagedAnimalList.PageNumber ? "btn-primary" : "btn-outlined-primary") row">@i</a>
+            </div>
+            
+        }
+    </div>
+
 </div>
 <!-- End Row -->
-<div class="row">
+@* <div class="row">
     <div class="col-lg-6">
         <div class="card-style mb-30">
             <div class="title mb-10 d-flex justify-content-between align-items-center">
@@ -306,7 +323,7 @@
         </div>
     </div>
     <!-- End Col -->
-</div>
+</div> *@
 <!-- End Row -->
 
     

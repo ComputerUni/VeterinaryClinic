@@ -7,8 +7,20 @@
       "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\animals\\animals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\animals\\animals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\animals\\animals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\animals\\editanimals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\animals\\editanimals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\animals\\addanimals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\animals\\addanimals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.api\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|solutionrelative:veterinaryclinic.api\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\animals\\editanimals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,24 +35,12 @@
       "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\animals\\animals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\animals\\animals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\animals\\addanimals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\animals\\addanimals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{457955A0-F1CF-13EA-D419-6052001599E1}|VeterinaryClinic.Entities\\VeterinaryClinic.Entities.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.entities\\models\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{457955A0-F1CF-13EA-D419-6052001599E1}|VeterinaryClinic.Entities\\VeterinaryClinic.Entities.csproj|solutionrelative:veterinaryclinic.entities\\models\\animaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{457955A0-F1CF-13EA-D419-6052001599E1}|VeterinaryClinic.Entities\\VeterinaryClinic.Entities.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.entities\\concrete\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{457955A0-F1CF-13EA-D419-6052001599E1}|VeterinaryClinic.Entities\\VeterinaryClinic.Entities.csproj|solutionrelative:veterinaryclinic.entities\\concrete\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.api\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|solutionrelative:veterinaryclinic.api\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -270,7 +270,7 @@
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Animals\\Animals.cshtml",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\Animals.cshtml",
               "RelativeToolTip": "VeterinaryClinic.UI\\Pages\\Animals\\Animals.cshtml",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAQwLkAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAAL8AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-06-02T17:02:18.329Z",
               "IsPinned": true,
@@ -290,33 +290,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EditAnimals.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\EditAnimals.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Animals\\EditAnimals.cshtml.cs",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\EditAnimals.cshtml.cs",
               "RelativeToolTip": "VeterinaryClinic.UI\\Pages\\Animals\\EditAnimals.cshtml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwEUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T16:22:43.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "AnimalsController.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
               "RelativeToolTip": "VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-28T05:45:01.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "EditAnimals.cshtml",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\EditAnimals.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Animals\\EditAnimals.cshtml",
@@ -329,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "_DashboardLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Shared\\_DashboardLayout.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Shared\\_DashboardLayout.cshtml",
@@ -348,9 +348,10 @@
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Logs\\clinic-log-20260606.txt",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Logs\\clinic-log-20260606.txt",
               "RelativeToolTip": "VeterinaryClinic.API\\Logs\\clinic-log-20260606.txt",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAAALsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKAAAAAAAAAAAABBwLsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-06-06T11:27:36.109Z"
+              "WhenOpened": "2026-06-06T11:27:36.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -362,7 +363,8 @@
               "RelativeToolTip": "VeterinaryClinic.API\\Controllers\\TreatmentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:49:39.146Z"
+              "WhenOpened": "2026-05-26T18:49:39.146Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -374,7 +376,8 @@
               "RelativeToolTip": "VeterinaryClinic.UI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T18:54:34.439Z"
+              "WhenOpened": "2026-06-01T18:54:34.439Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -386,7 +389,8 @@
               "RelativeToolTip": "VeterinaryClinic.API\\Controllers\\BaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T17:31:30.209Z"
+              "WhenOpened": "2026-06-04T17:31:30.209Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -398,7 +402,8 @@
               "RelativeToolTip": "VeterinaryClinic.Business\\Concrete\\AnimalManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:10:40.989Z"
+              "WhenOpened": "2026-05-28T05:10:40.989Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -410,7 +415,8 @@
               "RelativeToolTip": "VeterinaryClinic.API\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T17:49:36.851Z"
+              "WhenOpened": "2026-06-04T17:49:36.851Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -420,9 +426,10 @@
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\wwwroot\\demo.plainadmin.com\\form-validation.html",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\wwwroot\\demo.plainadmin.com\\form-validation.html",
               "RelativeToolTip": "VeterinaryClinic.UI\\wwwroot\\demo.plainadmin.com\\form-validation.html",
-              "ViewState": "AgIAAOgCAAAAAAAAAAAAAO8CAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAOQCAAAAAAAAAABRwO8CAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-06-06T13:59:24.001Z"
+              "WhenOpened": "2026-06-06T13:59:24.001Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -434,7 +441,8 @@
               "RelativeToolTip": "VeterinaryClinic.API\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T12:10:32.702Z"
+              "WhenOpened": "2026-05-24T12:10:32.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -446,7 +454,8 @@
               "RelativeToolTip": "VeterinaryClinic.API\\Controllers\\AppointmentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T17:49:05.413Z"
+              "WhenOpened": "2026-06-04T17:49:05.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -456,9 +465,10 @@
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "VeterinaryClinic.API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T16:56:01.94Z"
+              "WhenOpened": "2026-06-03T16:56:01.94Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -470,7 +480,8 @@
               "RelativeToolTip": "VeterinaryClinic.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-24T11:40:43.293Z"
+              "WhenOpened": "2026-05-24T11:40:43.293Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -482,7 +493,8 @@
               "RelativeToolTip": "VeterinaryClinic.Business\\Configuration\\JwtSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T11:47:10.109Z"
+              "WhenOpened": "2026-05-24T11:47:10.109Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -492,9 +504,10 @@
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Logs\\clinic-log-20260604.txt",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Logs\\clinic-log-20260604.txt",
               "RelativeToolTip": "VeterinaryClinic.API\\Logs\\clinic-log-20260604.txt",
-              "ViewState": "AgIAABIEAAAAAAAAAAAAACkEAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAEAAAAAAAAAABBwCkEAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-06-04T19:37:08.754Z"
+              "WhenOpened": "2026-06-04T19:37:08.754Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -506,7 +519,8 @@
               "RelativeToolTip": "VeterinaryClinic.API\\VeterinaryClinic.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-04T19:37:55.923Z"
+              "WhenOpened": "2026-06-04T19:37:55.923Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -516,9 +530,10 @@
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Logs\\clinic-log-20260603.txt",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Logs\\clinic-log-20260603.txt",
               "RelativeToolTip": "VeterinaryClinic.API\\Logs\\clinic-log-20260603.txt",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAACJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAABBwDEAAACJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-06-03T20:55:26.917Z"
+              "WhenOpened": "2026-06-03T20:55:26.917Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -530,7 +545,8 @@
               "RelativeToolTip": "VeterinaryClinic.Business\\Concrete\\TokenManager.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAiwCsAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T14:03:14.086Z"
+              "WhenOpened": "2026-05-24T14:03:14.086Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -542,7 +558,8 @@
               "RelativeToolTip": "VeterinaryClinic.Entities\\Models\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T19:47:04.826Z"
+              "WhenOpened": "2026-05-25T19:47:04.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -554,7 +571,8 @@
               "RelativeToolTip": "VeterinaryClinic.Entities\\Models\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T19:49:27.014Z"
+              "WhenOpened": "2026-05-25T19:49:27.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -566,7 +584,8 @@
               "RelativeToolTip": "VeterinaryClinic.UI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-03T19:31:33.374Z"
+              "WhenOpened": "2026-06-03T19:31:33.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -578,7 +597,8 @@
               "RelativeToolTip": "VeterinaryClinic.Entities\\Models\\WeatherDto.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T18:46:12.036Z"
+              "WhenOpened": "2026-06-03T18:46:12.036Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -590,7 +610,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\PaymentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:03:55.471Z"
+              "WhenOpened": "2026-05-28T05:03:55.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -602,7 +623,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\GenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:40:27.674Z"
+              "WhenOpened": "2026-05-26T18:40:27.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -614,7 +636,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\TreatmentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:07:16.811Z"
+              "WhenOpened": "2026-05-28T05:07:16.811Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -624,9 +647,10 @@
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\AnimalRepository.cs",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Concrete\\Repositories\\AnimalRepository.cs",
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\AnimalRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA6wBIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T19:00:02.313Z"
+              "WhenOpened": "2026-05-26T19:00:02.313Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -638,7 +662,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:08:50.15Z"
+              "WhenOpened": "2026-05-28T05:08:50.15Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -650,7 +675,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\Abstract\\ITreatmentDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:40:53.711Z"
+              "WhenOpened": "2026-05-26T18:40:53.711Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -662,7 +688,8 @@
               "RelativeToolTip": "VeterinaryClinic.Entities\\Concrete\\WeatherInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T17:58:24.504Z"
+              "WhenOpened": "2026-06-03T17:58:24.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -674,7 +701,8 @@
               "RelativeToolTip": "VeterinaryClinic.Business\\Concrete\\PaymentManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:36:06.063Z"
+              "WhenOpened": "2026-05-28T05:36:06.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -686,7 +714,8 @@
               "RelativeToolTip": "VeterinaryClinic.UI\\Pages\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-02T17:35:55.651Z"
+              "WhenOpened": "2026-06-02T17:35:55.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -698,7 +727,8 @@
               "RelativeToolTip": "VeterinaryClinic.UI\\Pages\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T18:52:22.478Z"
+              "WhenOpened": "2026-06-01T18:52:22.478Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -708,9 +738,10 @@
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Login.cshtml",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Login.cshtml",
               "RelativeToolTip": "VeterinaryClinic.UI\\Pages\\Login.cshtml",
-              "ViewState": "AgIAAD4AAAAAAAAAAEBlwGUAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAOBvwGUAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-01T18:23:29.883Z"
+              "WhenOpened": "2026-06-01T18:23:29.883Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -722,7 +753,8 @@
               "RelativeToolTip": "VeterinaryClinic.UI\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-01T20:06:02.977Z"
+              "WhenOpened": "2026-06-01T20:06:02.977Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -734,7 +766,8 @@
               "RelativeToolTip": "VeterinaryClinic.Business\\Abstract\\ITreatmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:18:50.033Z"
+              "WhenOpened": "2026-05-26T18:18:50.033Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -746,7 +779,8 @@
               "RelativeToolTip": "VeterinaryClinic.Business\\Abstract\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T09:53:13.12Z"
+              "WhenOpened": "2026-05-24T09:53:13.12Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -758,7 +792,8 @@
               "RelativeToolTip": "VeterinaryClinic.Business\\Concrete\\TreatmentManager.cs",
               "ViewState": "AgIAAB8AAADAzMzMzMwUwBYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:28:21.217Z"
+              "WhenOpened": "2026-05-26T18:28:21.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -770,7 +805,8 @@
               "RelativeToolTip": "VeterinaryClinic.Business\\Abstract\\IPaymentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:11:37.997Z"
+              "WhenOpened": "2026-05-28T05:11:37.997Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -782,7 +818,8 @@
               "RelativeToolTip": "VeterinaryClinic.Business\\Abstract\\IAppointmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:11:36.085Z"
+              "WhenOpened": "2026-05-28T05:11:36.085Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -794,7 +831,8 @@
               "RelativeToolTip": "VeterinaryClinic.Business\\Abstract\\IAnimalService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:11:15.466Z"
+              "WhenOpened": "2026-05-28T05:11:15.466Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -806,7 +844,8 @@
               "RelativeToolTip": "VeterinaryClinic.Business\\Abstract\\ITokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T14:00:09.737Z"
+              "WhenOpened": "2026-05-24T14:00:09.737Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -818,7 +857,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\AppointmentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAIBZwAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:40:28.634Z"
+              "WhenOpened": "2026-05-26T18:40:28.634Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -830,7 +870,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\Abstract\\IGenericRepository.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAmwBsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:35:18.17Z"
+              "WhenOpened": "2026-05-26T18:35:18.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -842,7 +883,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\Abstract\\IAnimalDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T04:50:30.389Z"
+              "WhenOpened": "2026-05-28T04:50:30.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -854,7 +896,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\Abstract\\IAppointmentDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:41:07.184Z"
+              "WhenOpened": "2026-05-26T18:41:07.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -866,7 +909,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\EntityFramework\\EfPaymentDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:40:47.087Z"
+              "WhenOpened": "2026-05-26T18:40:47.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -878,7 +922,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\EntityFramework\\EfAnimalDal.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:40:42.922Z"
+              "WhenOpened": "2026-05-26T18:40:42.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -890,7 +935,8 @@
               "RelativeToolTip": "VeterinaryClinic.DataAccess\\Concrete\\Context.cs",
               "ViewState": "AgIAABgAAABgZmZmZmYmwBUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T15:02:07.021Z"
+              "WhenOpened": "2026-05-25T15:02:07.021Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -902,17 +948,18 @@
               "RelativeToolTip": "VeterinaryClinic.Entities\\Concrete\\User.cs",
               "ViewState": "AgIAAAMAAABgZmZmZmYkwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T14:55:27.842Z"
+              "WhenOpened": "2026-05-25T14:55:27.842Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Animal.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Entities\\Concrete\\Animal.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Entities\\Concrete\\Animal.cs",
@@ -938,33 +985,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AnimalDto.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Entities\\Models\\AnimalDto.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Entities\\Models\\AnimalDto.cs",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Entities\\Models\\AnimalDto.cs",
               "RelativeToolTip": "VeterinaryClinic.Entities\\Models\\AnimalDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T14:55:38.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Animals.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\Animals.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Animals\\Animals.cshtml.cs",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\Animals.cshtml.cs",
               "RelativeToolTip": "VeterinaryClinic.UI\\Pages\\Animals\\Animals.cshtml.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAcwAwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA4wD4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-02T18:10:17.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AddAnimals.cshtml",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml",
@@ -977,13 +1024,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "AddAnimals.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
               "RelativeToolTip": "VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCMAAABmAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA6wCMAAABmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T15:51:42.794Z",
               "EditorCaption": ""
