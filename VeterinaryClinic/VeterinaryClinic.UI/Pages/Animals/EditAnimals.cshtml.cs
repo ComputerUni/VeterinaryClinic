@@ -7,11 +7,11 @@ using VeterinaryClinic.Entities.Models;
 
 namespace VeterinaryClinic.UI.Pages.Animals
 {
-    public class AddAnimalsModel : PageModel
+    public class EditAnimalsModel : PageModel
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
-        public AddAnimalsModel(IHttpClientFactory httpClientFactory)
+        public EditAnimalsModel(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
@@ -19,40 +19,60 @@ namespace VeterinaryClinic.UI.Pages.Animals
         [BindProperty]
         public AnimalDto Animal { get; set; }
 
-        public async Task<IActionResult> OnPostAsync()
+        public async Task<IActionResult> OnGetAsync(int id)
         {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
-
             var client = _httpClientFactory.CreateClient();
             var token = Request.Cookies["JwtToken"];
+
             if (!string.IsNullOrEmpty(token))
             {
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             }
 
-            var response = await client.PostAsJsonAsync("https://localhost:7037/api/animals", Animal);
+            var response = await client.GetAsync($"https://localhost:7037/api/animals/{id}");
 
             if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
-
                 var options = new JsonSerializerOptions
                 {
                     PropertyNameCaseInsensitive = true
                 };
 
                 Animal = JsonSerializer.Deserialize<AnimalDto>(content, options) ?? new AnimalDto();
-                return RedirectToPage("/Animals/Animals");
+                return Page();
+            }
+            else
+            {
+                Animal = new AnimalDto();
+            }
+            return Page();   
+        }
 
+
+        public async Task<IActionResult> OnPostAsync()
+        {
+            var client = _httpClientFactory.CreateClient();
+            var token = Request.Cookies["JwtToken"];
+
+            if (!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var response = await client.PutAsJsonAsync("https://localhost:7037/api/animals" + "/" + Animal.Id, Animal);
+
+            if (response.IsSuccessStatusCode)
+            {               
+                return RedirectToPage("/Animals/Animals");
             }
             else
             {
                 Animal = new AnimalDto();
             }
             return Page();
+
+
         }
     }
 }

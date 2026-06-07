@@ -22,16 +22,14 @@ namespace VeterinaryClinic.API.Controllers
         {
             try
             {
-                // 🎯 Burası tetiklendiğinde hata veriyorsa catch bloguna düşecek
                 var result = await _animalService.GetListAsync();
                 return Ok(result);
             }
             catch (Exception ex)
             {
-                // 🚨 Sinsi hatayı maskelemeyi bırak, ekrana neyse yazdır!
                 return Ok(new
                 {
-                    Error = "Arka planda sinsi bir hata oluştu!",
+                    Error = "Hata oluştu!",
                     Message = ex.Message,
                     InnerException = ex.InnerException?.Message,
                     Details = ex.StackTrace

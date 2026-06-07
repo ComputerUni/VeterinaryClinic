@@ -1,9 +1,8 @@
 ﻿@page
-@model VeterinaryClinic.UI.Pages.Animals.AddAnimalsModel
+@model VeterinaryClinic.UI.Pages.Animals.EditAnimalsModel
 @{
     Layout = "~/Pages/Shared/_DashboardLayout.cshtml";
 }
-
 
 <div class="container p-4">
     <div class="form-layout-wrapper">
@@ -14,8 +13,9 @@
                     <p class="text-sm mb-25">
                         Yeni hayvan kaydınızı bu kısımdan ekleyiniz.
                     </p>
-                    <form asp-controller="Animals" asp-action="AddAnimals" method="post" class="row needs-validation" novalidate="">
+                    <form asp-page="/Animals/EditAnimals" method="post" class="row needs-validation" novalidate="">
                         <div class="row">
+                            <input type="hidden" asp-for="Animal.Id" />
                             <div class="col-md-6">
                                 <div class="input-style-1">
                                     <label asp-for="Animal.OwnerId" class="form-label">
@@ -36,7 +36,7 @@
                                 </div>
                             </div>
                         </div>
-                       
+
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="input-style-1">

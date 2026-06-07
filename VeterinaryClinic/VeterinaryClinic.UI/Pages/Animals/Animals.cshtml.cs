@@ -6,6 +6,7 @@ using VeterinaryClinic.Business.Concrete;
 using VeterinaryClinic.DataAccess.EntityFramework;
 using VeterinaryClinic.Entities.Concrete;
 using VeterinaryClinic.Entities.Models;
+using System.Text;
 
 namespace VeterinaryClinic.UI.Pages.Animals
 {
@@ -19,6 +20,10 @@ namespace VeterinaryClinic.UI.Pages.Animals
         }
 
         public List<Animal> AnimalList { get; set; } = new List<Animal>();
+
+        [BindProperty]
+        public AnimalDto Animal { get; set; }
+
         public WeatherDto Weather { get; set; } 
 
         public async Task<IActionResult> OnGetAsync()
@@ -66,5 +71,6 @@ namespace VeterinaryClinic.UI.Pages.Animals
 
             return Page();
         }
+
     }
 }
