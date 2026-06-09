@@ -49,7 +49,7 @@ namespace VeterinaryClinic.UI.Pages.Animals
                 };
 
                 AnimalList = JsonSerializer.Deserialize<List<Animal>>(content, options) ?? new List<Animal>();
-                PagedAnimalList = AnimalList.ToPagedList(pageNumber, 2);
+                PagedAnimalList = AnimalList.ToPagedList(pageNumber, 5);
             }
             else
             {

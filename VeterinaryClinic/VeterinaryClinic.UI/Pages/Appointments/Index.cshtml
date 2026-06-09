@@ -1,5 +1,6 @@
 ﻿@page
 @model VeterinaryClinic.UI.Pages.Appointments.IndexModel
+@using VeterinaryClinic.Entities.Status
 @{
     Layout = "~/Pages/Shared/_DashboardLayout.cshtml";
 }
@@ -55,8 +56,8 @@
                     <i class="lni lni-timer"></i>
                 </div>
                 <div class="content">
-                    <h6 class="mb-10">Toplam Tedavi Süresi</h6>
-                    <h3 class="text-bold mb-10">@(Model.AppointmentList != null ? Model.AppointmentList.Count() : 0)</h3>
+                    <h6 class="mb-10">Bekleyen Tedaviler</h6>
+                    <h3 class="text-bold mb-10">@(Model.AppointmentList != null ? Model.AppointmentList.Count(a => a.Status == AppointmentStatus.Scheduled) : 0)</h3>
                 </div>
             </div>
         </div>
@@ -70,15 +71,29 @@
                     <i class="lni lni-ruler"></i>
                 </div>
                 <div class="content">
-                    <h6 class="mb-10">Hayvanların Boy Ortalaması</h6>
-                    <h3 class="text-bold mb-10">@(Model.AppointmentList != null ? Model.AppointmentList.Count() : 0)</h3>
+                    <h6 class="mb-10">Kabul Edilen Tedaviler</h6>
+                    <h3 class="text-bold mb-10">@(Model.AppointmentList != null ? Model.AppointmentList.Count(a => a.Status == AppointmentStatus.Completed) : 0)</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Icon Cart -->
+    </div>
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+        <div class="icon-card icon-card-2 mb-30">
+            <div class="d-flex align-items-center">
+                <div class="icon primary">
+                    <i class="lni lni-ruler"></i>
+                </div>
+                <div class="content">
+                    <h6 class="mb-10">İptal Edilen Tedaviler</h6>
+                    <h3 class="text-bold mb-10">@(Model.AppointmentList != null ? Model.AppointmentList.Count(a => a.Status == AppointmentStatus.Cancelled) : 0)</h3>
                 </div>
             </div>
         </div>
         <!-- End Icon Cart -->
     </div>
     <!-- End Col -->
-    <div class="col-xl-3 col-lg-4 col-sm-6">
+    @* <div class="col-xl-3 col-lg-4 col-sm-6">
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon orange">
@@ -91,7 +106,7 @@
             </div>
         </div>
         <!-- End Icon Cart -->
-    </div>
+    </div> *@
     <!-- End Col -->
 </div>
 <!-- End Row -->
@@ -116,78 +131,66 @@
                 <table class="table lead-table">
                     <thead>
                         <tr>
-                            <th class="image">
-                                <h6>#</h6>
-                            </th>
-                            <th class="id">
-                                <h6>Animal Id</h6>
-                            </th>
-                            <th class="date">
-                                <h6>Tarih</h6>
-                            </th>
-                            <th class="time">
-                                <h6>Saat</h6>
-                            </th>
-                            <th class="status">
-                                <h6>Durum</h6>
-                            </th>
-                            <th class="notes">
-                                <h6>Notlar</h6>
-                            </th>
+                            <th class="image"><h6>#</h6></th>
+                            <th class="id"><h6>Animal Id</h6></th>
+                            <th class="date"><h6>Tarih</h6></th>
+                            <th class="time"><h6>Saat</h6></th>
+                            <th class="status"><h6>Durum</h6></th>
+                            <th class="notes"><h6>Notlar</h6></th>
+                            <th class="transactions"><h6>İşlemler</h6></th>
                         </tr>
-                        <!-- end table row-->
                     </thead>
                     <tbody>
                         @foreach (var appointment in Model.PagedAppointmentList)
                         {
                             <tr>
-                                <td>
+                                <td class="image">
                                     <p>@appointment.Id</p>
                                 </td>
-                                <td>
+                                <td class="id">
                                     <p>@appointment.AnimalId</p>
                                 </td>
-                                <td>
+                                <td class="date">
                                     <p>@appointment.Date</p>
                                 </td>
-                                <td>
+                                <td class="time">
                                     <p>@appointment.Time</p>
                                 </td>
-                                <td>
+                                <td class="status">
                                     <p>@appointment.Status</p>
                                 </td>
-                                <td>
+                                <td class="notes">
                                     <p>@appointment.Notes</p>
                                 </td>
-                                <td>
-                                    <div>
-                                        <a class="btn btn-primary" asp-page="/Animals/EditAppointments" asp-route-id="@appointment.Id"><i class="fa-solid fa-pencil"></i></a>
-                                        @* <form asp-page="/Animals/Animals" asp-page-handler="Delete" asp-route-id="@animal.Id" method="post" style="display:inline;">
-                                            <button type="submit" class="btn btn-danger" onclick="return confirm('@animal.Name adlı hayvanı silmek istediğinize emin misiniz?')">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </form> *@
+                                <td class="transactions">
+                                    <div class="action-buttons">
+                                        <a class="btn btn-primary btn-sm" asp-page="/Appointments/EditAppointment" asp-route-id="@appointment.Id">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        @* <form asp-page="/Animals/Animals" asp-page-handler="Delete" asp-route-id="@appointment.AnimalId" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Silmek istediğinize emin misiniz?')">
+                                    <i class="fa-solid fa-trash"></i>
+                                </button>
+                            </form> *@
                                     </div>
                                 </td>
                             </tr>
                         }
                     </tbody>
                 </table>
-                <!-- end table -->
-
             </div>
         </div>
         <!-- end card -->
     </div>
-    @* <div class="row mt-3 mb-3">
-        @for (int i = 1; i <= Model.PagedAnimalList.PageCount; i++)
+    <div class="row mt-3 mb-3">
+        @for (int i = 1; i <= Model.PagedAppointmentList.PageCount; i++)
         {
             <div class="col-auto">
-                <a asp-page="/Animals/Animals" asp-route-pageNumber="@i" class="btn @(i == Model.PagedAnimalList.PageNumber ? "btn-primary" : "btn-outlined-primary") row">@i</a>
+                <a asp-page="/Appointments/Index" asp-route-pageNumber="@i" class="btn @(i == Model.PagedAppointmentList.PageNumber ? "btn-warning" : "btn-outlined-warning") row">@i</a>
             </div>
 
         }
-    </div> *@
+    </div>
 
 </div>
 <!-- End Row -->
