@@ -147,6 +147,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentsController",
+    "Method": "TestUnitOfWork",
+    "RelativePath": "api/appointments/test-uow",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appointment",
+        "Type": "VeterinaryClinic.Entities.Concrete.Appointment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VeterinaryClinic.API.Controllers.WeatherForecastController",
     "Method": "GetWeatherByCity",
     "RelativePath": "api/external/weather/city/{city_name}",

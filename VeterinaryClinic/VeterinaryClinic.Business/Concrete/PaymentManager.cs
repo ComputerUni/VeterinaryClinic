@@ -11,11 +11,11 @@ namespace VeterinaryClinic.Business.Concrete
 {
     public class PaymentManager : IPaymentService
     {
-        IPaymentDal _paymentDal;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public PaymentManager(IPaymentDal paymentDal)
+        public PaymentManager(IUnitOfWork unitOfWork)
         {
-            _paymentDal = paymentDal;
+            _unitOfWork = unitOfWork;
         }
 
         public Task CalculateTotalAmountAsync(Payment payment)
@@ -25,18 +25,20 @@ namespace VeterinaryClinic.Business.Concrete
 
         public async Task<List<Payment>> GetListAsync()
         {
-            return await _paymentDal.ListAsync();
+            return await _unitOfWork.Payments.ListAsync();
         }
 
         public async Task<Payment> PaymentAddAsync(Payment payment)
         {
-            await _paymentDal.InsertAsync(payment);
+            await _unitOfWork.Payments.InsertAsync(payment);
+            await _unitOfWork.SaveAsync();
             return payment;
         }
 
         public async Task PaymentUpdateAsync(Payment payment)
         {
-            await _paymentDal.UpdateAsync(payment);
+            await _unitOfWork.Payments.UpdateAsync(payment);
+            await _unitOfWork.SaveAsync();
         }
     }
 }

@@ -120,6 +120,7 @@ builder.Services.AddScoped<IAppointmentDal, EfAppointmentDal>();
 builder.Services.AddScoped<IPaymentDal, EfPaymentDal>();
 builder.Services.AddScoped<ITreatmentDal, EfTreatmentDal>();
 builder.Services.AddScoped<IUserDal, EfUserDal>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 //Business
 builder.Services.AddScoped<IAnimalService, AnimalManager>();

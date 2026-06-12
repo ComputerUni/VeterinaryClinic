@@ -38,7 +38,7 @@ namespace VeterinaryClinic.API.Controllers
         [HttpPost]
         public async Task<IActionResult> AddAppointment([FromBody] Appointment appointment)
         {
-            if(appointment == null)
+            if (appointment == null)
             {
                 return BadRequest("Randevu verisi boş olamaz");
             }
@@ -67,6 +67,20 @@ namespace VeterinaryClinic.API.Controllers
             }
             await _appointmentService.AppointmentCancelAsync(appointment);
             return Ok("Randevu başarıyla iptal edildi");
+        }
+
+        [HttpPost("test-uow")]
+        public async Task<IActionResult> TestUnitOfWork([FromBody] Appointment appointment)
+        {
+            try
+            {
+                var result = await _appointmentService.UnitOfWorkTestMetodu(appointment);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { Mesaj = "Hata yakalandı", Detay = ex.Message });
+            }
         }
 
     }

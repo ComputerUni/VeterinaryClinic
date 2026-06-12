@@ -11,43 +11,46 @@ namespace VeterinaryClinic.Business.Concrete
 {
     public class AnimalManager : IAnimalService
     {
-        IAnimalDal _animalDal;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public AnimalManager(IAnimalDal animalDal)
+        public AnimalManager(IUnitOfWork unitOfWork)
         {
-            _animalDal = animalDal;
+            _unitOfWork = unitOfWork;
         }
 
         public async Task<Animal> AnimalAddAsync(Animal animal)
         {
-            await _animalDal.InsertAsync(animal);
+            await _unitOfWork.Animals.InsertAsync(animal);
+            await _unitOfWork.SaveAsync();
             return animal;
         }
 
         public async Task AnimalDeleteAsync(int id)
         {
-            var deletedAnimal = await _animalDal.GetAsync(a => a.Id == id);
+            var deletedAnimal = await _unitOfWork.Animals.GetAsync(a => a.Id == id);
             if(deletedAnimal != null)
             {
-                await _animalDal.DeleteAsync(deletedAnimal);
+                await _unitOfWork.Animals.DeleteAsync(deletedAnimal);
+                await _unitOfWork.SaveAsync();
             }
             
         }
 
         public async Task AnimalUpdateAsync(Animal animal)
         {
-            await _animalDal.UpdateAsync(animal);
+            await _unitOfWork.Animals.UpdateAsync(animal);
+            await _unitOfWork.SaveAsync();
         }
 
         public async Task<Animal> GetByIDAsync(int id)
         {
-            var result = await _animalDal.GetAsync(x => x.Id == id);
+            var result = await _unitOfWork.Animals.GetAsync(x => x.Id == id);
             return result;
         }
 
         public async Task<List<Animal>> GetListAsync()
         {
-            return await _animalDal.ListAsync();
+            return await _unitOfWork.Animals.ListAsync();
         }
     }
 }

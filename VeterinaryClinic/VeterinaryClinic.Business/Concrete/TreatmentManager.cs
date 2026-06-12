@@ -11,11 +11,11 @@ namespace VeterinaryClinic.Business.Concrete
 {
     public class TreatmentManager : ITreatmentService
     {
-        ITreatmentDal _treatmentDal;
+        private readonly IUnitOfWork _unitOfWork;
 
-        public TreatmentManager(ITreatmentDal treatmentDal)
+        public TreatmentManager(IUnitOfWork unitOfWork)
         {
-            _treatmentDal = treatmentDal;
+            _unitOfWork = unitOfWork;
         }
 
         public Task CalculateTreatmentCost(Treatment treatment)
@@ -25,22 +25,24 @@ namespace VeterinaryClinic.Business.Concrete
 
         public async Task<List<Treatment>> GetList()
         {
-            return await _treatmentDal.ListAsync();
+            return await _unitOfWork.Treatments.ListAsync();
         }
 
         public async Task<Treatment> TreatmentAdd(Treatment treatment)
         {
-            await _treatmentDal.InsertAsync(treatment);
+            await _unitOfWork.Treatments.InsertAsync(treatment);
+            await _unitOfWork.SaveAsync();
             return treatment;
 
         }
 
         public async Task TreatmentDelete(int id)
         {
-            var deleteTreatment = await _treatmentDal.GetAsync(t => t.Id == id);
+            var deleteTreatment = await _unitOfWork.Treatments.GetAsync(t => t.Id == id);
             if(deleteTreatment != null)
             {
-                await _treatmentDal.DeleteAsync(deleteTreatment);
+                await _unitOfWork.Treatments.DeleteAsync(deleteTreatment);
+                await _unitOfWork.SaveAsync();
             }
 
         }

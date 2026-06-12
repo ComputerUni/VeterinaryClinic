@@ -59,6 +59,7 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\X.PagedList.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -157,4 +158,3 @@ C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\Veterinar
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\obj\Debug\net8.0\VeterinaryClinic.UI.pdb
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\obj\Debug\net8.0\VeterinaryClinic.UI.genruntimeconfig.cache
 C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\obj\Debug\net8.0\ref\VeterinaryClinic.UI.dll
-C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.UI\bin\Debug\net8.0\X.PagedList.dll

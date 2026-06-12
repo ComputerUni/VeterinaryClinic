@@ -3,5 +3,6 @@
   <Project Path="VeterinaryClinic.Business/VeterinaryClinic.Business.csproj" />
   <Project Path="VeterinaryClinic.DataAccess/VeterinaryClinic.DataAccess.csproj" />
   <Project Path="VeterinaryClinic.Entities/VeterinaryClinic.Entities.csproj" />
+  <Project Path="VeterinaryClinic.Test/VeterinaryClinic.Test.csproj" Id="0b13832b-8ad9-4446-b7ac-4f635a643ad3" />
   <Project Path="VeterinaryClinic.UI/VeterinaryClinic.UI.csproj" />
 </Solution>
