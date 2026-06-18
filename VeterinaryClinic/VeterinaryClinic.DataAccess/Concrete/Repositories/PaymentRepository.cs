@@ -15,37 +15,40 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
         private readonly Context _context;
         private readonly DbSet<Payment> _object;
 
+        public PaymentRepository(Context context)
+        {
+            _context = context;
+            _object = _context.Set<Payment>();
+        }
+
         public async Task DeleteAsync(Payment p)
         {
             _object.Remove(p);
-            _context.SaveChanges();
         }
 
         public async Task<Payment> GetAsync(Expression<Func<Payment, bool>> filter)
         {
-            return _object.SingleOrDefault(filter);
+            return await _object.SingleOrDefaultAsync(filter);
         }
 
         public async Task InsertAsync(Payment p)
         {
-            _object.Add(p);
-            _context.SaveChanges();
+            await _object.AddAsync(p);
         }
 
         public async Task <List<Payment>> ListAsync()
         {
-            return _object.ToList();
+            return await _object.ToListAsync();
         }
 
         public async Task <List<Payment>> ListAsync(Expression<Func<Payment, bool>> filter)
         {
-            return _object.Where(filter).ToList();
+            return await _object.Where(filter).ToListAsync();
         }
 
         public async Task UpdateAsync(Payment p)
         {
             _object.Update(p);
-            _context.SaveChanges();
         }
     }
 }

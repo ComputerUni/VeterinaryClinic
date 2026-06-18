@@ -14,20 +14,20 @@ namespace VeterinaryClinic.Business.Concrete
 {
     public class UserManager : IUserService
     {
-        private readonly IUserDal _userDal;
+        //private readonly IUserDal _userDal;
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
 
-        public UserManager(IUserDal userDal, UserManager<User> userManager, SignInManager<User> signInManager)
+        public UserManager(UserManager<User> userManager, SignInManager<User> signInManager)
         {
-            _userDal = userDal;
+            //_userDal = userDal;
             _userManager = userManager;
             _signInManager = signInManager;
         }
 
         public async Task<User> GetUserById(int id)
         {
-            return await _userDal.GetAsync(u => u.Id == id);
+            return await _userManager.FindByIdAsync(id.ToString());
         }
 
         public async Task<User> GetUserByUsername(string username)

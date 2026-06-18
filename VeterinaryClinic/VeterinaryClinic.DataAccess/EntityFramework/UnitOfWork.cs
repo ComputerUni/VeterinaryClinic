@@ -22,11 +22,19 @@ namespace VeterinaryClinic.DataAccess.EntityFramework
             _context = context;
         }
 
-        public IAnimalDal Animals { get; }
-        public IAppointmentDal Appointments { get; }
-        public IPaymentDal Payments { get; }
-        public ITreatmentDal Treatments { get; }
-        public IUserDal Users { get; }
+        //Alttaki lambda işaretiyle üstteki uzun get ifadesi aynı anlama geliyor. 
+        //public IAnimalDal Animals
+        //{
+        //    get
+        //    {
+        //        return _animalDal ??= new EfAnimalDal(_context);
+        //    }
+        //}
+        public IAnimalDal Animals => _animalDal ??= new EfAnimalDal(_context);
+        public IAppointmentDal Appointments => _appointmentDal ??= new EfAppointmentDal(_context);
+        public IPaymentDal Payments => _paymentDal ??= new EfPaymentDal(_context);
+        public ITreatmentDal Treatments => _treatmentDal ??= new EfTreatmentDal(_context);
+        public IUserDal Users => _userDal ??= new EfUserDal(_context);
 
 
         public async Task<int> SaveAsync()

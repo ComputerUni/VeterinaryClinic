@@ -15,37 +15,40 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
         private readonly Context _context;
         private readonly DbSet<Appointment> _object;
 
+        public AppointmentRepository(Context context)
+        {
+            _context = context;
+            _object = _context.Set<Appointment>();
+        }
+
         public async Task DeleteAsync(Appointment p)
         {
             _object.Remove(p);
-            _context.SaveChanges();
         }
 
         public async Task<Appointment> GetAsync(Expression<Func<Appointment, bool>> filter)
         {
-            return _object.SingleOrDefault(filter);
+            return await _object.SingleOrDefaultAsync(filter);
         }
 
         public async Task InsertAsync(Appointment p)
         {
-            _object.Add(p);
-            _context.SaveChanges();
+            await _object.AddAsync(p);
         }
 
         public async Task<List<Appointment>> ListAsync()
         {
-            return _object.ToList();
+            return await _object.ToListAsync();
         }
 
         public async Task<List<Appointment>> ListAsync(Expression<Func<Appointment, bool>> filter)
         {
-            return _object.Where(filter).ToList();
+            return await _object.Where(filter).ToListAsync();
         }
 
         public async Task UpdateAsync(Appointment p)
         {
             _object.Update(p);
-            _context.SaveChanges();
         }
     }
 }
