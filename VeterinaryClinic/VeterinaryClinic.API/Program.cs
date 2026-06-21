@@ -11,6 +11,7 @@ using VeterinaryClinic.DataAccess.Concrete;
 using VeterinaryClinic.DataAccess.EntityFramework;
 using VeterinaryClinic.Entities.Concrete;
 using Serilog;
+using System.Security.Claims;
 
 
 
@@ -89,6 +90,7 @@ builder.Services.AddAuthentication(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
+            RoleClaimType = ClaimTypes.Role,
             ValidateIssuer = true,
             ValidateAudience = true,
             ValidateLifetime = true,
@@ -98,6 +100,12 @@ builder.Services.AddAuthentication(options =>
             IssuerSigningKey = new SymmetricSecurityKey(key)
         };
     });
+
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Manager", policy => policy.RequireRole("Manager"));
+    options.AddPolicy("Customer", policy => policy.RequireRole("Customer"));
+});
 
 
 

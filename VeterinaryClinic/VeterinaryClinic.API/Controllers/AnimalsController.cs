@@ -49,6 +49,7 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> AddAnimal([FromBody] Animal animal)
         {
             if(animal == null)

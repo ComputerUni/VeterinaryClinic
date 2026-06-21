@@ -60,7 +60,7 @@ namespace VeterinaryClinic.Business.Concrete
 
             if (result.Succeeded)
             {
-                await _userManager.AddToRoleAsync(newUser, model.Role);
+                await _userManager.AddToRoleAsync(newUser, "Customer");
             }
 
             return result;
