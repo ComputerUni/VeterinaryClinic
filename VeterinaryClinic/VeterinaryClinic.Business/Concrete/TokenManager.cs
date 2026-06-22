@@ -33,37 +33,30 @@ namespace VeterinaryClinic.Business.Concrete
         {
             var userRoles = await _userManager.GetRolesAsync(user);
 
-            // 1. Tüm claimleri tek bir listede topla
-            var claims = new List<Claim>
-    {
-        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-        new Claim(ClaimTypes.Name, user.UserName),
-        new Claim(ClaimTypes.Email, user.Email)
-    };
-
-            // 2. Rolleri ekle (Doğrudan "role" anahtarıyla)
-            foreach (var role in userRoles)
-            {
-                claims.Add(new Claim("role", role));
-            }
-
-            // 3. Anahtarı ve kimlik bilgilerini oluştur
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Key));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            // 4. TokenDescriptor'ı oluştur
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = new ClaimsIdentity(claims), // <-- claims listesi burada paketleniyor!
-                Expires = DateTime.UtcNow.AddMinutes(_jwtSettings.ExpiresInMinutes),
-                Issuer = _jwtSettings.Issuer,
-                Audience = _jwtSettings.Audience,
-                SigningCredentials = creds
-            };
+            var payload = new JwtPayload(
+                issuer: _jwtSettings.Issuer,
+                audience: _jwtSettings.Audience,
+                claims: null,
+                notBefore: null,
+                expires: DateTime.UtcNow.AddMinutes(_jwtSettings.ExpiresInMinutes)
+            );
 
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            return tokenHandler.WriteToken(token);
+            payload["sub"] = user.Id.ToString();
+            payload["name"] = user.UserName;
+            payload["email"] = user.Email;
+
+            if (userRoles.Count == 1)
+                payload["role"] = userRoles[0];
+            else if (userRoles.Count > 1)
+                payload["role"] = userRoles;
+
+            var header = new JwtHeader(creds);
+            var token = new JwtSecurityToken(header, payload);
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
         }
     }
 }

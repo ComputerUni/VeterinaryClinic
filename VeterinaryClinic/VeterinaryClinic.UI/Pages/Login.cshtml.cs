@@ -49,9 +49,11 @@ namespace VeterinaryClinic.UI.Pages
                 });
 
                 var handler = new JwtSecurityTokenHandler();
+                handler.InboundClaimTypeMap.Clear();
                 var jwtToken = handler.ReadJwtToken(result.Token);
-                var identity = new ClaimsIdentity(jwtToken.Claims);
-                var role = identity.FindFirst("role")?.Value;
+
+                var role = jwtToken.Claims.FirstOrDefault(c => c.Type == "role"
+                || c.Type == ClaimTypes.Role)?.Value;
 
                 _logger.LogInformation("Giriş başarılı. Kullanıcı: {Username}, Rol: {Role}", LoginInput.Username, role);
                 var allClaims = string.Join(", ", jwtToken.Claims.Select(c => $"{c.Type}={c.Value}"));

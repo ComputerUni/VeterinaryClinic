@@ -90,7 +90,7 @@ builder.Services.AddAuthentication(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
         {
-            RoleClaimType = ClaimTypes.Role,
+            RoleClaimType = "role",
             ValidateIssuer = true,
             ValidateAudience = true,
             ValidateLifetime = true,
