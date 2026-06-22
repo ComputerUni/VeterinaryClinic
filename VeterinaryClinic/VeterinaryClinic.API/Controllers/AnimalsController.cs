@@ -61,6 +61,7 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> UpdateAnimal(int id, [FromBody] Animal animal)
         {
             if(id != animal.Id)

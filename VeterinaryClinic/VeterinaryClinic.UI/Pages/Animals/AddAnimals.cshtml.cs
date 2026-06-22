@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.IdentityModel.Tokens.Jwt;
 using System.Net.Http.Headers;
 using System.Text.Json;
 using VeterinaryClinic.Entities.Concrete;
@@ -18,6 +19,28 @@ namespace VeterinaryClinic.UI.Pages.Animals
 
         [BindProperty]
         public AnimalDto Animal { get; set; }
+
+        public async Task<IActionResult> OnGetAsync()
+        {
+            var token = Request.Cookies["JwtToken"];
+            if(string.IsNullOrEmpty(token))
+            {
+                return RedirectToPage("/Login");
+            }
+
+            var handler = new JwtSecurityTokenHandler();
+            var jwtToken = handler.ReadJwtToken(token);
+            var role = jwtToken.Claims.FirstOrDefault(c =>
+                c.Type.Equals("role", StringComparison.OrdinalIgnoreCase) ||
+                c.Type.EndsWith("/role", StringComparison.OrdinalIgnoreCase))?.Value;
+
+            if (role != "Manager")
+            {
+                return RedirectToPage("/Login");
+            }
+
+            return Page();
+        }
 
         public async Task<IActionResult> OnPostAsync()
         {
@@ -52,6 +75,7 @@ namespace VeterinaryClinic.UI.Pages.Animals
             {
                 Animal = new AnimalDto();
             }
+
             return Page();
         }
     }

@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{EAADAC7A-EDC6-8876-7AAB-EB49E79A1D05}|VeterinaryClinic.Business\\VeterinaryClinic.Business.csproj|solutionrelative:veterinaryclinic.business\\concrete\\tokenmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.api\\logs\\clinic-log-20260622.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|solutionrelative:veterinaryclinic.api\\logs\\clinic-log-20260622.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.api\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|solutionrelative:veterinaryclinic.api\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\animals\\addanimals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\animals\\addanimals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|solutionrelative:veterinaryclinic.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|solutionrelative:veterinaryclinic.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAADAC7A-EDC6-8876-7AAB-EB49E79A1D05}|VeterinaryClinic.Business\\VeterinaryClinic.Business.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,48 +35,8 @@
       "RelativeMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|solutionrelative:veterinaryclinic.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|solutionrelative:veterinaryclinic.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44EED082-1137-02A9-DE0F-B4DE1AB74490}|VeterinaryClinic.DataAccess\\VeterinaryClinic.DataAccess.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.dataaccess\\concrete\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44EED082-1137-02A9-DE0F-B4DE1AB74490}|VeterinaryClinic.DataAccess\\VeterinaryClinic.DataAccess.csproj|solutionrelative:veterinaryclinic.dataaccess\\concrete\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EAADAC7A-EDC6-8876-7AAB-EB49E79A1D05}|VeterinaryClinic.Business\\VeterinaryClinic.Business.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.business\\abstract\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAADAC7A-EDC6-8876-7AAB-EB49E79A1D05}|VeterinaryClinic.Business\\VeterinaryClinic.Business.csproj|solutionrelative:veterinaryclinic.business\\abstract\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|solutionrelative:veterinaryclinic.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.api\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01463F7F-8F9D-44A2-A31F-52901D18A53C}|VeterinaryClinic.API\\VeterinaryClinic.API.csproj|solutionrelative:veterinaryclinic.api\\controllers\\animalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44EED082-1137-02A9-DE0F-B4DE1AB74490}|VeterinaryClinic.DataAccess\\VeterinaryClinic.DataAccess.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.dataaccess\\concrete\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44EED082-1137-02A9-DE0F-B4DE1AB74490}|VeterinaryClinic.DataAccess\\VeterinaryClinic.DataAccess.csproj|solutionrelative:veterinaryclinic.dataaccess\\concrete\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44EED082-1137-02A9-DE0F-B4DE1AB74490}|VeterinaryClinic.DataAccess\\VeterinaryClinic.DataAccess.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.dataaccess\\abstract\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44EED082-1137-02A9-DE0F-B4DE1AB74490}|VeterinaryClinic.DataAccess\\VeterinaryClinic.DataAccess.csproj|solutionrelative:veterinaryclinic.dataaccess\\abstract\\iuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAADAC7A-EDC6-8876-7AAB-EB49E79A1D05}|VeterinaryClinic.Business\\VeterinaryClinic.Business.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAADAC7A-EDC6-8876-7AAB-EB49E79A1D05}|VeterinaryClinic.Business\\VeterinaryClinic.Business.csproj|solutionrelative:veterinaryclinic.business\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAADAC7A-EDC6-8876-7AAB-EB49E79A1D05}|VeterinaryClinic.Business\\VeterinaryClinic.Business.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.business\\abstract\\itreatmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAADAC7A-EDC6-8876-7AAB-EB49E79A1D05}|VeterinaryClinic.Business\\VeterinaryClinic.Business.csproj|solutionrelative:veterinaryclinic.business\\abstract\\itreatmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44EED082-1137-02A9-DE0F-B4DE1AB74490}|VeterinaryClinic.DataAccess\\VeterinaryClinic.DataAccess.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.dataaccess\\abstract\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44EED082-1137-02A9-DE0F-B4DE1AB74490}|VeterinaryClinic.DataAccess\\VeterinaryClinic.DataAccess.csproj|solutionrelative:veterinaryclinic.dataaccess\\abstract\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{457955A0-F1CF-13EA-D419-6052001599E1}|VeterinaryClinic.Entities\\VeterinaryClinic.Entities.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.entities\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{457955A0-F1CF-13EA-D419-6052001599E1}|VeterinaryClinic.Entities\\VeterinaryClinic.Entities.csproj|solutionrelative:veterinaryclinic.entities\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{457955A0-F1CF-13EA-D419-6052001599E1}|VeterinaryClinic.Entities\\VeterinaryClinic.Entities.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.entities\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\animals\\animals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\animals\\animals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\animals\\addanimals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|solutionrelative:veterinaryclinic.ui\\pages\\animals\\addanimals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D335073F-E6CE-B980-0783-18783ACD62D6}|VeterinaryClinic.UI\\VeterinaryClinic.UI.csproj|c:\\users\\burhan\\desktop\\veterinerklinikyonetimsistemi\\veterinaryclinic\\veterinaryclinic.ui\\pages\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -304,7 +268,7 @@
         },
         {
           "DockedWidth": 207,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -320,20 +284,68 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Program.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinic.API\\Program.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Program.cs",
+              "RelativeToolTip": "VeterinaryClinic.API\\Program.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAswLIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T12:10:32.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnimalsController.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
+              "RelativeToolTip": "VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-28T05:45:01.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddAnimals.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
+              "RelativeToolTip": "VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-21T11:59:13.346Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TokenManager.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Concrete\\TokenManager.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Concrete\\TokenManager.cs",
               "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Concrete\\TokenManager.cs",
               "RelativeToolTip": "VeterinaryClinic.Business\\Concrete\\TokenManager.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAwD0AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-24T14:03:14.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "VeterinaryClinic.API\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "VeterinaryClinic.API\\Controllers\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T21:36:45.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Login.cshtml.cs",
@@ -341,62 +353,11 @@
               "RelativeToolTip": "VeterinaryClinic.UI\\Pages\\Login.cshtml.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAcwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T11:53:47.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-21T11:53:47.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Program.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinic.API\\Program.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Program.cs",
-              "RelativeToolTip": "VeterinaryClinic.API\\Program.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAwFwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T12:10:32.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clinic-log-20260622.txt",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Logs\\clinic-log-20260622.txt",
-              "RelativeDocumentMoniker": "VeterinaryClinic.API\\Logs\\clinic-log-20260622.txt",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Logs\\clinic-log-20260622.txt",
-              "RelativeToolTip": "VeterinaryClinic.API\\Logs\\clinic-log-20260622.txt",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFcAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-06-22T18:35:41.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\appsettings.json",
-              "RelativeDocumentMoniker": "VeterinaryClinic.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\appsettings.json",
-              "RelativeToolTip": "VeterinaryClinic.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-24T11:40:43.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AnimalsController.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
-              "RelativeToolTip": "VeterinaryClinic.API\\Controllers\\AnimalsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:45:01.115Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Controllers\\UsersController.cs",
@@ -408,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UserManager.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Concrete\\UserManager.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Concrete\\UserManager.cs",
@@ -432,103 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Concrete\\Context.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Concrete\\Context.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Concrete\\Context.cs",
-              "RelativeToolTip": "VeterinaryClinic.DataAccess\\Concrete\\Context.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAcwCUAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T15:02:07.021Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinic.API\\Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "VeterinaryClinic.API\\Controllers\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-04T17:31:30.209Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Concrete\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Concrete\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-28T05:08:50.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Abstract\\IUserService.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Abstract\\IUserService.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Abstract\\IUserService.cs",
-              "RelativeToolTip": "VeterinaryClinic.Business\\Abstract\\IUserService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T09:53:13.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ITreatmentService.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Abstract\\ITreatmentService.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Abstract\\ITreatmentService.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Abstract\\ITreatmentService.cs",
-              "RelativeToolTip": "VeterinaryClinic.Business\\Abstract\\ITreatmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T18:18:50.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserDal.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Abstract\\IUserDal.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Abstract\\IUserDal.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Abstract\\IUserDal.cs",
-              "RelativeToolTip": "VeterinaryClinic.DataAccess\\Abstract\\IUserDal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T12:18:17.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Abstract\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Abstract\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Abstract\\IUnitOfWork.cs",
-              "RelativeToolTip": "VeterinaryClinic.DataAccess\\Abstract\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T19:42:32.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Entities\\Models\\RegisterDto.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinic.Entities\\Models\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Entities\\Models\\RegisterDto.cs",
-              "RelativeToolTip": "VeterinaryClinic.Entities\\Models\\RegisterDto.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T12:17:45.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Entities\\Models\\LoginDto.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Entities\\Models\\LoginDto.cs",
@@ -540,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 10,
               "Title": "JwtSettings.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Configuration\\JwtSettings.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Configuration\\JwtSettings.cs",
@@ -552,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 13,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Register.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Register.cshtml",
@@ -564,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 12,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Register.cshtml.cs",
@@ -576,19 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AddAnimals.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
-              "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
-              "ToolTip": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
-              "RelativeToolTip": "VeterinaryClinic.UI\\Pages\\Animals\\AddAnimals.cshtml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-21T11:59:13.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 11,
               "Title": "Animals.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Animals\\Animals.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Animals\\Animals.cshtml.cs",
@@ -600,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 14,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Entities\\Concrete\\User.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Entities\\Concrete\\User.cs",
@@ -612,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 15,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\EntityFramework\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\EntityFramework\\UnitOfWork.cs",
@@ -624,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 16,
               "Title": "AppointmentManager.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Concrete\\AppointmentManager.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Concrete\\AppointmentManager.cs",
@@ -636,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 17,
               "Title": "IAppointmentService.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Abstract\\IAppointmentService.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Abstract\\IAppointmentService.cs",
@@ -648,7 +501,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 18,
               "Title": "AppointmentsController.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\AppointmentsController.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Controllers\\AppointmentsController.cs",
@@ -660,7 +513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 21,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Concrete\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\GenericRepository.cs",
@@ -672,7 +525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 23,
               "Title": "AnimalRepository.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Concrete\\Repositories\\AnimalRepository.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\AnimalRepository.cs",
@@ -684,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 22,
               "Title": "AppointmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Concrete\\Repositories\\AppointmentRepository.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\AppointmentRepository.cs",
@@ -696,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 20,
               "Title": "PaymentRepository.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Concrete\\Repositories\\PaymentRepository.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\PaymentRepository.cs",
@@ -708,7 +561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 19,
               "Title": "TreatmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Concrete\\Repositories\\TreatmentRepository.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Concrete\\Repositories\\TreatmentRepository.cs",
@@ -720,7 +573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 24,
               "Title": "IPaymentDal.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Abstract\\IPaymentDal.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Abstract\\IPaymentDal.cs",
@@ -732,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 25,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Abstract\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Abstract\\IGenericRepository.cs",
@@ -744,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 26,
               "Title": "IAnimalDal.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Abstract\\IAnimalDal.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Abstract\\IAnimalDal.cs",
@@ -756,7 +609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 27,
               "Title": "IAnimalService.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Abstract\\IAnimalService.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Abstract\\IAnimalService.cs",
@@ -768,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 28,
               "Title": "TreatmentManager.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Concrete\\TreatmentManager.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Concrete\\TreatmentManager.cs",
@@ -780,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 30,
               "Title": "AnimalManager.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Concrete\\AnimalManager.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Concrete\\AnimalManager.cs",
@@ -792,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 29,
               "Title": "PaymentManager.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Concrete\\PaymentManager.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Concrete\\PaymentManager.cs",
@@ -804,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 31,
               "Title": "VeterinaryClinic.API.csproj",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\VeterinaryClinic.API.csproj",
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\VeterinaryClinic.API.csproj",
@@ -816,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 32,
               "Title": "EfTreatmentDal.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\EntityFramework\\EfTreatmentDal.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\EntityFramework\\EfTreatmentDal.cs",
@@ -828,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 33,
               "Title": "EfUserDal.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\EntityFramework\\EfUserDal.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\EntityFramework\\EfUserDal.cs",
@@ -840,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 35,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Test\\UnitTest1.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Test\\UnitTest1.cs",
@@ -852,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 39,
               "Title": "EditAppointment.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Appointments\\EditAppointment.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Appointments\\EditAppointment.cshtml.cs",
@@ -864,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 34,
               "Title": "EfPaymentDal.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\EntityFramework\\EfPaymentDal.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\EntityFramework\\EfPaymentDal.cs",
@@ -876,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 37,
               "Title": "EditAppointment.cshtml",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Appointments\\EditAppointment.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Appointments\\EditAppointment.cshtml",
@@ -888,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Appointments\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Appointments\\Index.cshtml.cs",
@@ -900,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 38,
               "Title": "AddAppointment.cshtml",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Appointments\\AddAppointment.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Appointments\\AddAppointment.cshtml",
@@ -912,7 +765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 40,
               "Title": "_DashboardLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Shared\\_DashboardLayout.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Shared\\_DashboardLayout.cshtml",
@@ -924,7 +777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 41,
               "Title": "AddAppointment.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Appointments\\AddAppointment.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Appointments\\AddAppointment.cshtml.cs",
@@ -936,7 +789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 44,
               "Title": "clinic-log-20260606.txt",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Logs\\clinic-log-20260606.txt",
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Logs\\clinic-log-20260606.txt",
@@ -948,7 +801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 45,
               "Title": "TreatmentsController.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\TreatmentsController.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Controllers\\TreatmentsController.cs",
@@ -960,7 +813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 43,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Program.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Program.cs",
@@ -972,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 42,
               "Title": "form-validation.html",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\wwwroot\\demo.plainadmin.com\\form-validation.html",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\wwwroot\\demo.plainadmin.com\\form-validation.html",
@@ -984,7 +837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 46,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Controllers\\WeatherForecastController.cs",
@@ -996,7 +849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 47,
               "Title": "clinic-log-20260604.txt",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Logs\\clinic-log-20260604.txt",
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Logs\\clinic-log-20260604.txt",
@@ -1008,7 +861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 48,
               "Title": "clinic-log-20260603.txt",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.API\\Logs\\clinic-log-20260603.txt",
               "RelativeDocumentMoniker": "VeterinaryClinic.API\\Logs\\clinic-log-20260603.txt",
@@ -1020,7 +873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 49,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\appsettings.json",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\appsettings.json",
@@ -1032,7 +885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 50,
               "Title": "WeatherDto.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Entities\\Models\\WeatherDto.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Entities\\Models\\WeatherDto.cs",
@@ -1044,7 +897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 51,
               "Title": "ITreatmentDal.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Abstract\\ITreatmentDal.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Abstract\\ITreatmentDal.cs",
@@ -1056,7 +909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 52,
               "Title": "WeatherInfo.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Entities\\Concrete\\WeatherInfo.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Entities\\Concrete\\WeatherInfo.cs",
@@ -1068,7 +921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 53,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\_ViewStart.cshtml",
@@ -1080,7 +933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 54,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Pages\\Index.cshtml.cs",
@@ -1092,7 +945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 55,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.UI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "VeterinaryClinic.UI\\Properties\\launchSettings.json",
@@ -1104,7 +957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 56,
               "Title": "IPaymentService.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.Business\\Abstract\\IPaymentService.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.Business\\Abstract\\IPaymentService.cs",
@@ -1116,7 +969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 57,
               "Title": "IAppointmentDal.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\Abstract\\IAppointmentDal.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\Abstract\\IAppointmentDal.cs",
@@ -1128,7 +981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 58,
               "Title": "EfAnimalDal.cs",
               "DocumentMoniker": "C:\\Users\\BURHAN\\Desktop\\VeterinerKlinikYonetimSistemi\\VeterinaryClinic\\VeterinaryClinic.DataAccess\\EntityFramework\\EfAnimalDal.cs",
               "RelativeDocumentMoniker": "VeterinaryClinic.DataAccess\\EntityFramework\\EfAnimalDal.cs",
