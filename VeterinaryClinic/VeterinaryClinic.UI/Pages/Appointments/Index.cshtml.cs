@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Net.Http.Headers;
@@ -8,6 +9,7 @@ using X.PagedList;
 
 namespace VeterinaryClinic.UI.Pages.Appointments
 {
+    [Authorize(Roles = "Manager")]
     public class IndexModel : PageModel
     {
         private readonly IHttpClientFactory _httpClientFactory;

@@ -48,6 +48,21 @@ namespace VeterinaryClinic.API.Controllers
             return Ok(result);
         }
 
+        [Authorize(Roles = "Customer")]
+        [HttpGet("my-animals")]
+        public async Task<IActionResult> GetMyAnimals()
+        {
+            var userIdClaim = User.FindFirst("sub")?.Value;
+            if(string.IsNullOrEmpty(userIdClaim))
+            {
+                return Unauthorized();
+            }
+            var ownerId = int.Parse(userIdClaim);
+            var result = await _animalService.GetAnimalsByOwnerIdAsync(ownerId);
+            return Ok(result);
+        }
+
+
         [HttpPost]
         [Authorize(Roles = "Manager")]
         public async Task<IActionResult> AddAnimal([FromBody] Animal animal)

@@ -18,10 +18,27 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> GetAll()
         {
             var result = await _appointmentService.GetListAsync();
             return Ok(result);
+        }
+
+        [HttpGet("my-appointments")]
+        [Authorize(Roles = "Customer")]
+        public async Task<IActionResult> GetMyAppointments()
+        {
+            var userIdClaim = User.FindFirst("sub")?.Value;
+            if (string.IsNullOrEmpty(userIdClaim))
+            {
+                return Unauthorized();
+            }
+
+            var ownerId = int.Parse(userIdClaim);
+            var result = await _appointmentService.GetByOwnerIdAsync(ownerId);
+            return Ok(result);
+
         }
 
         [HttpGet("{id}")]
@@ -36,6 +53,7 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Manager,Customer")]
         public async Task<IActionResult> AddAppointment([FromBody] Appointment appointment)
         {
             if (appointment == null)
@@ -48,6 +66,7 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> AppointmentUpdate(int id, [FromBody] Appointment appointment)
         {
             if (id != appointment.Id)
@@ -59,7 +78,8 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpPut("{id}/cancel")]
-        public async Task<IActionResult> AppointmentCancel(int id, Appointment appointment)
+        [Authorize(Roles = "Manager")]
+        public async Task<IActionResult> AppointmentCancel(int id, [FromBody] Appointment appointment)
         {
             if (id != appointment.Id)
             {

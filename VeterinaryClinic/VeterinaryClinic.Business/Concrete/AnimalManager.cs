@@ -52,5 +52,11 @@ namespace VeterinaryClinic.Business.Concrete
         {
             return await _unitOfWork.Animals.ListAsync();
         }
+
+        public async Task<List<Animal>> GetAnimalsByOwnerIdAsync(int ownerId)
+        {
+            return await _unitOfWork.Animals.ListAsync(a => a.OwnerId == ownerId);
+
+        }
     }
 }

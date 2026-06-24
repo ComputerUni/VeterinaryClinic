@@ -48,6 +48,14 @@ namespace VeterinaryClinic.Business.Concrete
             return await _unitOfWork.Appointments.GetAsync(x => x.Id == id);
         }
 
+        public async Task<List<Appointment>> GetByOwnerIdAsync(int ownerId)
+        {
+            var animals = await _unitOfWork.Animals.ListAsync(a => a.OwnerId == ownerId);
+            var animalIds = animals.Select(a => a.Id).ToList();
+            var appointments = await _unitOfWork.Appointments.ListAsync(a => animalIds.Contains(a.AnimalId));
+            return appointments;
+        }
+
         public async Task<List<Appointment>> GetListAsync()
         {
             return await _unitOfWork.Appointments.ListAsync();

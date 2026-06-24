@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.IdentityModel.Tokens.Jwt;
@@ -55,6 +57,27 @@ namespace VeterinaryClinic.UI.Pages
                 var role = jwtToken.Claims.FirstOrDefault(c => c.Type == "role"
                 || c.Type == ClaimTypes.Role)?.Value;
 
+                var sub = jwtToken.Claims.FirstOrDefault(c => c.Type == "sub" || c.Type == ClaimTypes.NameIdentifier)?.Value;
+
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.NameIdentifier, sub ?? ""),
+                    new Claim(ClaimTypes.Name, LoginInput.Username),
+                    new Claim(ClaimTypes.Role, role ?? "")
+                };
+
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                var claimsPrincipal = new ClaimsPrincipal(claimsIdentity);
+
+                await HttpContext.SignInAsync(
+                    CookieAuthenticationDefaults.AuthenticationScheme,
+                    claimsPrincipal,
+                    new AuthenticationProperties
+                    {
+                        IsPersistent = false,
+                        ExpiresUtc = DateTimeOffset.UtcNow.AddHours(1)
+                    });
+
                 _logger.LogInformation("Giriş başarılı. Kullanıcı: {Username}, Rol: {Role}", LoginInput.Username, role);
                 var allClaims = string.Join(", ", jwtToken.Claims.Select(c => $"{c.Type}={c.Value}"));
                 _logger.LogWarning("TÜM CLAIMLER: {Claims}", allClaims);
@@ -65,7 +88,7 @@ namespace VeterinaryClinic.UI.Pages
                 }
                 else
                 {
-                    return RedirectToPage("/Dashboard/Index");
+                    return RedirectToPage("/Appointments/MyAppointment");
                 }
 
             }

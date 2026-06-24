@@ -63,6 +63,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VeterinaryClinic.API.Controllers.AnimalsController",
+    "Method": "GetMyAnimals",
+    "RelativePath": "api/animals/my-animals",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentsController",
     "Method": "GetAll",
     "RelativePath": "api/appointments",
@@ -144,6 +154,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinaryClinic.API.Controllers.AppointmentsController",
+    "Method": "GetMyAppointments",
+    "RelativePath": "api/appointments/my-appointments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

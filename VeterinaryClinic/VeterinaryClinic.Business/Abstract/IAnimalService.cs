@@ -14,6 +14,7 @@ namespace VeterinaryClinic.Business.Abstract
         Task AnimalDeleteAsync(int id);
         Task AnimalUpdateAsync(Animal animal);
         Task<Animal> GetByIDAsync(int id);
+        Task<List<Animal>> GetAnimalsByOwnerIdAsync(int ownerId);
 
     }
 }

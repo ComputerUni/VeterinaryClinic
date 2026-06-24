@@ -2,6 +2,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Serilog;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 using System.Text;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.Business.Concrete;
@@ -10,13 +13,12 @@ using VeterinaryClinic.DataAccess.Abstract;
 using VeterinaryClinic.DataAccess.Concrete;
 using VeterinaryClinic.DataAccess.EntityFramework;
 using VeterinaryClinic.Entities.Concrete;
-using Serilog;
-using System.Security.Claims;
 
 
 
 var builder = WebApplication.CreateBuilder(args);
 
+JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
 
 var jwtSettingsSection = builder.Configuration.GetSection("JwtSettings");
 builder.Services.Configure<JwtSettings>(jwtSettingsSection);
@@ -87,6 +89,10 @@ builder.Services.AddAuthentication(options =>
     options.DefaultSignInScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultSignOutScheme = JwtBearerDefaults.AuthenticationScheme;
 })
+    .AddCookie("Cookies", options =>
+    {
+        options.LoginPath = "/Login";
+    })
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters

@@ -15,6 +15,7 @@
                         Yeni hayvan kaydınızı bu kısımdan ekleyiniz.
                     </p>
                     <form asp-controller="Animals" asp-action="AddAnimals" method="post" class="row needs-validation" novalidate="">
+                        <div asp-validation-summary="All" class="text-danger"></div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="input-style-1">

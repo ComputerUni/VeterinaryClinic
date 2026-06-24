@@ -14,6 +14,7 @@ namespace VeterinaryClinic.Business.Abstract
         Task<Appointment> AppointmentAddAsync(Appointment appointment);
         Task AppointmentCancelAsync(Appointment appointment);
         Task AppointmentUpdateAsync(Appointment appointment);
+        Task<List<Appointment>> GetByOwnerIdAsync(int ownerId);
         Task<string> UnitOfWorkTestMetodu(Appointment appointment);
 
     }

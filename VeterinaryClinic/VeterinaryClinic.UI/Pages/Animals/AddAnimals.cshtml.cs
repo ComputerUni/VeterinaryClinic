@@ -73,9 +73,9 @@ namespace VeterinaryClinic.UI.Pages.Animals
             }
             else
             {
-                Animal = new AnimalDto();
+                var errorContent = await response.Content.ReadAsStringAsync();
+                ModelState.AddModelError(string.Empty, $"Hata: {response.StatusCode} - {errorContent}");
             }
-
             return Page();
         }
     }
