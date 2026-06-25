@@ -1,0 +1,33 @@
+﻿@{
+    Layout = "_DashboardLayout";
+}
+
+@section Sidebar {
+    <nav class="sidebar-nav">
+        <ul>
+            <li class="nav-item">
+                <a asp-page="/Animals/Animals">
+                    <span class="icon"><i class="fa-solid fa-paw"></i></span>
+                    <span class="text">Animals</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a asp-page="/Appointments/Index">
+                    <span class="icon"><i class="fa-solid fa-calendar-check"></i></span>
+                    <span class="text">Appointments</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <form method="post" asp-page="/Logout">
+                    <button type="submit" style="background:none; border:none; padding: 10px; color:inherit;">
+                        <span class="icon"><i class="fa-solid fa-calendar-check"></i></span>
+                        <span class="text">Çıkış Yap</span>
+                    </button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+}
+
+@RenderBody()

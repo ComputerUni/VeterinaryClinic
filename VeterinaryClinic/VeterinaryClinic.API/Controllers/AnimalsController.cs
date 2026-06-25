@@ -62,6 +62,14 @@ namespace VeterinaryClinic.API.Controllers
             return Ok(result);
         }
 
+        [HttpGet("manager-animals")]
+        [Authorize (Roles ="Manager")]
+        public async Task<IActionResult> GetAllManager()
+        {
+            var result = await _animalService.GetListAsync();
+            return Ok(result);
+        }
+
 
         [HttpPost]
         [Authorize(Roles = "Manager")]

@@ -121,6 +121,18 @@
         }
       }
     },
+    "/api/animals/manager-animals": {
+      "get": {
+        "tags": [
+          "Animals"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/appointments": {
       "get": {
         "tags": [

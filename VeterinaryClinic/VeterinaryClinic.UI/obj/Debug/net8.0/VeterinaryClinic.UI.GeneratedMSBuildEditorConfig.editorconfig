@@ -35,6 +35,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWFsc1xFZGl0QW5pbWFscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Animals/MyAnimals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5pbWFsc1xNeUFuaW1hbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Appointments/AddAppointment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwb2ludG1lbnRzXEFkZEFwcG9pbnRtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -67,6 +71,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -75,8 +83,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Shared/_CustomerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9DdXN0b21lckxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Shared/_DashboardLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9EYXNoYm9hcmRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Shared/_ManagerLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NYW5hZ2VyTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Shared/_ValidationScriptsPartial.cshtml]

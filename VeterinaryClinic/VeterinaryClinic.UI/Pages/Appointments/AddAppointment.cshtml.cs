@@ -28,7 +28,11 @@ namespace VeterinaryClinic.UI.Pages.Appointments
             var token = Request.Cookies["JwtToken"];
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            var response = await client.GetAsync("https://localhost:7037/api/animals/my-animals");
+            string apiUrl = User.IsInRole("Manager")
+                ? "https://localhost:7037/api/animals/manager-animals"
+                : "https://localhost:7037/api/animals/my-animals";
+
+            var response = await client.GetAsync(apiUrl);
 
             if (response.IsSuccessStatusCode)
             {
