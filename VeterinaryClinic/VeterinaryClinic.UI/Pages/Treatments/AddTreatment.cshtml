@@ -5,3 +5,71 @@
 }
 
 
+<div class="container p-4">
+    <div class="form-layout-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card-style mb-30">
+                    <h6 class="mb-15">Yeni Tedavi Kaydı</h6>
+                    <p class="text-sm mb-25">
+                        Yeni tedavi kaydınızı bu kısımdan ekleyiniz.
+                    </p>
+                    <form asp-controller="Treatments" asp-action="AddTreatment" method="post" class="row needs-validation" novalidate="">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="input-style-1">
+                                    <label asp-for="Treatment.AppointmentId" class="form-label">
+                                        Randevu ID
+                                    </label>
+                                    <input asp-for="Treatment.AppointmentId" type="text" class="form-control" id="f-name" required="">
+                                    <div class="valid-feedback">Looks good!</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-style-1">
+                                    <label asp-for="Treatment.TreatmentType" class="form-label">
+                                        Ad
+                                    </label>
+                                    <input asp-for="Treatment.TreatmentType" type="text" class="form-control" id="l-name" required="">
+
+                                    <div class="valid-feedback">Looks good!</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="input-style-1">
+                                    <label asp-for="Treatment.Notes" class="form-label">
+                                        Yaş
+                                    </label>
+                                    <input asp-for="Treatment.Notes" type="text" class="form-control" id="l-name" required="">
+
+                                    <div class="valid-feedback">Looks good!</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="input-style-1">
+                                    <label asp-for="Treatment.Cost" class="form-label">
+                                        Ağırlık
+                                    </label>
+                                    <input asp-for="Treatment.Cost" type="text" class="form-control" id="l-name" required="">
+
+                                    <div class="valid-feedback">Looks good!</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-4 mb-0">
+                            <button type="submit" class="btn btn-primary btn-block py-2 font-weight-bold shadow-sm">
+                                <i class="fas fa-save mr-2"></i>Tedavi Kaydını Sisteme Kaydet
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <!-- end card -->
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+</div>
