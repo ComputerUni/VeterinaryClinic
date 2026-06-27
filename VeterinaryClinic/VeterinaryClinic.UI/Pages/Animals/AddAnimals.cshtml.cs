@@ -22,23 +22,6 @@ namespace VeterinaryClinic.UI.Pages.Animals
 
         public async Task<IActionResult> OnGetAsync()
         {
-            var token = Request.Cookies["JwtToken"];
-            if(string.IsNullOrEmpty(token))
-            {
-                return RedirectToPage("/Login");
-            }
-
-            var handler = new JwtSecurityTokenHandler();
-            var jwtToken = handler.ReadJwtToken(token);
-            var role = jwtToken.Claims.FirstOrDefault(c =>
-                c.Type.Equals("role", StringComparison.OrdinalIgnoreCase) ||
-                c.Type.EndsWith("/role", StringComparison.OrdinalIgnoreCase))?.Value;
-
-            if (role != "Manager")
-            {
-                return RedirectToPage("/Login");
-            }
-
             return Page();
         }
 

@@ -18,27 +18,30 @@ namespace VeterinaryClinic.API.Controllers
         }
 
         [HttpGet]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> Get()
         {
-            var treatmentList = await _treatmentService.GetList();
+            var treatmentList = await _treatmentService.GetListAsync();
             return Ok(treatmentList);
         }
 
         [HttpPost]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> Add([FromBody] Treatment treatment)
         {
-            var createdTreatment = await _treatmentService.TreatmentAdd(treatment);
+            var createdTreatment = await _treatmentService.TreatmentAddAsync(treatment);
             return Ok(createdTreatment);
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Manager")]
         public async Task<IActionResult> Delete(int id)
         {
-            if(id == null)
+            if(id <= 0)
             {
                 return BadRequest("Geçersiz tedavi ID'si");
             }
-            await _treatmentService.TreatmentDelete(id);
+            await _treatmentService.TreatmentDeleteAsync(id);
             return Ok("Tedavi başarıyla silindi!");
         } 
 

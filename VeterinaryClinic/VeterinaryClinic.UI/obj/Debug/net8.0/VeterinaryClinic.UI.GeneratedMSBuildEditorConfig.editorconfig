@@ -99,6 +99,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Treatments/AddTreatment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlYXRtZW50c1xBZGRUcmVhdG1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Treatments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJlYXRtZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

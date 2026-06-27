@@ -35,7 +35,7 @@ namespace VeterinaryClinic.UI.Pages.Appointments
             var response = await client.GetAsync(apiUrl);
 
             if (response.IsSuccessStatusCode)
-            {
+            { 
                 var content = await response.Content.ReadAsStringAsync();
 
                 var options = new JsonSerializerOptions
@@ -68,7 +68,7 @@ namespace VeterinaryClinic.UI.Pages.Appointments
                 {
                     return RedirectToPage("/Appointments/Index");
                 }
-                return RedirectToPage("Appointments/MyAppointment");
+                return RedirectToPage("/Appointments/MyAppointment");
             }
             else
             {

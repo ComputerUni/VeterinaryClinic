@@ -137,7 +137,7 @@
                             <th class="time"><h6>Saat</h6></th>
                             <th class="status"><h6>Durum</h6></th>
                             <th class="notes"><h6>Notlar</h6></th>
-                            <th class="transactions"><h6>İşlemler</h6></th>
+                           @*  <th class="transactions"><h6>İşlemler</h6></th> *@
                         </tr>
                     </thead>
                     <tbody>
@@ -173,13 +173,13 @@
                                 <td class="notes">
                                     <p>@appointment.Notes</p>
                                 </td>
-                                <td class="transactions">
+                               @*  <td class="transactions">
                                     <div class="action-buttons">
                                         <a class="btn btn-primary btn-sm" asp-page="/Appointments/EditAppointment" asp-route-id="@appointment.Id">
                                             <i class="fa-solid fa-pencil"></i>
                                         </a>
                                     </div>
-                                </td>
+                                </td> *@
                             </tr>
                         }
                     </tbody>

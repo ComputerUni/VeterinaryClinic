@@ -18,17 +18,17 @@ namespace VeterinaryClinic.Business.Concrete
             _unitOfWork = unitOfWork;
         }
 
-        public Task CalculateTreatmentCost(Treatment treatment)
+        public Task CalculateTreatmentCostAsync(Treatment treatment)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<List<Treatment>> GetList()
+        public async Task<List<Treatment>> GetListAsync()
         {
             return await _unitOfWork.Treatments.ListAsync();
         }
 
-        public async Task<Treatment> TreatmentAdd(Treatment treatment)
+        public async Task<Treatment> TreatmentAddAsync(Treatment treatment)
         {
             await _unitOfWork.Treatments.InsertAsync(treatment);
             await _unitOfWork.SaveAsync();
@@ -36,7 +36,7 @@ namespace VeterinaryClinic.Business.Concrete
 
         }
 
-        public async Task TreatmentDelete(int id)
+        public async Task TreatmentDeleteAsync(int id)
         {
             var deleteTreatment = await _unitOfWork.Treatments.GetAsync(t => t.Id == id);
             if(deleteTreatment != null)

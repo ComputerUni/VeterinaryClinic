@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.Entities.Concrete;
+using VeterinaryClinic.Entities.Status;
 
 namespace VeterinaryClinic.API.Controllers
 {
@@ -59,6 +60,12 @@ namespace VeterinaryClinic.API.Controllers
             if (appointment == null)
             {
                 return BadRequest("Randevu verisi boş olamaz");
+            }
+
+            var role = User.FindFirst("role")?.Value;
+            if(role == "Customer")
+            {
+                appointment.Status = AppointmentStatus.Scheduled;
             }
 
             await _appointmentService.AppointmentAddAsync(appointment);

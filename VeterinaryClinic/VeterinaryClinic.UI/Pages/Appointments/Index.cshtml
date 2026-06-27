@@ -10,7 +10,7 @@
     <div class="row align-items-center">
         <div class="col-md-6">
             <div class="title">
-                <h2>Tedaviler</h2>
+                <h2>Randevular</h2>
             </div>
         </div>
         <!-- end col -->
@@ -157,7 +157,18 @@
                                     <p>@appointment.Time</p>
                                 </td>
                                 <td class="status">
-                                    <p>@appointment.Status</p>
+                                    @if (appointment.Status == AppointmentStatus.Scheduled)
+                                    {
+                                        <span class="badge bg-warning">Bekliyor</span>
+                                    }
+                                    else if (appointment.Status == AppointmentStatus.Completed)
+                                    {
+                                        <span class="badge bg-success">Tamamlandı</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger">İptal Edildi</span>
+                                    }
                                 </td>
                                 <td class="notes">
                                     <p>@appointment.Notes</p>
