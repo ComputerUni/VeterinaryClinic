@@ -69,5 +69,17 @@ namespace VeterinaryClinic.API.Controllers
             return Ok(treatment);
         }
 
+        [HttpGet("animal/{id}")]
+        [Authorize(Roles = "Customer")]
+        public async Task<IActionResult> GetByAnimalId(int id)
+        {
+            var result = await _treatmentService.GetByAnimalIdAsync(id);
+            if(result == null)
+            {
+                return NotFound("Bu hayvana ait tedavi bulunamadı");
+            }
+            return Ok(result);
+        }
+
     }
 }

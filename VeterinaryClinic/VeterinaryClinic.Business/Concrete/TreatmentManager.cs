@@ -23,6 +23,14 @@ namespace VeterinaryClinic.Business.Concrete
             throw new NotImplementedException();
         }
 
+        public async Task<List<Treatment>> GetByAnimalIdAsync(int id)
+        {
+            var appointments = await _unitOfWork.Appointments.ListAsync(a => a.AnimalId == id);
+            var appointmentsId = appointments.Select(a => a.Id).ToList();
+            var treatments = await _unitOfWork.Treatments.ListAsync(t => appointmentsId.Contains(t.AppointmentId));
+            return treatments;
+        }
+
         public async Task<Treatment> GetByIdAsync(int id)
         {
             return await _unitOfWork.Treatments.GetAsync(t => t.Id == id);

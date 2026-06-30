@@ -7,12 +7,12 @@ namespace VeterinaryClinic.API.Controllers
     public class WeatherForecastController : BaseController
     {
         private readonly ILogger<WeatherForecastController> _logger;
-        private string API_KEY = "129c9cd8ce88fb9717261d352fa82c44";
-        private string BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
+        private readonly IConfiguration _configuration;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IConfiguration configuration)
         {
             _logger = logger;
+            _configuration = configuration;
         }
 
         [HttpGet("city/{city_name}")]
@@ -21,7 +21,9 @@ namespace VeterinaryClinic.API.Controllers
         {
             _logger.LogInformation("Hava durumu isteği alındı.", city_name);
             using var httpClient = new HttpClient();
-            var url = $"{BASE_URL}?q={city_name}&appid={API_KEY}&units=metric";
+            var apiKey = _configuration["OpenWeather:API_KEY"];
+            var baseUrl = _configuration["OpenWeather:BASE_URL"];
+            var url = $"{baseUrl}?q={city_name}&appid={apiKey}&units=metric";
             var response = await httpClient.GetAsync(url);
             try
             {

@@ -110,9 +110,9 @@
                             <th class="breed">
                                 <h6>Tür</h6>
                             </th>
-@*                             <th class="transactions">
+                            <th class="transactions">
                                 <h6>İşlemler</h6>
-                            </th> *@
+                            </th>
                         </tr>
                         <!-- end table row-->
                     </thead>
@@ -141,7 +141,12 @@
                                 <td>
                                     <p>@animal.Breed</p>
                                 </td>
-@*                                 <td>
+                                <td>
+                                    <a class="btn btn-primary btn-sm" asp-page="/Treatments/MyTreatment" asp-route-id="@animal.Id">
+                                        <i class="fa-solid fa-eye"></i>
+                                    </a>
+                                </td>
+                                @* <td>
                                     <div>
                                         <a class="btn btn-primary" asp-page="/Animals/EditAnimals" asp-route-id="@animal.Id"><i class="fa-solid fa-pencil"></i></a>
                                     </div>
@@ -162,7 +167,7 @@
             <div class="col-auto">
                 <a asp-page="/Animals/MyAnimals" asp-route-pageNumber="@i" class="btn @(i == Model.PagedMyAnimalList.PageNumber ? "btn-primary" : "btn-outlined-primary") row">@i</a>
             </div>
-            
+
         }
     </div>
 

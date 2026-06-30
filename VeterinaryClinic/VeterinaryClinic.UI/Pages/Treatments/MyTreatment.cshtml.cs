@@ -1,0 +1,53 @@
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Net.Http.Headers;
+using System.Text.Json;
+using VeterinaryClinic.Entities.Concrete;
+using VeterinaryClinic.Entities.Models;
+using X.PagedList;
+
+namespace VeterinaryClinic.UI.Pages.Treatments
+{
+    [Authorize(Roles = "Customer")]
+    public class MyTreatmentModel : PageModel
+    {
+        private readonly IHttpClientFactory _httpClientFactory;
+
+        public MyTreatmentModel(IHttpClientFactory httpClientFactory)
+        {
+            _httpClientFactory = httpClientFactory;
+        }
+
+        public List<Treatment> TreatmentList { get; set; } = new List<Treatment>();
+        public IPagedList<Treatment> PagedMyTreatmentList { get; set; }
+
+        [BindProperty]
+        public TreatmentDto Treatment { get; set; }
+
+        public async Task OnGetAsync(int id, int pageNumber = 1)
+        {
+            var client = _httpClientFactory.CreateClient();
+            var token = Request.Cookies["JwtToken"];
+            if(!string.IsNullOrEmpty(token))
+            {
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
+
+            var response = await client.GetAsync($"https://localhost:7037/api/treatments/animal/{id}");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
+                TreatmentList = JsonSerializer.Deserialize<List<Treatment>>(content, options) ?? new List<Treatment>(); 
+            }
+            else
+            {
+                TreatmentList = new List<Treatment>();
+            }
+
+            PagedMyTreatmentList = TreatmentList.ToPagedList(pageNumber, 7);
+        }
+    }
+}

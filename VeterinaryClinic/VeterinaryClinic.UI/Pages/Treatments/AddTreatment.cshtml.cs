@@ -19,12 +19,29 @@ namespace VeterinaryClinic.UI.Pages.Treatments
         }
 
         public List<Treatment> TreatmentList { get; set; } = new List<Treatment>();
+        public List<Appointment> AppointmentList { get; set; } = new List<Appointment>();
 
         [BindProperty]
         public TreatmentDto Treatment { get; set; }
 
         public async Task<IActionResult> OnGetAsync()
         {
+            var client = _httpClientFactory.CreateClient();
+            var token = Request.Cookies["JwtToken"];
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+
+            var response = await client.GetAsync("https://localhost:7037/api/appointments");
+
+            if(response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
+     
+                AppointmentList = JsonSerializer.Deserialize<List<Appointment>>(content, options) ?? new List<Appointment>();
+            }
             return Page();
         }
 

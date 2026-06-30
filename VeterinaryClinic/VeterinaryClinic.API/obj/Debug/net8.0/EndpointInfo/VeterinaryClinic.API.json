@@ -447,6 +447,29 @@
         }
       }
     },
+    "/api/treatments/animal/{id}": {
+      "get": {
+        "tags": [
+          "Treatments"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/users/register": {
       "post": {
         "tags": [

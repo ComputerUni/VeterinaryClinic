@@ -10,6 +10,7 @@ namespace VeterinaryClinic.Business.Abstract
     public interface ITreatmentService
     {
         Task<List<Treatment>> GetListAsync();
+        Task<List<Treatment>> GetByAnimalIdAsync(int id);
         Task<Treatment> TreatmentAddAsync(Treatment treatment);
         Task TreatmentDeleteAsync(int id);
         Task<Treatment> GetByIdAsync(int id);

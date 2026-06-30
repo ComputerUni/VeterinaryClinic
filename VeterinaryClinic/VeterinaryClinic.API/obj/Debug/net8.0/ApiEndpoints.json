@@ -288,6 +288,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentsController",
+    "Method": "GetByAnimalId",
+    "RelativePath": "api/treatments/animal/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VeterinaryClinic.API.Controllers.UsersController",
     "Method": "Login",
     "RelativePath": "api/users/login",
