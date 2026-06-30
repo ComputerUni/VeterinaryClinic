@@ -8,6 +8,7 @@ namespace VeterinaryClinic.Entities.Models
 {
     public class TreatmentDto
     {
+        public int Id { get; set; }
         public int AppointmentId { get; set; }
         public string TreatmentType { get; set; }
         public string Notes { get; set; }

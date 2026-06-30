@@ -43,7 +43,31 @@ namespace VeterinaryClinic.API.Controllers
             }
             await _treatmentService.TreatmentDeleteAsync(id);
             return Ok("Tedavi başarıyla silindi!");
-        } 
+        }
+
+        [HttpGet("{id}")]
+        [Authorize(Roles = "Manager")]
+        public async Task<IActionResult> GetById(int id)
+        {
+            var result = await _treatmentService.GetByIdAsync(id);
+            if(result == null)
+            {
+                return NotFound("Tedavi bulunamadı");
+            }
+            return Ok(result);
+        }
+
+        [HttpPut("{id}")]
+        [Authorize(Roles = "Manager")]
+        public async Task<IActionResult> UpdateTreatment(int id, [FromBody] Treatment treatment)
+        {
+            if (id != treatment.Id)
+            {
+                return BadRequest("Geçersiz Tedavi ID'si");
+            }
+            await _treatmentService.TreatmentUpdateAsync(treatment);
+            return Ok(treatment);
+        }
 
     }
 }

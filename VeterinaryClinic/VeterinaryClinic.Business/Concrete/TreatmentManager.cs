@@ -23,6 +23,11 @@ namespace VeterinaryClinic.Business.Concrete
             throw new NotImplementedException();
         }
 
+        public async Task<Treatment> GetByIdAsync(int id)
+        {
+            return await _unitOfWork.Treatments.GetAsync(t => t.Id == id);
+        }
+
         public async Task<List<Treatment>> GetListAsync()
         {
             return await _unitOfWork.Treatments.ListAsync();
@@ -45,6 +50,12 @@ namespace VeterinaryClinic.Business.Concrete
                 await _unitOfWork.SaveAsync();
             }
 
+        }
+
+        public async Task TreatmentUpdateAsync(Treatment treatment)
+        {
+            await _unitOfWork.Treatments.UpdateAsync(treatment);
+            await _unitOfWork.SaveAsync();
         }
     }
 }

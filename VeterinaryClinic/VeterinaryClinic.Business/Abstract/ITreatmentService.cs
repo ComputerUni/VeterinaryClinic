@@ -12,6 +12,8 @@ namespace VeterinaryClinic.Business.Abstract
         Task<List<Treatment>> GetListAsync();
         Task<Treatment> TreatmentAddAsync(Treatment treatment);
         Task TreatmentDeleteAsync(int id);
+        Task<Treatment> GetByIdAsync(int id);
+        Task TreatmentUpdateAsync(Treatment treatment);
         Task CalculateTreatmentCostAsync(Treatment treatment);
     }
 }
