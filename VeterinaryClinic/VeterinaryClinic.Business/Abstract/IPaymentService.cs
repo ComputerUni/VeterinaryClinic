@@ -12,7 +12,7 @@ namespace VeterinaryClinic.Business.Abstract
         Task<List<Payment>> GetListAsync();
         Task<Payment> PaymentAddAsync(Payment payment);
         Task PaymentUpdateAsync(Payment payment);
-        Task CalculateTotalAmountAsync(Payment payment);
-
+        Task<List<Payment>> GetByAppointmentIdAsync(int id);
+        Task<decimal> CalculateTotalAmountAsync();
     }
 }

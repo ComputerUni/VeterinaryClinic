@@ -193,4 +193,8 @@
     <ProjectReference Include="..\VeterinaryClinic.Entities\VeterinaryClinic.Entities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Payments\" />
+  </ItemGroup>
+
 </Project>

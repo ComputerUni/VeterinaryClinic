@@ -18,9 +18,15 @@ namespace VeterinaryClinic.Business.Concrete
             _unitOfWork = unitOfWork;
         }
 
-        public Task CalculateTotalAmountAsync(Payment payment)
+        public async Task<decimal> CalculateTotalAmountAsync()
         {
-            throw new NotImplementedException();
+            var payments = await _unitOfWork.Payments.ListAsync();
+            return payments.Sum(p => p.AmountPaid);
+        }
+
+        public async Task<List<Payment>> GetByAppointmentIdAsync(int id)
+        {
+            return await _unitOfWork.Payments.ListAsync(x => x.AppointmentId == id);
         }
 
         public async Task<List<Payment>> GetListAsync()
