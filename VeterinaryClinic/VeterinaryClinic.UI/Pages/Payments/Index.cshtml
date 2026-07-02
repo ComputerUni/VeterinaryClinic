@@ -1,0 +1,185 @@
+﻿@page
+@model VeterinaryClinic.UI.Pages.Payments.IndexModel
+
+@{
+    Layout = "~/Pages/Shared/_ManagerLayout.cshtml";
+}
+
+
+<div class="title-wrapper pt-30">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <div class="title">
+                <h2>Ödemeler</h2>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="breadcrumb-wrapper">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a asp-page="/Dashboard">Dashboard</a>
+                        </li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            Ödemeler
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- end row -->
+</div>
+<!-- ========== title-wrapper end ========== -->
+<div class="row">
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+        <div class="icon-card icon-card-2 mb-30">
+            <div class="d-flex align-items-center">
+                <div class="icon purple">
+                    <i class="lni lni-heart"></i>
+                </div>
+                <div class="content">
+                    <h6 class="mb-10">Toplam Ödeme Sayısı</h6>
+                    <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Count() : 0)</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Icon Cart -->
+    </div>
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+        <div class="icon-card icon-card-2 mb-30">
+            <div class="d-flex align-items-center">
+                <div class="icon purple">
+                    <i class="lni lni-heart"></i>
+                </div>
+                <div class="content">
+                    <h6 class="mb-10">Toplam Gelir</h6>
+                    <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Sum(p => p.AmountPaid).ToString("C") : 0)</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Icon Cart -->
+    </div>
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+        <div class="icon-card icon-card-2 mb-30">
+            <div class="d-flex align-items-center">
+                <div class="icon purple">
+                    <i class="lni lni-heart"></i>
+                </div>
+                <div class="content">
+                    <h6 class="mb-10">Nakit Ödemeler</h6>
+                    <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Count(p => p.PaymentMethod == PaymentStatus.Cash) : 0)</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Icon Cart -->
+    </div>
+    <!-- End Icon Cart -->
+</div>
+<!-- End Col -->
+@* <div class="col-xl-3 col-lg-4 col-sm-6">
+        <div class="icon-card icon-card-2 mb-30">
+            <div class="d-flex align-items-center">
+                <div class="icon orange">
+                    <i class="lni @Model.Weather.Weather[0].LniIcon"></i>
+                </div>
+                <div class="content">
+                    <h6 class="text-bold mb-10">@Model.Weather.Name</h6>
+                    <h3 class="text-bold mb-10">@Model.Weather.Main.Temp °C</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Icon Cart -->
+    </div> *@
+<!-- End Col -->
+</div>
+<!-- End Row -->
+<!-- End Row -->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card-style clients-table-card mb-30">
+            <div class="title d-flex justify-content-between align-items-center">
+                <h6 class="mb-10">Hayvanlar</h6>
+                <div class="more-btn-wrapper">
+                    <button class="more-btn dropdown-toggle" id="moreAction" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="lni lni-more-alt"></i>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="moreAction">
+                        <li class="dropdown-item">
+                            <a asp-page="/Payments/AddPayment" class="text-gray">Ödeme Ekle</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="table-wrapper table-responsive">
+                <table class="table lead-table">
+                    <thead>
+                        <tr>
+                            <th class="image"><h6>#</h6></th>
+                            <th class="id"><h6>Randevu Id</h6></th>
+                            <th class="date"><h6>Ödeme Miktarı</h6></th>
+                            <th class="time"><h6>Ödeme Tarihi</h6></th>
+                            <th class="status"><h6>Ödeme Türü</h6></th>
+                            <th class="transactions"><h6>İşlemler</h6></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var payment in Model.PagedPaymentList)
+                        {
+                            <tr>
+                                <td class="image">
+                                    <p>@payment.Id</p>
+                                </td>
+                                <td class="id">
+                                    <p>@payment.AppointmentId</p>
+                                </td>
+                                <td class="date">
+                                    <p>@payment.AmountPaid</p>
+                                </td>
+                                <td class="time">
+                                    <p>@payment.PaymentDate</p>
+                                </td>
+                                <td class="status">
+                                    @if (payment.PaymentMethod == PaymentStatus.Cash)
+                                    {
+                                        <span class="badge bg-warning">Nakit</span>
+                                    }
+                                    else if (payment.PaymentMethod == PaymentStatus.CreditCard)
+                                    {
+                                        <span class="badge bg-success">Kredi Kartı</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-primary">Havale</span>
+                                    }
+                                </td>
+                                <td class="transactions">
+                                    <div class="action-buttons">
+                                        <a class="btn btn-primary btn-sm" asp-page="/Payments/EditPayment" asp-route-id="@payment.Id">
+                                            <i class="fa-solid fa-pencil"></i>
+                                        </a>
+                                        @* <form asp-page="/Animals/Animals" asp-page-handler="Delete" asp-route-id="@appointment.AnimalId" method="post" style="display:inline;">
+                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Silmek istediğinize emin misiniz?')">
+                                    <i class="fa-solid fa-trash"></i>
+                                </button>
+                            </form> *@
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- end card -->
+    </div>
+    <div class="row mt-3 mb-3">
+        @for (int i = 1; i <= Model.PagedPaymentList.PageCount; i++)
+        {
+            <div class="col-auto">
+                <a asp-page="/Payments/Index" asp-route-pageNumber="@i" class="btn @(i == Model.PagedPaymentList.PageNumber ? "btn-warning" : "btn-outlined-warning") row">@i</a>
+            </div>
+        }
+    </div>
+</div>
+<!-- End Row -->

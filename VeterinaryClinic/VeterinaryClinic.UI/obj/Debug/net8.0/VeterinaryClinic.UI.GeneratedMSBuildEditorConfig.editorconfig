@@ -75,6 +75,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Payments/AddPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcQWRkUGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Payments/EditPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcRWRpdFBheW1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Payments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Payments/MyPayments.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGF5bWVudHNcTXlQYXltZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/BURHAN/Desktop/VeterinerKlinikYonetimSistemi/VeterinaryClinic/VeterinaryClinic.UI/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

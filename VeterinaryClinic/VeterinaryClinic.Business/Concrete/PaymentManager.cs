@@ -24,6 +24,13 @@ namespace VeterinaryClinic.Business.Concrete
             return payments.Sum(p => p.AmountPaid);
         }
 
+        public async Task<List<Payment>> GetByOwnerAsync(int id)
+        {
+            var myAnimal = (await _unitOfWork.Animals.ListAsync(a => a.OwnerId == id)).Select(a => a.Id).ToHashSet();
+            var myAppointment = (await _unitOfWork.Appointments.ListAsync(a => myAnimal.Contains(a.AnimalId))).Select(a => a.Id).ToHashSet();
+            return await _unitOfWork.Payments.ListAsync(p => myAppointment.Contains(p.AppointmentId));
+        }
+
         public async Task<List<Payment>> GetByAppointmentIdAsync(int id)
         {
             return await _unitOfWork.Payments.ListAsync(x => x.AppointmentId == id);

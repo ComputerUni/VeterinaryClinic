@@ -209,6 +209,95 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VeterinaryClinic.API.Controllers.PaymentsController",
+    "Method": "GetAll",
+    "RelativePath": "api/payments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinaryClinic.API.Controllers.PaymentsController",
+    "Method": "AddPayments",
+    "RelativePath": "api/payments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payment",
+        "Type": "VeterinaryClinic.Entities.Concrete.Payment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinaryClinic.API.Controllers.PaymentsController",
+    "Method": "GetAppointmentById",
+    "RelativePath": "api/payments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinaryClinic.API.Controllers.PaymentsController",
+    "Method": "UpdatePayments",
+    "RelativePath": "api/payments/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "payment",
+        "Type": "VeterinaryClinic.Entities.Concrete.Payment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinaryClinic.API.Controllers.PaymentsController",
+    "Method": "GetOwnerById",
+    "RelativePath": "api/payments/my-payments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinaryClinic.API.Controllers.PaymentsController",
+    "Method": "GetTotal",
+    "RelativePath": "api/payments/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VeterinaryClinic.API.Controllers.TreatmentsController",
     "Method": "Get",
     "RelativePath": "api/treatments",
