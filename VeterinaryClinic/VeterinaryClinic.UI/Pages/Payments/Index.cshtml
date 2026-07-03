@@ -39,20 +39,6 @@
                     <i class="lni lni-heart"></i>
                 </div>
                 <div class="content">
-                    <h6 class="mb-10">Toplam Ödeme Sayısı</h6>
-                    <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Count() : 0)</h3>
-                </div>
-            </div>
-        </div>
-        <!-- End Icon Cart -->
-    </div>
-    <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="icon-card icon-card-2 mb-30">
-            <div class="d-flex align-items-center">
-                <div class="icon purple">
-                    <i class="lni lni-heart"></i>
-                </div>
-                <div class="content">
                     <h6 class="mb-10">Toplam Gelir</h6>
                     <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Sum(p => p.AmountPaid).ToString("C") : 0)</h3>
                 </div>
@@ -69,6 +55,20 @@
                 <div class="content">
                     <h6 class="mb-10">Nakit Ödemeler</h6>
                     <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Count(p => p.PaymentMethod == PaymentStatus.Cash) : 0)</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Icon Cart -->
+    </div>
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+        <div class="icon-card icon-card-2 mb-30">
+            <div class="d-flex align-items-center">
+                <div class="icon purple">
+                    <i class="lni lni-heart"></i>
+                </div>
+                <div class="content">
+                    <h6 class="mb-10">Kredi Kartı Ödemeler</h6>
+                    <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Count(p => p.PaymentMethod == PaymentStatus.CreditCard) : 0)</h3>
                 </div>
             </div>
         </div>
@@ -91,15 +91,11 @@
         </div>
         <!-- End Icon Cart -->
     </div> *@
-<!-- End Col -->
-</div>
-<!-- End Row -->
-<!-- End Row -->
 <div class="row">
-    <div class="col-lg-12">
+    <div class="col-12">
         <div class="card-style clients-table-card mb-30">
             <div class="title d-flex justify-content-between align-items-center">
-                <h6 class="mb-10">Hayvanlar</h6>
+                <h6 class="mb-10">Ödemeler</h6>
                 <div class="more-btn-wrapper">
                     <button class="more-btn dropdown-toggle" id="moreAction" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="lni lni-more-alt"></i>

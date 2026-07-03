@@ -39,21 +39,6 @@
                     <i class="lni lni-heart"></i>
                 </div>
                 <div class="content">
-                    <h6 class="mb-10">Toplam Ödeme Sayısı</h6>
-                    <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Count() : 0)</h3>
-                </div>
-            </div>
-        </div>
-        <!-- End Icon Cart -->
-    </div>
-    <!-- End Col -->
-    <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="icon-card icon-card-2 mb-30">
-            <div class="d-flex align-items-center">
-                <div class="icon purple">
-                    <i class="lni lni-heart"></i>
-                </div>
-                <div class="content">
                     <h6 class="mb-10">Toplam Ödeme Miktarı</h6>
                     <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Sum(p => p.AmountPaid).ToString("C") : 0)</h3>
                 </div>
@@ -68,7 +53,7 @@
                     <i class="lni lni-heart"></i>
                 </div>
                 <div class="content">
-                    <h6 class="mb-10">Nakit Ödemeler</h6>
+                    <h6 class="mb-10">Nakit Ödemeleri</h6>
                     <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Count(p => p.PaymentMethod == PaymentStatus.Cash) : 0)</h3>
                 </div>
             </div>
@@ -82,8 +67,22 @@
                     <i class="lni lni-heart"></i>
                 </div>
                 <div class="content">
-                    <h6 class="mb-10">Nakit Ödemeler</h6>
+                    <h6 class="mb-10">Kredi Kartı Ödemeleri</h6>
                     <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Count(p => p.PaymentMethod == PaymentStatus.CreditCard) : 0)</h3>
+                </div>
+            </div>
+        </div>
+        <!-- End Icon Cart -->
+    </div>
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+        <div class="icon-card icon-card-2 mb-30">
+            <div class="d-flex align-items-center">
+                <div class="icon purple">
+                    <i class="lni lni-heart"></i>
+                </div>
+                <div class="content">
+                    <h6 class="mb-10">Havale/EFT Ödemeleri</h6>
+                    <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Count(p => p.PaymentMethod == PaymentStatus.BankTransfer) : 0)</h3>
                 </div>
             </div>
         </div>
@@ -150,34 +149,24 @@
                                         <span class="badge bg-primary">Havale</span>
                                     }
                                 </td>
-                                <td class="transactions">
-                                    <div class="action-buttons">
-                                        <a class="btn btn-primary btn-sm" asp-page="/Payments/EditPayment" asp-route-id="@payment.Id">
-                                            <i class="fa-solid fa-pencil"></i>
-                                        </a>
-                                        @* <form asp-page="/Animals/Animals" asp-page-handler="Delete" asp-route-id="@appointment.AnimalId" method="post" style="display:inline;">
-                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Silmek istediğinize emin misiniz?')">
-                                    <i class="fa-solid fa-trash"></i>
-                                </button>
-                            </form> *@
-                                    </div>
-                                </td>
+
                             </tr>
                         }
                     </tbody>
                 </table>
             </div>
+            <div class="row mt-3 mb-3">
+                @for (int i = 1; i <= Model.PagedMyPaymentList.PageCount; i++)
+                {
+                    <div class="col-auto">
+                        <a asp-page="/Appointments/MyAppointments" asp-route-pageNumber="@i" class="btn @(i == Model.PagedMyPaymentList.PageNumber ? "btn-warning" : "btn-outlined-warning") row">@i</a>
+                    </div>
+
+                }
+            </div>
         </div>
         <!-- end card -->
     </div>
-    <div class="row mt-3 mb-3">
-        @for (int i = 1; i <= Model.PagedMyPaymentList.PageCount; i++)
-        {
-            <div class="col-auto">
-                <a asp-page="/Appointments/MyAppointments" asp-route-pageNumber="@i" class="btn @(i == Model.PagedMyPaymentList.PageNumber ? "btn-warning" : "btn-outlined-warning") row">@i</a>
-            </div>
-
-        }
-    </div>
+    
 
 </div>

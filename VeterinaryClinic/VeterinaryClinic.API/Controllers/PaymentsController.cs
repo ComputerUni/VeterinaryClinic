@@ -60,17 +60,17 @@ namespace VeterinaryClinic.API.Controllers
         }
 
 
-        [HttpGet("{id}")]
-        [Authorize(Roles = "Manager")]
-        public async Task<IActionResult> GetAppointmentById(int id)
-        {
-            var result = await _paymentService.GetByAppointmentIdAsync(id);
-            if (result == null)
-            {
-                return NotFound("Bu randevuya ait ödeme bulunamadı");
-            }
-            return Ok(result);
-        }
+        //[HttpGet("{id}")]
+        //[Authorize(Roles = "Manager")]
+        //public async Task<IActionResult> GetAppointmentById(int id)
+        //{
+        //    var result = await _paymentService.GetByAppointmentIdAsync(id);
+        //    if (result == null)
+        //    {
+        //        return NotFound("Bu randevuya ait ödeme bulunamadı");
+        //    }
+        //    return Ok(result);
+        //}
 
         [HttpPost]
         [Authorize(Roles = "Manager")]
@@ -94,6 +94,19 @@ namespace VeterinaryClinic.API.Controllers
             return Ok("Ödeme başarıyla güncellendi");
         }
 
+
+        [HttpGet("{id}")]
+        [Authorize(Roles = "Manager")]
+        public async Task<IActionResult> GetPaymentId(int id)
+        {
+            var payments = await _paymentService.GetListAsync();
+            var result = payments.FirstOrDefault(p => p.Id == id);
+            if(result == null)
+            {
+                return NotFound("Bu ID'yw ait ödeme bulunamadı");
+            }
+            return Ok(result);
+        }
 
 
     }
