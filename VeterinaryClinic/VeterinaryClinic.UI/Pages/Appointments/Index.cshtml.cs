@@ -13,10 +13,12 @@ namespace VeterinaryClinic.UI.Pages.Appointments
     public class IndexModel : PageModel
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IConfiguration _configuration;
 
-        public IndexModel(IHttpClientFactory httpClientFactory)
+        public IndexModel(IHttpClientFactory httpClientFactory, IConfiguration configuration)
         {
             _httpClientFactory = httpClientFactory;
+            _configuration = configuration;
         }
 
         public List<Appointment> AppointmentList { get; set; } = new List<Appointment>();
@@ -51,7 +53,9 @@ namespace VeterinaryClinic.UI.Pages.Appointments
                 AppointmentList = new List<Appointment>();
             }
 
-            var weatherResponse = await client.GetAsync("https://localhost:7037/api/external/weather/city/Gaziantep");
+            var apiBase = _configuration["OpenWeather:BASE_URL"];
+            var weatherResponse = await client.GetAsync("https://localhost:7037/api/external/weather/clinic");
+
             if (weatherResponse.IsSuccessStatusCode)
             {
                 var content = await weatherResponse.Content.ReadAsStringAsync();

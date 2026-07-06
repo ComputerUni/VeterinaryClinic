@@ -42,7 +42,34 @@ namespace VeterinaryClinic.API.Controllers
                 return StatusCode((int)response.StatusCode, "Error fetching weather data");
             }
 
-
         }
+
+        [HttpGet("clinic")]
+        [AllowAnonymous]
+        public async Task<IActionResult> GetClinicWeather()
+        {
+            var city = _configuration["ClinicSettings:City"];
+            if (string.IsNullOrEmpty(city))
+            {
+                return BadRequest("Klinik şehri tanımlı değil.");
+            }
+
+            _logger.LogInformation("Klinik hava durumu isteği: {City}", city);
+
+            using var httpClient = new HttpClient();
+            var apiKey = _configuration["OpenWeather:API_KEY"];
+            var baseUrl = _configuration["OpenWeather:BASE_URL"];
+            var url = $"{baseUrl}?q={city}&appid={apiKey}&units=metric";
+            var response = await httpClient.GetAsync(url);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                return Content(content, "application/json");
+            }
+            _logger.LogWarning("Klinik hava durumu verisi alınamadı: {City}", city);
+            return StatusCode((int)response.StatusCode, "Hava durumu alınamadı");
+        }
+        
     }
 }

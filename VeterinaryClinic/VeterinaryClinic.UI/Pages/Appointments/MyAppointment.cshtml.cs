@@ -13,10 +13,12 @@ namespace VeterinaryClinic.UI.Pages.Appointments
     public class MyAppointmentModel : PageModel
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IConfiguration _configuration;
 
-        public MyAppointmentModel(IHttpClientFactory httpClientFactory)
+        public MyAppointmentModel(IHttpClientFactory httpClientFactory, IConfiguration configuration)
         {
             _httpClientFactory = httpClientFactory;
+            _configuration = configuration;
         }
 
         public List<Appointment> AppointmentList { get; set; } = new List<Appointment>();
@@ -24,6 +26,7 @@ namespace VeterinaryClinic.UI.Pages.Appointments
 
         [BindProperty]
         public AppointmentDto Appointment { get; set; }
+        public WeatherDto Weather { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int pageNumber = 1)
         {
@@ -41,13 +44,29 @@ namespace VeterinaryClinic.UI.Pages.Appointments
                 var content = await response.Content.ReadAsStringAsync();
                 var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
                 AppointmentList = JsonSerializer.Deserialize<List<Appointment>>(content, options) ?? new List<Appointment>();
+                PagedMyAppointmentList = AppointmentList.ToPagedList(pageNumber, 7);
             }
             else
             {
                 AppointmentList = new List<Appointment>(); 
             }
 
-            PagedMyAppointmentList = AppointmentList.ToPagedList(pageNumber, 7);
+            var apiBase = _configuration["OpenWeather:BASE_URL"];
+            var weatherResponse = await client.GetAsync("https://localhost:7037/api/external/weather/clinic");
+
+            if (weatherResponse.IsSuccessStatusCode)
+            {
+                var content = await weatherResponse.Content.ReadAsStringAsync();
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
+                Weather = JsonSerializer.Deserialize<WeatherDto>(content, options) ?? new WeatherDto();
+            }
+            else
+            {
+                Weather = new WeatherDto();
+            }
 
             return Page();
         }

@@ -6,6 +6,7 @@ using Serilog;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Text.Json;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.Business.Concrete;
 using VeterinaryClinic.Business.Configuration;
@@ -77,6 +78,11 @@ builder.Services.ConfigureApplicationCookie(options =>
         context.Response.StatusCode = StatusCodes.Status401Unauthorized;
         return Task.CompletedTask;
     };
+    options.Events.OnRedirectToAccessDenied = context =>
+    {
+        context.Response.StatusCode = StatusCodes.Status403Forbidden;
+        return Task.CompletedTask;
+    };
 });
 
 
@@ -86,13 +92,9 @@ builder.Services.AddAuthentication(options =>
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultForbidScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultSignInScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultSignOutScheme = JwtBearerDefaults.AuthenticationScheme;
+    //options.DefaultSignInScheme = JwtBearerDefaults.AuthenticationScheme;
+    //options.DefaultSignOutScheme = JwtBearerDefaults.AuthenticationScheme;
 })
-    .AddCookie("Cookies", options =>
-    {
-        options.LoginPath = "/Login";
-    })
     .AddJwtBearer(options =>
     {
         options.TokenValidationParameters = new TokenValidationParameters
@@ -105,6 +107,27 @@ builder.Services.AddAuthentication(options =>
             ValidIssuer = jwtIssuer,
             ValidAudience = jwtAudience,
             IssuerSigningKey = new SymmetricSecurityKey(key)
+        };
+
+        options.Events = new JwtBearerEvents
+        {
+            OnChallenge = async context =>
+            {
+                context.HandleResponse();
+                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                context.Response.ContentType = "application/json";
+                var result = JsonSerializer.Serialize(new { error = "Unauthorized", message = "Bu işlem için giriş yapmanız veya geçerli bir Token sunmanız gerekmektedir." });
+                await context.Response.WriteAsync(result);
+            },
+
+            OnForbidden = async context =>
+            {
+                context.Response.StatusCode = StatusCodes.Status403Forbidden;
+                context.Response.ContentType = "application/json";
+                var result = JsonSerializer.Serialize(new { error = "Forbidden", message = "Bu alana erişim yetkiniz (rolünüz) bulunmamaktadır." });
+                await context.Response.WriteAsync(result);
+            }
+
         };
     });
 

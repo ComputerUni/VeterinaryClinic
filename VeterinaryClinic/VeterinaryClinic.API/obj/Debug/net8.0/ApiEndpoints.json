@@ -209,6 +209,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VeterinaryClinic.API.Controllers.WeatherForecastController",
+    "Method": "GetClinicWeather",
+    "RelativePath": "api/external/weather/clinic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VeterinaryClinic.API.Controllers.PaymentsController",
     "Method": "GetAll",
     "RelativePath": "api/payments",

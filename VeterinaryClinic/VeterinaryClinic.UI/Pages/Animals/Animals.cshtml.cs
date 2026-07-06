@@ -14,10 +14,14 @@ namespace VeterinaryClinic.UI.Pages.Animals
     public class AnimalsModel : PageModel
     {
         private readonly IHttpClientFactory _httpClientFactory;
+        private readonly IConfiguration _configuration;
 
-        public AnimalsModel(IHttpClientFactory httpClientFactory)
+
+        public AnimalsModel(IHttpClientFactory httpClientFactory, IConfiguration configuration)
         {
             _httpClientFactory = httpClientFactory;
+            _configuration = configuration;
+
         }
 
         public List<Animal> AnimalList { get; set; } = new List<Animal>();
@@ -56,8 +60,8 @@ namespace VeterinaryClinic.UI.Pages.Animals
                 AnimalList = new List<Animal>();
             }
 
-            
-            var weatherResponse = await client.GetAsync("https://localhost:7037/api/external/weather/city/Gaziantep");
+            var apiBase = _configuration["OpenWeather:BASE_URL"];
+            var weatherResponse = await client.GetAsync("https://localhost:7037/api/external/weather/clinic");
 
             if(weatherResponse.IsSuccessStatusCode)
             {
