@@ -7,8 +7,8 @@ using VeterinaryClinic.Entities.Concrete;
 
 namespace VeterinaryClinic.DataAccess.Abstract
 {
-    public interface IAnimalDal:IGenericRepository<Animal>
+    public interface IAnimalDal : IGenericRepository<Animal>
     {
-
+        Task<List<Animal>> GetAnimalsWithOwnerAsync();
     }
 }

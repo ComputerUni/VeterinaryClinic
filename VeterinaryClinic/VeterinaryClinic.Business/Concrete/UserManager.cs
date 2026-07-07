@@ -25,6 +25,11 @@ namespace VeterinaryClinic.Business.Concrete
             _signInManager = signInManager;
         }
 
+        public async Task<List<User>> GetCustomersAsync()
+        {
+            return (await _userManager.GetUsersInRoleAsync("Customer")).ToList();
+        }
+
         public async Task<User> GetUserById(int id)
         {
             return await _userManager.FindByIdAsync(id.ToString());

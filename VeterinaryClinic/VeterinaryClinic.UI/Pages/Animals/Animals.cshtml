@@ -32,7 +32,7 @@
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Hayvanların Yaş Ortalaması</h6>
-                    <h3 class="text-bold mb-10">@(Model.AnimalList != null ? Model.AnimalList.Average(a => a.Age).ToString("0.00") : "0.00")</h3>
+                    <h3 class="text-bold mb-10">@(Model.AnimalList != null && Model.AnimalList.Any() ? Model.AnimalList.Average(a => a.Age).ToString("0.00") : "0.00")</h3>
                 </div>
             </div>
         </div>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Hayvanların Boy Ortalaması</h6>
-                    <h3 class="text-bold mb-10">@(Model.AnimalList != null ? Model.AnimalList.Average(a => a.Height).ToString("0.00") : "0.00")</h3>
+                    <h3 class="text-bold mb-10">@(Model.AnimalList != null && Model.AnimalList.Any() ? Model.AnimalList.Average(a => a.Height).ToString("0.00") : "0.00")</h3>
                 </div>
             </div>
         </div>

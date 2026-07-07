@@ -15,6 +15,7 @@ namespace VeterinaryClinic.Business.Abstract
         Task<SignInResult> Login(LoginDto model);
         Task<User> GetUserById(int id);
         Task<User> GetUserByUsername(string username);
+        Task<List<User>> GetCustomersAsync();
 
     }
 }

@@ -18,8 +18,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "animal",
-        "Type": "VeterinaryClinic.Entities.Concrete.Animal",
+        "Name": "animalDto",
+        "Type": "VeterinaryClinic.Entities.Models.AnimalDto",
         "IsRequired": true
       }
     ],
@@ -55,8 +55,8 @@
         "IsRequired": true
       },
       {
-        "Name": "animal",
-        "Type": "VeterinaryClinic.Entities.Concrete.Animal",
+        "Name": "animalDto",
+        "Type": "VeterinaryClinic.Entities.Models.AnimalDto",
         "IsRequired": true
       }
     ],
@@ -410,6 +410,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinaryClinic.API.Controllers.UsersController",
+    "Method": "GetCustomers",
+    "RelativePath": "api/users/customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

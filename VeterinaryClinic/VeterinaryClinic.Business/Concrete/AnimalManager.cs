@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.DataAccess.Abstract;
 using VeterinaryClinic.Entities.Concrete;
+using Microsoft.EntityFrameworkCore;
 
 namespace VeterinaryClinic.Business.Concrete
 {
@@ -57,6 +58,11 @@ namespace VeterinaryClinic.Business.Concrete
         {
             return await _unitOfWork.Animals.ListAsync(a => a.OwnerId == ownerId);
 
+        }
+
+        public async Task<List<Animal>> GetAnimalsWithOwnerAsync()
+        {
+            return await _unitOfWork.Animals.GetAnimalsWithOwnerAsync();
         }
     }
 }

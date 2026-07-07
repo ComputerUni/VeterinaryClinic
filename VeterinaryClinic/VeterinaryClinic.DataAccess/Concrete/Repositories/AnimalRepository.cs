@@ -26,6 +26,11 @@ namespace VeterinaryClinic.DataAccess.Concrete.Repositories
             _object.Remove(p);
         }
 
+        public async Task<List<Animal>> GetAnimalsWithOwnerAsync()
+        {
+            return await _context.Animals.Include(x => x.Owner).ToListAsync();
+        }
+
         public async Task<Animal> GetAsync(Expression<Func<Animal, bool>> filter)
         {
             return await _object.SingleOrDefaultAsync(filter);

@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="~/demo.plainadmin.com/assets/css/main.css">
 </head>
 
+
 <body>
     <!-- ======== Preloader =========== -->
     <div id="preloader">
@@ -269,6 +270,9 @@
     <script src="~/demo.plainadmin.com/assets/js/Sortable.min.js"></script>
     <script src="~/demo.plainadmin.com/assets/js/main.js"></script>
 
+    <script src="~/demo.plainadmin.com/assets/js/main.js"></script>
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    @await RenderSectionAsync("Scripts", required: false)
    
 </body>
 

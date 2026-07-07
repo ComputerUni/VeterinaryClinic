@@ -10,6 +10,7 @@ using System.Text.Json;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.Business.Concrete;
 using VeterinaryClinic.Business.Configuration;
+using VeterinaryClinic.Business.Mappings;
 using VeterinaryClinic.DataAccess.Abstract;
 using VeterinaryClinic.DataAccess.Concrete;
 using VeterinaryClinic.DataAccess.EntityFramework;
@@ -26,6 +27,7 @@ builder.Services.Configure<JwtSettings>(jwtSettingsSection);
 var jwtIssuer = builder.Configuration["JwtSettings:Issuer"];
 var jwtAudience = builder.Configuration["JwtSettings:Audience"];
 var jwtKey = builder.Configuration["JwtSettings:Key"];
+
 
 builder.Services.AddSwaggerGen(c =>
 {
@@ -59,6 +61,7 @@ builder.Services.AddSwaggerGen(c =>
 
 var jwtSettings = jwtSettingsSection.Get<JwtSettings>();
 var key = Encoding.UTF8.GetBytes(jwtSettings.Key);
+
 
 builder.Services.AddIdentity<User, IdentityRole<int>>(options =>
 {
@@ -138,7 +141,6 @@ builder.Services.AddAuthorization(options =>
 });
 
 
-
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -181,6 +183,7 @@ builder.Services.AddCors(option =>
         });
 });
 
+builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()

@@ -47,5 +47,13 @@ namespace VeterinaryClinic.API.Controllers
             return Ok(new { Token = token, Message = "Giriş Başarılı!" });
         }
 
+        [HttpGet("customers")]
+        [Authorize(Roles = "Manager")]
+        public async Task<IActionResult> GetCustomers()
+        {
+            var result = await _userService.GetCustomersAsync();
+            return Ok(result);
+        }
+
     }
 }

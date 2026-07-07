@@ -25,7 +25,7 @@ namespace VeterinaryClinic.UI.Pages.Animals
         }
 
         public List<Animal> AnimalList { get; set; } = new List<Animal>();
-        public IPagedList<Animal> PagedAnimalList { get; set; }
+        public IPagedList<Animal> PagedAnimalList { get; set; } = new List<Animal>().ToPagedList(1, 5);
 
         [BindProperty]
         public AnimalDto Animal { get; set; }
@@ -58,6 +58,7 @@ namespace VeterinaryClinic.UI.Pages.Animals
             else
             {
                 AnimalList = new List<Animal>();
+                PagedAnimalList = AnimalList.ToPagedList(pageNumber, 5);
             }
 
             var apiBase = _configuration["OpenWeather:BASE_URL"];

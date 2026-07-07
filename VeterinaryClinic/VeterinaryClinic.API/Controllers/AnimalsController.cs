@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.Entities.Concrete;
+using VeterinaryClinic.Entities.Models;
 
 namespace VeterinaryClinic.API.Controllers
 {
@@ -73,26 +74,71 @@ namespace VeterinaryClinic.API.Controllers
 
         [HttpPost]
         [Authorize(Roles = "Manager")]
-        public async Task<IActionResult> AddAnimal([FromBody] Animal animal)
+        public async Task<IActionResult> AddAnimal([FromBody] AnimalDto animalDto)
         {
-            if(animal == null)
+            if(animalDto == null)
             {
                 return BadRequest("Hayvan verisi boş olamaz");
             }
+
+            if (!animalDto.OwnerId.HasValue || animalDto.OwnerId == 0)
+            {
+                return BadRequest("Lütfen geçerli bir hayvan sahibi (müşteri) seçiniz.");
+            }
+
+            var animal = new Animal
+            {
+                OwnerId = animalDto.OwnerId.Value,
+                Name = animalDto.Name ?? string.Empty,
+                Age = animalDto.Age ?? 0,
+                Weight = animalDto.Weight ?? 0,
+                Height = animalDto.Height ?? 0,
+                Species = animalDto.Species ?? string.Empty,
+                Breed = animalDto.Breed ?? string.Empty,
+                MedicalHistory = animalDto.MedicalHistory ?? string.Empty
+            };
+
             var createdAnimal = await _animalService.AnimalAddAsync(animal);
             return StatusCode(201, createdAnimal);
         }
 
         [HttpPut("{id}")]
         [Authorize(Roles = "Manager")]
-        public async Task<IActionResult> UpdateAnimal(int id, [FromBody] Animal animal)
+        public async Task<IActionResult> UpdateAnimal(int id, [FromBody] AnimalDto animalDto)
         {
-            if(id != animal.Id)
+            if(id != animalDto.Id)
             {
                 return BadRequest("Geçersiz Hayvan ID'si");
             }
-            await _animalService.AnimalUpdateAsync(animal);
-            return Ok(animal);
+
+            if(animalDto == null)
+            {
+                return BadRequest("Hayvan verisi boş olamaz");
+            }
+
+            if (!animalDto.OwnerId.HasValue || animalDto.OwnerId == 0)
+            {
+                return BadRequest("Lütfen geçerli bir hayvan sahibi (müşteri) seçiniz.");
+            }
+
+            var existingAnimal = await _animalService.GetByIDAsync(id);
+            if(existingAnimal == null)
+            {
+                return NotFound("Güncellenmek istenen hayvan bulunamadı");
+            }
+
+
+            existingAnimal.OwnerId = animalDto.OwnerId.Value;
+            existingAnimal.Name = animalDto.Name ?? string.Empty;
+            existingAnimal.Age = animalDto.Age ?? 0;
+            existingAnimal.Weight = animalDto.Weight ?? 0;
+            existingAnimal.Height = animalDto.Height ?? 0;
+            existingAnimal.Species = animalDto.Species ?? string.Empty;
+            existingAnimal.Breed = animalDto.Breed ?? string.Empty;
+            existingAnimal.MedicalHistory = animalDto.MedicalHistory ?? string.Empty;
+
+            await _animalService.AnimalUpdateAsync(existingAnimal);
+            return Ok(existingAnimal);
         }
 
     }

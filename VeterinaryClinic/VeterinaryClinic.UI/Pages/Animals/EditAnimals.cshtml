@@ -19,9 +19,11 @@
                             <div class="col-md-6">
                                 <div class="input-style-1">
                                     <label asp-for="Animal.OwnerId" class="form-label">
-                                        Sahip ID
+                                        Hayvan Sahibi
                                     </label>
-                                    <input asp-for="Animal.OwnerId" type="text" class="form-control" id="f-name" required="">
+                                    <select asp-for="Animal.OwnerId" asp-items="Model.CustomerSelectList" class="form-control form-select" id="animal-owner">
+                                        <option value="">-- Lütfen Bir Müşteri Seçiniz --</option>
+                                    </select>
                                     <div class="valid-feedback">Looks good!</div>
                                 </div>
                             </div>

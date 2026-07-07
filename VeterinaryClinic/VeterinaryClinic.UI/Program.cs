@@ -1,10 +1,33 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
+using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
+using VeterinaryClinic.Business.Validators;
+using FluentValidation;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddFluentValidationAutoValidation(config =>
+{
+    config.EnableFormBindingSourceAutomaticValidation = true;
+});
+builder.Services.AddValidatorsFromAssemblyContaining<AnimalValidator>();
+
 builder.Services.AddHttpClient();
 builder.Services.AddAuthorization();
-builder.Services.AddRazorPages();
+
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.AuthorizeFolder("/Animals");
+    options.Conventions.AuthorizeFolder("/Appointments");
+    options.Conventions.AuthorizeFolder("/Treatments");
+    options.Conventions.AuthorizeFolder("/Payments");
+    options.Conventions.AuthorizeFolder("/Dashboard");
+    options.Conventions.AuthorizeFolder("/Manager");
+
+    options.Conventions.AllowAnonymousToPage("/Login");
+    options.Conventions.AllowAnonymousToPage("/Register");
+});
+
 builder.Services.AddRazorComponents();
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -45,7 +68,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseSession();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();

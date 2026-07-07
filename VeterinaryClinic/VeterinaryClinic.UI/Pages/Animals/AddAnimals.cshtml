@@ -5,7 +5,6 @@
     Layout = "~/Pages/Shared/_ManagerLayout.cshtml";
 }
 
-
 <div class="container p-4">
     <div class="form-layout-wrapper">
         <div class="row">
@@ -14,16 +13,20 @@
                     <p class="text-sm mb-25">
                         Yeni hayvan kaydınızı bu kısımdan ekleyiniz.
                     </p>
-                    <form asp-controller="Animals" asp-action="AddAnimals" method="post" class="row needs-validation" novalidate="">
-                        <div asp-validation-summary="All" class="text-danger"></div>
+
+                    <form method="post" class="row">
+                        <div asp-validation-summary="ModelOnly" class="text-danger mb-3 font-weight-bold"></div>
+
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="input-style-1">
                                     <label asp-for="Animal.OwnerId" class="form-label">
-                                        Sahip ID
+                                        Hayvan Sahibi
                                     </label>
-                                    <input asp-for="Animal.OwnerId" type="text" class="form-control" id="f-name" required="">
-                                    <div class="valid-feedback">Looks good!</div>
+                                    <select asp-for="Animal.OwnerId" asp-items="Model.CustomerSelectList" class="form-control form-select" id="animal-owner">
+                                        <option value="">-- Lütfen Bir Müşteri Seçiniz --</option>
+                                    </select>
+                                    <span asp-validation-for="Animal.OwnerId" class="text-danger"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -31,22 +34,20 @@
                                     <label asp-for="Animal.Name" class="form-label">
                                         Ad
                                     </label>
-                                    <input asp-for="Animal.Name" type="text" class="form-control" id="l-name" required="">
-
-                                    <div class="valid-feedback">Looks good!</div>
+                                    <input asp-for="Animal.Name" type="text" class="form-control" id="animal-name">
+                                    <span asp-validation-for="Animal.Name" class="text-danger"></span>
                                 </div>
                             </div>
                         </div>
-                       
+
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="input-style-1">
                                     <label asp-for="Animal.Age" class="form-label">
                                         Yaş
                                     </label>
-                                    <input asp-for="Animal.Age" type="text" class="form-control" id="l-name" required="">
-
-                                    <div class="valid-feedback">Looks good!</div>
+                                    <input asp-for="Animal.Age" type="number" class="form-control" id="animal-age">
+                                    <span asp-validation-for="Animal.Age" class="text-danger"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -54,9 +55,8 @@
                                     <label asp-for="Animal.Weight" class="form-label">
                                         Ağırlık
                                     </label>
-                                    <input asp-for="Animal.Weight" type="text" class="form-control" id="l-name" required="">
-
-                                    <div class="valid-feedback">Looks good!</div>
+                                    <input asp-for="Animal.Weight" type="number" step="0.01" class="form-control" id="animal-weight">
+                                    <span asp-validation-for="Animal.Weight" class="text-danger"></span>
                                 </div>
                             </div>
                         </div>
@@ -66,9 +66,8 @@
                                     <label asp-for="Animal.Height" class="form-label">
                                         Yükseklik
                                     </label>
-                                    <input asp-for="Animal.Height" type="text" class="form-control" id="l-name" required="">
-
-                                    <div class="valid-feedback">Looks good!</div>
+                                    <input asp-for="Animal.Height" type="number" step="0.01" class="form-control" id="animal-height">
+                                    <span asp-validation-for="Animal.Height" class="text-danger"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -76,9 +75,8 @@
                                     <label asp-for="Animal.Breed" class="form-label">
                                         Irk
                                     </label>
-                                    <input asp-for="Animal.Breed" type="text" class="form-control" id="l-name" required="">
-
-                                    <div class="valid-feedback">Looks good!</div>
+                                    <input asp-for="Animal.Breed" type="text" class="form-control" id="animal-breed">
+                                    <span asp-validation-for="Animal.Breed" class="text-danger"></span>
                                 </div>
                             </div>
                         </div>
@@ -88,9 +86,8 @@
                                     <label asp-for="Animal.Species" class="form-label">
                                         Tür
                                     </label>
-                                    <input asp-for="Animal.Species" type="text" class="form-control" id="l-name" required="">
-
-                                    <div class="valid-feedback">Looks good!</div>
+                                    <input asp-for="Animal.Species" type="text" class="form-control" id="animal-species">
+                                    <span asp-validation-for="Animal.Species" class="text-danger"></span>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -98,9 +95,8 @@
                                     <label asp-for="Animal.MedicalHistory" class="form-label">
                                         Sağlık Tarihi
                                     </label>
-                                    <input asp-for="Animal.MedicalHistory" type="text" class="form-control" id="l-name" required="">
-
-                                    <div class="valid-feedback">Looks good!</div>
+                                    <input asp-for="Animal.MedicalHistory" type="text" class="form-control" id="animal-medical-history">
+                                    <span asp-validation-for="Animal.MedicalHistory" class="text-danger"></span>
                                 </div>
                             </div>
                         </div>
@@ -111,9 +107,7 @@
                         </div>
                     </form>
                 </div>
-                <!-- end card -->
             </div>
         </div>
-        <!-- end row -->
     </div>
 </div>

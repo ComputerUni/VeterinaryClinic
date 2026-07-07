@@ -24,17 +24,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Animal"
+                "$ref": "#/components/schemas/AnimalDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Animal"
+                "$ref": "#/components/schemas/AnimalDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Animal"
+                "$ref": "#/components/schemas/AnimalDto"
               }
             }
           }
@@ -87,17 +87,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Animal"
+                "$ref": "#/components/schemas/AnimalDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Animal"
+                "$ref": "#/components/schemas/AnimalDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Animal"
+                "$ref": "#/components/schemas/AnimalDto"
               }
             }
           }
@@ -682,6 +682,18 @@
         }
       }
     },
+    "/api/users/customers": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/external/weather/city/{city_name}": {
       "get": {
         "tags": [
@@ -719,7 +731,7 @@
   },
   "components": {
     "schemas": {
-      "Animal": {
+      "AnimalDto": {
         "type": "object",
         "properties": {
           "id": {
@@ -728,7 +740,8 @@
           },
           "ownerId": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "name": {
             "type": "string",
@@ -736,15 +749,18 @@
           },
           "age": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "weight": {
             "type": "number",
-            "format": "double"
+            "format": "double",
+            "nullable": true
           },
           "height": {
             "type": "number",
-            "format": "double"
+            "format": "double",
+            "nullable": true
           },
           "species": {
             "type": "string",
