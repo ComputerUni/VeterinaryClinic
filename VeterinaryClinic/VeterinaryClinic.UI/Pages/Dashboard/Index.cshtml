@@ -1,13 +1,13 @@
 ﻿@page
 @model VeterinaryClinic.UI.Pages.Dashboard.IndexModel
 @{
+    ViewData["Title"] = "Pati Klinik Dashboard";
     Layout = "~/Pages/Shared/_ManagerLayout.cshtml";
 }
 
 <div class="container-fluid px-4 py-4">
     <div class="d-flex align-items-center justify-content-between mb-4">
         <div>
-            <h1 class="h3 mb-0 text-dark font-weight-bold">🐾 Pati Klinik Özet Paneli</h1>
             <p class="text-muted small mb-0">Kliniğinizin anlık günlük, aylık ciro ve operasyonel verileri.</p>
         </div>
         <div class="text-end">
@@ -125,10 +125,10 @@
                     <div class="d-flex align-items-center justify-content-between mb-3">
                         <div class="rounded-circle d-flex align-items-center justify-content-center"
                              style="width:48px;height:48px;background:rgba(23,162,184,0.15);">
-                            <i class="fa-solid fa-paw" style="color:#17a2b8;font-size:1.3rem;"></i>
+                            <i class="fa-solid fa-credit-card" style="color:#a78bfa;font-size:1.3rem;"></i>
                         </div>
                         <span class="badge rounded-pill px-3 py-1" style="background:rgba(23,162,184,0.15);color:#17a2b8;font-size:0.7rem;">
-                            <i class="fa-solid fa-credit-card me-1"></i>Toplam
+                            <i class="fa-solid fa-credit-card me-1"></i>
                         </span>
                     </div>
                     <p class="mb-1" style="color:#a0aec0;font-size:0.78rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;">Toplam Kredi Kartı Ödemeleri</p>
@@ -144,10 +144,10 @@
                     <div class="d-flex align-items-center justify-content-between mb-3">
                         <div class="rounded-circle d-flex align-items-center justify-content-center"
                              style="width:48px;height:48px;background:rgba(23,162,184,0.15);">
-                            <i class="fa-solid fa-paw" style="color:#17a2b8;font-size:1.3rem;"></i>
+                            <i class="fa-solid fa-building-columns" style="color:#f59e0b;font-size:1.3rem;"></i>
                         </div>
                         <span class="badge rounded-pill px-3 py-1" style="background:rgba(23,162,184,0.15);color:#17a2b8;font-size:0.7rem;">
-                            <i class="fa-solid fa-bank me-1"></i>Toplam
+                            <i class="fa-solid fa-building-columns me-1"></i>
                         </span>
                     </div>
                     <p class="mb-1" style="color:#a0aec0;font-size:0.78rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;">Toplam Havale/EFT Ödemeleri</p>
@@ -163,15 +163,72 @@
                     <div class="d-flex align-items-center justify-content-between mb-3">
                         <div class="rounded-circle d-flex align-items-center justify-content-center"
                              style="width:48px;height:48px;background:rgba(23,162,184,0.15);">
-                            <i class="fa-solid fa-paw" style="color:#17a2b8;font-size:1.3rem;"></i>
+                            <i class="fa-solid fa-money-bill-wave" style="color:#34d399;font-size:1.3rem;"></i>
                         </div>
                         <span class="badge rounded-pill px-3 py-1" style="background:rgba(23,162,184,0.15);color:#17a2b8;font-size:0.7rem;">
-                            <i class="fa-solid fa-bank me-1"></i>Toplam
+                            <i class="fa-solid fa-money-bill-wave me-1"></i>
                         </span>
                     </div>
                     <p class="mb-1" style="color:#a0aec0;font-size:0.78rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;">Toplam Nakit Ödemeleri</p>
                     <h3 class="mb-0 fw-bold" style="color:#fff;">
                         @Model.ReportData.TotalCashCount
+                    </h3>
+                </div>
+            </div>
+        </div>
+         <div class="col">
+            <div class="card h-100 border-0 shadow" style="background:rgba(167,139,250,0.15);">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <div class="rounded-circle d-flex align-items-center justify-content-center"
+                             style="width:48px;height:48px;background:rgba(23,162,184,0.15);">
+                            <i class="fa-solid fa-receipt" style="color:#a78bfa;font-size:1.3rem;"></i>
+                        </div>
+                        <span class="badge rounded-pill px-3 py-1" style="background:rgba(23,162,184,0.15);color:#17a2b8;font-size:0.7rem;">
+                            <i class="fa-solid fa-receipt me-1"></i>
+                        </span>
+                    </div>
+                    <p class="mb-1" style="color:#a0aec0;font-size:0.78rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;">Nakit Kartla Ödenen Toplam Miktar</p>
+                    <h3 class="mb-0 fw-bold" style="color:#fff;">
+                        @Model.ReportData.TotalAmountCreditCard
+                    </h3>
+                </div>
+            </div>
+        </div>
+         <div class="col">
+            <div class="card h-100 border-0 shadow" style="background:rgba(245,158,11,0.15);">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <div class="rounded-circle d-flex align-items-center justify-content-center"
+                             style="width:48px;height:48px;background:rgba(23,162,184,0.15);">
+                            <i class="fa-solid fa-money-bill-transfer" style="color:#f59e0b;font-size:1.3rem;"></i>
+                        </div>
+                        <span class="badge rounded-pill px-3 py-1" style="background:rgba(23,162,184,0.15);color:#17a2b8;font-size:0.7rem;">
+                            <i class="fa-solid fa-money-bill-transfer me-1"></i>
+                        </span>
+                    </div>
+                    <p class="mb-1" style="color:#a0aec0;font-size:0.78rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;">Havale/EFT ile Ödenen Toplam Miktar</p>
+                    <h3 class="mb-0 fw-bold" style="color:#fff;">
+                        @Model.ReportData.TotalAmountBankTransfer
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100 border-0 shadow" style="background:rgba(52,211,153,0.15);">
+                <div class="card-body p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-3">
+                        <div class="rounded-circle d-flex align-items-center justify-content-center"
+                             style="width:48px;height:48px;background:rgba(23,162,184,0.15);">
+                            <i class="fa-solid fa-sack-dollar" style="color:#34d399;font-size:1.3rem;"></i>
+                        </div>
+                        <span class="badge rounded-pill px-3 py-1" style="background:rgba(23,162,184,0.15);color:#17a2b8;font-size:0.7rem;">
+                            <i class="fa-solid fa-sack-dollar me-1"></i>
+                        </span>
+                    </div>
+                    <p class="mb-1" style="color:#a0aec0;font-size:0.78rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;">Nakitle Ödenen Toplam Miktar</p>
+                    <h3 class="mb-0 fw-bold" style="color:#fff;">
+                        @Model.ReportData.TotalAmountCash
                     </h3>
                 </div>
             </div>

@@ -29,19 +29,11 @@ namespace VeterinaryClinic.Business.Concrete
             var payments = await _unitOfWork.Payments.ListAsync();
             var animals = await _unitOfWork.Animals.ListAsync();
 
-            Console.WriteLine($"Appointments: {appointments.Count}");
-            Console.WriteLine($"Payments: {payments.Count}");
-            Console.WriteLine($"Animals: {animals.Count}");
-            Console.WriteLine($"Today: {today}");
-            Console.WriteLine($"Payment dates: {string.Join(", ", payments.Select(p => p.PaymentDate.ToString()))}");
-
             var dto = new DashboardReportDto
             {
                 DailyAppointmentsCount = appointments.Count(a => a.Date == today),
                 DailyRevenue = payments.Where(p => p.PaymentDate.Date == DateTime.Today)
                                         .Sum(p => p.AmountPaid),
-
-
 
                 MonthlyAppointmentCount = appointments.Count(a => a.Date.Month == currentMonth),
                 MonthlyRevenue = payments.Where(p => p.PaymentDate.Month == currentMonth && p.PaymentDate.Year == currentYear)
@@ -51,8 +43,14 @@ namespace VeterinaryClinic.Business.Concrete
 
                 TotalCreditCardCount = payments.Count(p => p.PaymentMethod == PaymentStatus.CreditCard),
                 TotalBankTransferCount = payments.Count(p => p.PaymentMethod == PaymentStatus.BankTransfer),
-                TotalCashCount = payments.Count(p => p.PaymentMethod == PaymentStatus.Cash)
-                                    
+                TotalCashCount = payments.Count(p => p.PaymentMethod == PaymentStatus.Cash),
+
+                
+                TotalAmountCreditCard = payments.Where(p => p.PaymentMethod == PaymentStatus.CreditCard).Sum(p => p.AmountPaid),
+                TotalAmountBankTransfer = payments.Where(p => p.PaymentMethod == PaymentStatus.BankTransfer).Sum(p => p.AmountPaid),
+                TotalAmountCash = payments.Where(p => p.PaymentMethod == PaymentStatus.Cash).Sum(p => p.AmountPaid),
+
+
             };
 
             return dto;

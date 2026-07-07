@@ -1,37 +1,10 @@
 ﻿@page
 @model VeterinaryClinic.UI.Pages.Treatments.MyTreatmentModel
 @{
+    ViewData["Title"] = "Hayvanlarımın Geçmiş Tedavi Bilgileri";
     Layout = "~/Pages/Shared/_CustomerLayout.cshtml";
 }
 
-
-<div class="title-wrapper pt-30">
-    <div class="row align-items-center">
-        <div class="col-md-6">
-            <div class="title">
-                <h2>Hayvanımın Geçmiş Sağlık Bilgileri</h2>
-            </div>
-        </div>
-        <!-- end col -->
-        @* <div class="col-md-6">
-            <div class="breadcrumb-wrapper">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item">
-                            <a href="#0">Dashboard</a>
-                        </li>
-                        <li class="breadcrumb-item active" aria-current="page">
-                            CRM
-                        </li>
-                    </ol>
-                </nav>
-            </div>
-        </div> *@
-        <!-- end col -->
-    </div>
-    <!-- end row -->
-</div>
-<!-- ========== title-wrapper end ========== -->
 <div class="row">
     <div class="col-xl-3 col-lg-4 col-sm-6">
         <div class="icon-card icon-card-2 mb-30">
@@ -45,77 +18,13 @@
                 </div>
             </div>
         </div>
-        <!-- End Icon Cart -->
     </div>
-    <!-- End Col -->
-@*     <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="icon-card icon-card-2 mb-30">
-            <div class="d-flex align-items-center">
-                <div class="icon success">
-                    <i class="lni lni-timer"></i>
-                </div>
-                <div class="content">
-                    <h6 class="mb-10">Bekleyen Tedaviler</h6>
-                    <h3 class="text-bold mb-10">@(Model.AppointmentList != null ? Model.AppointmentList.Count(a => a.Status == AppointmentStatus.Scheduled) : 0)</h3>
-                </div>
-            </div>
-        </div>
-        <!-- End Icon Cart -->
-    </div>
-    <!-- End Col -->
-    <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="icon-card icon-card-2 mb-30">
-            <div class="d-flex align-items-center">
-                <div class="icon primary">
-                    <i class="lni lni-ruler"></i>
-                </div>
-                <div class="content">
-                    <h6 class="mb-10">Kabul Edilen Tedaviler</h6>
-                    <h3 class="text-bold mb-10">@(Model.AppointmentList != null ? Model.AppointmentList.Count(a => a.Status == AppointmentStatus.Completed) : 0)</h3>
-                </div>
-            </div>
-        </div>
-        <!-- End Icon Cart -->
-    </div>
-    <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="icon-card icon-card-2 mb-30">
-            <div class="d-flex align-items-center">
-                <div class="icon primary">
-                    <i class="lni lni-ruler"></i>
-                </div>
-                <div class="content">
-                    <h6 class="mb-10">İptal Edilen Tedaviler</h6>
-                    <h3 class="text-bold mb-10">@(Model.AppointmentList != null ? Model.AppointmentList.Count(a => a.Status == AppointmentStatus.Cancelled) : 0)</h3>
-                </div>
-            </div>
-        </div>
-        <!-- End Icon Cart -->
-    </div> *@
-    <!-- End Col -->
-    @* <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="icon-card icon-card-2 mb-30">
-            <div class="d-flex align-items-center">
-                <div class="icon orange">
-                    <i class="lni @Model.Weather.Weather[0].LniIcon"></i>
-                </div>
-                <div class="content">
-                    <h6 class="text-bold mb-10">@Model.Weather.Name</h6>
-                    <h3 class="text-bold mb-10">@Model.Weather.Main.Temp °C</h3>
-                </div>
-            </div>
-        </div>
-        <!-- End Icon Cart -->
-    </div> *@
-    <!-- End Col -->
-</div>
-<!-- End Row -->
-<!-- End Row -->
-<div class="row">
-    <div class="col-lg-12">
-        <div class="card-style clients-table-card mb-30">
-            <div class="title d-flex justify-content-between align-items-center">
-                <h6 class="mb-10">Hayvanlar</h6>
-                @* <div class="more-btn-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card-style clients-table-card mb-30">
+                <div class="title d-flex justify-content-between align-items-center">
+                    <h6 class="mb-10">Hayvanlar</h6>
+                    @* <div class="more-btn-wrapper">
                     <button class="more-btn dropdown-toggle" id="moreAction" data-bs-toggle="dropdown" aria-expanded="false">
                         <i class="lni lni-more-alt"></i>
                     </button>
@@ -125,45 +34,45 @@
                         </li>
                     </ul>
                 </div> *@
-            </div>
-            <div class="table-wrapper table-responsive">
-                <table class="table lead-table">
-                    <thead>
-                        <tr>
-                            <th><h6>#</h6></th>
-                            <th><h6>Randevu Id</h6></th>
-                            <th><h6>Tedavi Türü</h6></th>
-                            <th><h6>Notlar</h6></th>
-                            <th><h6>Ücret</h6></th>
-
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var appointment in Model.PagedMyTreatmentList)
-                        {
+                </div>
+                <div class="table-wrapper table-responsive">
+                    <table class="table lead-table">
+                        <thead>
                             <tr>
-                                <td class="image">
-                                    <p>@appointment.Id</p>
-                                </td>
-                                <td class="id">
-                                    <p>@appointment.AppointmentId</p>
-                                </td>
-                                <td class="date">
-                                    <p>@appointment.TreatmentType</p>
-                                </td>
-                                <td class="text">
-                                    <p>@appointment.Notes</p>
-                                </td>
-                                <td class="notes">
-                                    <p>@appointment.Cost</p>
-                                </td>
+                                <th><h6>#</h6></th>
+                                <th><h6>Randevu Id</h6></th>
+                                <th><h6>Tedavi Türü</h6></th>
+                                <th><h6>Notlar</h6></th>
+                                <th><h6>Ücret</h6></th>
+
                             </tr>
-                        }
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            @foreach (var appointment in Model.PagedMyTreatmentList)
+                            {
+                                <tr>
+                                    <td class="image">
+                                        <p>@appointment.Id</p>
+                                    </td>
+                                    <td class="id">
+                                        <p>@appointment.AppointmentId</p>
+                                    </td>
+                                    <td class="date">
+                                        <p>@appointment.TreatmentType</p>
+                                    </td>
+                                    <td class="text">
+                                        <p>@appointment.Notes</p>
+                                    </td>
+                                    <td class="notes">
+                                        <p>@appointment.Cost</p>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
             </div>
+            <!-- end card -->
         </div>
-        <!-- end card -->
     </div>
-</div>
 
