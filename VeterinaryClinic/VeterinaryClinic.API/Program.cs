@@ -167,6 +167,7 @@ builder.Services.AddScoped<IPaymentService, PaymentManager>();
 builder.Services.AddScoped<ITreatmentService, TreatmentManager>();
 builder.Services.AddScoped<IUserService, UserManager>();
 builder.Services.AddScoped<ITokenService, TokenManager>();
+builder.Services.AddScoped<IReportService, ReportManager>();
 
 //Swagger'da CORS hatası vermişti o yüzden ekledim.
 builder.Services.AddCors(option =>

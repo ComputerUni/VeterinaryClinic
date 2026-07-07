@@ -460,6 +460,18 @@
         }
       }
     },
+    "/api/reports/dashboard": {
+      "get": {
+        "tags": [
+          "Reports"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/treatments": {
       "get": {
         "tags": [

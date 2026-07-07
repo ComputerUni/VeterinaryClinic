@@ -15,5 +15,9 @@ namespace VeterinaryClinic.Entities.Models
         public decimal MonthlyRevenue { get; set; }
 
         public int TotalAnimalsCount { get; set; }
+
+        public int TotalCreditCardCount { get; set; }
+        public int TotalBankTransferCount { get; set; }
+        public int TotalCashCount { get; set; }
     }
 }

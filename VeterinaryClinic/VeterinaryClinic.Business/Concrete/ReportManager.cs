@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.DataAccess.Abstract;
 using VeterinaryClinic.Entities.Models;
+using VeterinaryClinic.Entities.Status;
 
 namespace VeterinaryClinic.Business.Concrete
 {
@@ -28,6 +29,12 @@ namespace VeterinaryClinic.Business.Concrete
             var payments = await _unitOfWork.Payments.ListAsync();
             var animals = await _unitOfWork.Animals.ListAsync();
 
+            Console.WriteLine($"Appointments: {appointments.Count}");
+            Console.WriteLine($"Payments: {payments.Count}");
+            Console.WriteLine($"Animals: {animals.Count}");
+            Console.WriteLine($"Today: {today}");
+            Console.WriteLine($"Payment dates: {string.Join(", ", payments.Select(p => p.PaymentDate.ToString()))}");
+
             var dto = new DashboardReportDto
             {
                 DailyAppointmentsCount = appointments.Count(a => a.Date == today),
@@ -40,8 +47,12 @@ namespace VeterinaryClinic.Business.Concrete
                 MonthlyRevenue = payments.Where(p => p.PaymentDate.Month == currentMonth && p.PaymentDate.Year == currentYear)
                                             .Sum(p => p.AmountPaid),
 
-                TotalAnimalsCount = animals.Count
-                                        
+                TotalAnimalsCount = animals.Count,
+
+                TotalCreditCardCount = payments.Count(p => p.PaymentMethod == PaymentStatus.CreditCard),
+                TotalBankTransferCount = payments.Count(p => p.PaymentMethod == PaymentStatus.BankTransfer),
+                TotalCashCount = payments.Count(p => p.PaymentMethod == PaymentStatus.Cash)
+                                    
             };
 
             return dto;
