@@ -5,6 +5,12 @@ namespace VeterinaryClinic.UI.Pages
 {
     public class LogoutModel : PageModel
     {
+        public async Task<IActionResult> OnGetAsync()
+        {
+            Response.Cookies.Delete("JwtToken");
+            return RedirectToPage("/Login");
+        }
+
         public async Task<IActionResult> OnPostAsync()
         {
             Response.Cookies.Delete("JwtToken");

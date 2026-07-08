@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.IdentityModel.Tokens.Jwt;
@@ -9,6 +10,7 @@ using X.PagedList;
 
 namespace VeterinaryClinic.UI.Pages.Treatments
 {
+    [Authorize(Roles = "Manager")]
     public class AddTreatmentModel : PageModel
     {
         private readonly IHttpClientFactory _httpClientFactory;

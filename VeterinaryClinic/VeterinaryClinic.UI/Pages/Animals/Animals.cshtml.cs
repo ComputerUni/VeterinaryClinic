@@ -8,9 +8,11 @@ using VeterinaryClinic.Entities.Concrete;
 using VeterinaryClinic.Entities.Models;
 using System.Text;
 using X.PagedList;
+using Microsoft.AspNetCore.Authorization;
 
 namespace VeterinaryClinic.UI.Pages.Animals
 {
+    [Authorize(Roles = "Manager")]
     public class AnimalsModel : PageModel
     {
         private readonly IHttpClientFactory _httpClientFactory;

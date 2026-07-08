@@ -10,7 +10,6 @@ using System.Text.Json;
 using VeterinaryClinic.Business.Abstract;
 using VeterinaryClinic.Business.Concrete;
 using VeterinaryClinic.Business.Configuration;
-using VeterinaryClinic.Business.Mappings;
 using VeterinaryClinic.DataAccess.Abstract;
 using VeterinaryClinic.DataAccess.Concrete;
 using VeterinaryClinic.DataAccess.EntityFramework;
@@ -183,7 +182,6 @@ builder.Services.AddCors(option =>
         });
 });
 
-builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()

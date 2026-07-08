@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -10,6 +11,7 @@ using VeterinaryClinic.Entities.Models;
 
 namespace VeterinaryClinic.UI.Pages.Animals
 {
+    [Authorize(Roles = "Manager")]
     public class AddAnimalsModel : PageModel
     {
         private readonly IHttpClientFactory _httpClientFactory;

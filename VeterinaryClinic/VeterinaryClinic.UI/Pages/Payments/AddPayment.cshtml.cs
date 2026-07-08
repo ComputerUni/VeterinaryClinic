@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Net.Http.Headers;
@@ -7,6 +8,7 @@ using VeterinaryClinic.Entities.Models;
 
 namespace VeterinaryClinic.UI.Pages.Payments
 {
+    [Authorize(Roles = "Manager")]
     public class AddPaymentModel : PageModel
     {
         private readonly IHttpClientFactory _httpClientFactory;

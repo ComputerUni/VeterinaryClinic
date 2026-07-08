@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Net.Http.Headers;
 using System.Text.Json;
+using VeterinaryClinic.Business.Validators;
 using VeterinaryClinic.Entities.Concrete;
 using VeterinaryClinic.Entities.Models;
 
@@ -49,11 +50,18 @@ namespace VeterinaryClinic.UI.Pages.Appointments
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+            var validator = new AppointmentValidator();
+            var result = await validator.ValidateAsync(Appointment);
+
+            if (!result.IsValid)
             {
+                foreach (var error in result.Errors)
+                {
+                    ModelState.AddModelError($"Appointment.{error.PropertyName}", error.ErrorMessage);
+                }
+                await OnGetAsync();
                 return Page();
             }
-
             var client = _httpClientFactory.CreateClient();
             var token = Request.Cookies["JwtToken"];
             if(!string.IsNullOrEmpty(token))
