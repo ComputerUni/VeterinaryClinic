@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace VeterinaryClinic.UI.Pages.Shared
+namespace VeterinaryClinic.UI.Pages.Shared.Components.ProfileInfo
 {
-    public class _ManagerLayoutModel : PageModel
+    public class DefaultModel : PageModel
     {
         public void OnGet()
         {

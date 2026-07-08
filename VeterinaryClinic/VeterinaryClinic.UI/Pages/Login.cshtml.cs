@@ -84,11 +84,11 @@ namespace VeterinaryClinic.UI.Pages
 
                 if (role == "Manager")
                 {
-                    return RedirectToPage("/Animals/Animals");
+                    return RedirectToPage("/Dashboard/Index");
                 }
                 else
                 {
-                    return RedirectToPage("/Appointments/MyAppointment");
+                    return RedirectToPage("/Animals/MyAnimals");
                 }
 
             }

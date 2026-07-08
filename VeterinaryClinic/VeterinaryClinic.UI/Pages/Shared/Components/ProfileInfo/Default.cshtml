@@ -1,0 +1,29 @@
+﻿@model (string userName, string Role, string Email)
+
+<button class="dropdown-toggle bg-transparent border-0" type="button" id="profile" data-bs-toggle="dropdown" aria-expanded="false">
+    <div class="profile-info">
+        <div class="info">
+            <div class="image" style="width: 40px; height: 40px; background-color: #007bff; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                @Model.userName.Substring(0,2).ToUpper()
+            </div>
+            <div>
+                <h6 class="fw-500">@Model.userName</h6>
+                <p>@Model.Role</p>
+            </div>
+        </div>
+    </div>
+</button>
+<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profile">
+    <li>
+        <div class="author-info flex items-center !p-1">
+            <div class="content">
+                <h4 class="text-sm">@Model.userName</h4>
+                <a class="text-black/40 dark:text-white/40 hover:text-black dark:hover:text-white text-xs" href="#">@Model.Email</a>
+            </div>
+        </div>
+    </li>
+    <li class="divider"></li>
+    <li>
+        <a href="/Logout"> <i class="lni lni-exit"></i> Çıkış Yap </a>
+    </li>
+</ul>
