@@ -5,6 +5,7 @@ using System.Net.Http.Headers;
 using System.Text.Json;
 using VeterinaryClinic.Entities.Concrete;
 using VeterinaryClinic.Entities.Models;
+using VeterinaryClinic.Entities.Status;
 using X.PagedList;
 
 namespace VeterinaryClinic.UI.Pages.Appointments
@@ -28,6 +29,8 @@ namespace VeterinaryClinic.UI.Pages.Appointments
         public AppointmentDto Appointment { get; set; }
         public WeatherDto Weather { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string? StatusFilter { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int pageNumber = 1)
         {
@@ -47,6 +50,17 @@ namespace VeterinaryClinic.UI.Pages.Appointments
                     PropertyNameCaseInsensitive = true
                 };
                 AppointmentList = JsonSerializer.Deserialize<List<Appointment>>(content, options) ?? new List<Appointment>();
+
+
+                if(!string.IsNullOrWhiteSpace(StatusFilter) && Enum.TryParse<AppointmentStatus>(StatusFilter, out var status))
+                {
+                    AppointmentList = AppointmentList
+                        .Where(a => a.Status == status)
+                        .ToList();
+                }
+
+
+
                 PagedAppointmentList = AppointmentList.ToPagedList(pageNumber, 7);
             } else
             {

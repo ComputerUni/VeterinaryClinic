@@ -13,7 +13,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon purple">
-                    <i class="lni lni-heart"></i>
+                    <i class="fa-solid fa-paw"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Toplam Hayvan Sayısı</h6>
@@ -28,7 +28,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon success">
-                    <i class="lni lni-timer"></i>
+                    <i class="fa-solid fa-hourglass-half"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Hayvanların Yaş Ortalaması</h6>
@@ -43,7 +43,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon primary">
-                    <i class="lni lni-ruler"></i>
+                    <i class="fa-solid fa-ruler-vertical"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Hayvanların Boy Ortalaması</h6>
@@ -72,6 +72,13 @@
 </div>
 <!-- End Row -->
 <!-- End Row -->
+<form method="get" asp-page="/Animals/Animals" class="d-flex gap-2">
+    <input type="text" name="searchTerm" value="@Model.SearchTerm"
+           placeholder="Hayvan ara..." class="form-control form-control-sm" style="width: 400px;" />
+    <button type="submit" class="btn btn-sm btn-primary">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+</form>
 <div class="row">
     <div class="col-lg-12">
         <div class="card-style clients-table-card mb-30">
@@ -147,11 +154,6 @@
                                 <td>
                                     <div>
                                         <a class="btn btn-primary" asp-page="/Animals/EditAnimals" asp-route-id="@animal.Id"><i class="fa-solid fa-pencil"></i></a>
-                                        @* <form asp-page="/Animals/Animals" asp-page-handler="Delete" asp-route-id="@animal.Id" method="post" style="display:inline;">
-                                            <button type="submit" class="btn btn-danger" onclick="return confirm('@animal.Name adlı hayvanı silmek istediğinize emin misiniz?')">
-                                                <i class="fa-solid fa-trash"></i>
-                                            </button>
-                                        </form> *@
                                     </div>
                                 </td>
                             </tr>
@@ -164,13 +166,15 @@
         </div>
         <!-- end card -->
     </div>
-    <div class="row mt-3 mb-3">
+    <div class="d-flex flex-wrap gap-2 mt-3 mb-3">
         @for (int i = 1; i <= Model.PagedAnimalList.PageCount; i++)
         {
-            <div class="col-auto">
-                <a asp-page="/Animals/Animals" asp-route-pageNumber="@i" class="btn @(i == Model.PagedAnimalList.PageNumber ? "btn-primary" : "btn-outlined-primary") row">@i</a>
-            </div>
-            
+            <a asp-page="/Animals/Animals"
+               asp-route-pageNumber="@i"
+               asp-route-searchTerm="@Model.SearchTerm"
+               class="btn @(i == Model.PagedAnimalList.PageNumber ? "btn-primary" : "btn-outline-secondary")">
+                @i
+            </a>
         }
     </div>
 

@@ -13,7 +13,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon purple">
-                    <i class="lni lni-heart"></i>
+                    <i class="fa-solid fa-paw"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Kayıtlı Hayvan Sayım</h6>
@@ -28,7 +28,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon success">
-                    <i class="lni lni-timer"></i>
+                    <i class="fa-solid fa-hourglass-half"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Hayvanların Yaş Ortalaması</h6>
@@ -43,7 +43,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon primary">
-                    <i class="lni lni-ruler"></i>
+                    <i class="fa-solid fa-ruler-vertical"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Hayvanların Boy Ortalaması</h6>
@@ -135,15 +135,15 @@
         </div>
         <!-- end card -->
     </div>
-    <div class="row mt-3 mb-3">
+    <div class="d-flex flex-wrap gap-2 mt-3 mb-3">
         @for (int i = 1; i <= Model.PagedMyAnimalList.PageCount; i++)
         {
-            <div class="col-auto">
-                <a asp-page="/Animals/MyAnimals" asp-route-pageNumber="@i" class="btn @(i == Model.PagedMyAnimalList.PageNumber ? "btn-primary" : "btn-outlined-primary") row">@i</a>
-            </div>
-
+            <a asp-page="/Animals/MyAnimals"
+               asp-route-pageNumber="@i"
+               class="btn @(i == Model.PagedMyAnimalList.PageNumber ? "btn-primary" : "btn-outline-secondary")">
+                @i
+            </a>
         }
     </div>
-
 </div>
 

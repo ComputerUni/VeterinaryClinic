@@ -1,12 +1,12 @@
 ﻿@model bool
 
 <nav class="sidebar-nav">
-    <ul>
+    <ul style="font-size: 1.1rem;">
         @if(Model)
         {
             <li class="nav-item">
                 <a asp-page="/Dashboard/Index">
-                    <span class="icon"><i class="fa-solid fa-paw"></i></span>
+                    <span class="icon"><i class="fa-solid fa-gauge-high"></i></span>
                     <span class="text">Dashboard</span>
                 </a>
             </li>
@@ -19,21 +19,21 @@
 
             <li class="nav-item">
                 <a asp-page="/Appointments/Index">
-                    <span class="icon"><i class="fa-solid fa-calendar-check"></i></span>
+                    <span class="icon"><i class="fa-solid fa-calendar-days"></i></span>
                     <span class="text">Randevular</span>
                 </a>
             </li>
 
             <li class="nav-item">
                 <a asp-page="/Treatments/Index">
-                    <span class="icon"><i class="fa-solid fa-calendar-check"></i></span>
+                    <span class="icon"><i class="fa-solid fa-syringe"></i></span>
                     <span class="text">Tedaviler</span>
                 </a>
             </li>
 
             <li class="nav-item">
                 <a asp-page="/Payments/Index">
-                    <span class="icon"><i class="fa-solid fa-calendar-check"></i></span>
+                    <span class="icon"><i class="fa-solid fa-credit-card"></i></span>
                     <span class="text">Ödemeler</span>
                 </a>
             </li>

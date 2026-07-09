@@ -12,6 +12,14 @@
     <link rel="shortcut icon" href="~/demo.plainadmin.com/assets/images/favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <title>PlainAdmin Demo | Bootstrap 5 Admin Template</title>
+    <style>
+            .sidebar-nav-wrapper {
+                overflow: hidden; /* auto veya scroll varsa bununla değiştir */
+                /* veya */
+                overflow-y: hidden;
+            }
+
+    </style>
 
     <!-- ========== All CSS files linkup ========= -->
     <link rel="stylesheet" href="~/demo.plainadmin.com/assets/css/bootstrap.min.css">
@@ -23,9 +31,7 @@
     <link rel="stylesheet" href="~/demo.plainadmin.com/assets/css/datatable.css">
     <link rel="stylesheet" href="~/demo.plainadmin.com/assets/css/main.css">
 </head>
-
-
-<body>
+<body class="dark-theme">
     <!-- ======== Preloader =========== -->
     <div id="preloader">
         <div class="spinner"></div>
@@ -178,7 +184,7 @@
     </main>
     <!-- ======== main-wrapper end =========== -->
     <!-- ============ Theme Option Start ============= -->
-    @* <button class="option-btn">
+    <button class="option-btn">
         <i class="lni lni-cog"></i>
     </button>
     <div class="option-overlay"></div>
@@ -200,14 +206,13 @@
 
         <h6 class="mb-10">Theme</h6>
         <ul class="d-flex flex-wrap align-items-center">
-            <li>
+            @* <li>
                 <button class="lightThemeButton active">
                     Light Theme + Sidebar 1
                 </button>
-            </li>
+            </li> *@
             <li><button class="darkThemeButton">Dark Theme + Sidebar 1</button></li>
         </ul>
-    </div> *@
     <!-- ============ Theme Option End ============= -->
     <!-- ========= All Javascript files linkup ======== -->
     <script src="~/demo.plainadmin.com/assets/js/bootstrap.bundle.min.js"></script>
@@ -222,12 +227,12 @@
     <script src="~/demo.plainadmin.com/assets/js/quill.min.js"></script>
     <script src="~/demo.plainadmin.com/assets/js/datatable.js"></script>
     <script src="~/demo.plainadmin.com/assets/js/Sortable.min.js"></script>
-    <script src="~/demo.plainadmin.com/assets/js/main.js"></script>
-
+    <script>
+        localStorage.setItem('theme', 'dark');
+    </script>
     <script src="~/demo.plainadmin.com/assets/js/main.js"></script>
     @await Html.PartialAsync("_ValidationScriptsPartial")
     @await RenderSectionAsync("Scripts", required: false)
-
 </body>
 
 </html>

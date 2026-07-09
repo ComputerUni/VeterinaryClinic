@@ -5,6 +5,7 @@ using System.Net.Http.Headers;
 using System.Text.Json;
 using VeterinaryClinic.Entities.Concrete;
 using VeterinaryClinic.Entities.Models;
+using VeterinaryClinic.Entities.Status;
 using X.PagedList;
 
 namespace VeterinaryClinic.UI.Pages.Payments
@@ -25,6 +26,9 @@ namespace VeterinaryClinic.UI.Pages.Payments
         [BindProperty]
         public PaymentDto Payment { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string? StatusFilter { get; set; }
+
         public async Task<IActionResult> OnGetAsync(int pageNumber = 1)
         {
             var client = _httpClientFactory.CreateClient();
@@ -41,6 +45,15 @@ namespace VeterinaryClinic.UI.Pages.Payments
                 var content = await response.Content.ReadAsStringAsync();
                 var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
                 PaymentList = JsonSerializer.Deserialize<List<Payment>>(content, options) ?? new List<Payment>();
+
+
+                if (!string.IsNullOrWhiteSpace(StatusFilter) && Enum.TryParse<PaymentStatus>(StatusFilter, out var status))
+                {
+                    PaymentList = PaymentList
+                        .Where(a => a.PaymentMethod == status)
+                        .ToList();
+                }
+
             }
             else
             {

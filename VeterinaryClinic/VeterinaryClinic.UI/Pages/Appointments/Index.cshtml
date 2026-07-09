@@ -5,14 +5,12 @@
     ViewData["Title"] = "Randevular";
     Layout = "~/Pages/Shared/_DashboardLayout.cshtml";
 }
-
-
 <div class="row">
     <div class="col-xl-3 col-lg-4 col-sm-6">
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon purple">
-                    <i class="lni lni-heart"></i>
+                    <i class="fa-solid fa-calendar-days"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Toplam Tedavi Sayısı</h6>
@@ -27,7 +25,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon success">
-                    <i class="lni lni-timer"></i>
+                    <i class="fa-solid fa-clock"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Bekleyen Tedaviler</h6>
@@ -42,7 +40,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon primary">
-                    <i class="lni lni-ruler"></i>
+                    <i class="fa-solid fa-circle-check"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Kabul Edilen Tedaviler</h6>
@@ -56,7 +54,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon primary">
-                    <i class="lni lni-ruler"></i>
+                    <i class="fa-solid fa-circle-xmark"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">İptal Edilen Tedaviler</h6>
@@ -66,25 +64,18 @@
         </div>
         <!-- End Icon Cart -->
     </div>
-    <!-- End Col -->
-    @* <div class="col-xl-3 col-lg-4 col-sm-6">
-        <div class="icon-card icon-card-2 mb-30">
-            <div class="d-flex align-items-center">
-                <div class="icon orange">
-                    <i class="lni @Model.Weather.Weather[0].LniIcon"></i>
-                </div>
-                <div class="content">
-                    <h6 class="text-bold mb-10">@Model.Weather.Name</h6>
-                    <h3 class="text-bold mb-10">@Model.Weather.Main.Temp °C</h3>
-                </div>
-            </div>
-        </div>
-        <!-- End Icon Cart -->
-    </div> *@
-    <!-- End Col -->
 </div>
-<!-- End Row -->
-<!-- End Row -->
+<form method="get" asp-page="/Appointments/Index" class="d-flex gap-2">
+    <select name="statusFilter" class="form-control form-control-sm" style="width:400px; appearance: none; padding-right: 32px;">
+        <option value="">Tümü</option>
+        <option value="Scheduled" selected="@(Model.StatusFilter == "Scheduled")">Bekleyenler</option>
+        <option value="Completed" selected="@(Model.StatusFilter == "Completed")">Tamamlananlar</option>
+        <option value="Cancelled" selected="@(Model.StatusFilter == "Cancelled")">İptal Edilenler</option>
+    </select>
+    <button type="submit" class="btn btn-sm btn-primary">
+        <i class="fa-solid fa-filter"></i>
+    </button>
+</form>
 <div class="row">
     <div class="col-lg-12">
         <div class="card-style clients-table-card mb-30">
@@ -152,11 +143,6 @@
                                         <a class="btn btn-primary btn-sm" asp-page="/Appointments/EditAppointment" asp-route-id="@appointment.Id">
                                             <i class="fa-solid fa-pencil"></i>
                                         </a>
-                                        @* <form asp-page="/Animals/Animals" asp-page-handler="Delete" asp-route-id="@appointment.AnimalId" method="post" style="display:inline;">
-                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Silmek istediğinize emin misiniz?')">
-                                    <i class="fa-solid fa-trash"></i>
-                                </button>
-                            </form> *@
                                     </div>
                                 </td>
                             </tr>
@@ -167,15 +153,15 @@
         </div>
         <!-- end card -->
     </div>
-    <div class="row mt-3 mb-3">
+    <div class="d-flex flex-wrap gap-2 mt-3 mb-3">
         @for (int i = 1; i <= Model.PagedAppointmentList.PageCount; i++)
         {
-            <div class="col-auto">
-                <a asp-page="/Appointments/Index" asp-route-pageNumber="@i" class="btn @(i == Model.PagedAppointmentList.PageNumber ? "btn-warning" : "btn-outlined-warning") row">@i</a>
-            </div>
-
+            <a asp-page="/Appointments/Index"
+               asp-route-pageNumber="@i"
+               class="btn @(i == Model.PagedAppointmentList.PageNumber ? "btn-primary" : "btn-outline-secondary")">
+                @i
+            </a>
         }
     </div>
-
 </div>
 <!-- End Row -->

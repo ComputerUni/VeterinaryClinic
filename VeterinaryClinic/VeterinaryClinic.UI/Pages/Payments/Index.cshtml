@@ -12,7 +12,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon purple">
-                    <i class="lni lni-heart"></i>
+                    <i class="lni lni-money-location"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Toplam Gelir</h6>
@@ -26,7 +26,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon purple">
-                    <i class="lni lni-heart"></i>
+                    <i class="lni lni-wallet"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Nakit Ödemeler</h6>
@@ -40,7 +40,7 @@
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
                 <div class="icon purple">
-                    <i class="lni lni-heart"></i>
+                    <i class="lni lni-visa"></i>
                 </div>
                 <div class="content">
                     <h6 class="mb-10">Kredi Kartı Ödemeler</h6>
@@ -50,23 +50,33 @@
         </div>
         <!-- End Icon Cart -->
     </div>
-    <!-- End Icon Cart -->
-</div>
-<!-- End Col -->
-@* <div class="col-xl-3 col-lg-4 col-sm-6">
+    <div class="col-xl-3 col-lg-4 col-sm-6">
         <div class="icon-card icon-card-2 mb-30">
             <div class="d-flex align-items-center">
-                <div class="icon orange">
-                    <i class="lni @Model.Weather.Weather[0].LniIcon"></i>
+                <div class="icon purple">
+                    <i class="fa-solid fa-building-columns"></i>
                 </div>
                 <div class="content">
-                    <h6 class="text-bold mb-10">@Model.Weather.Name</h6>
-                    <h3 class="text-bold mb-10">@Model.Weather.Main.Temp °C</h3>
+                    <h6 class="mb-10">Havale Ödemeler</h6>
+                    <h3 class="text-bold mb-10">@(Model.PaymentList != null ? Model.PaymentList.Count(p => p.PaymentMethod == PaymentStatus.BankTransfer) : 0)</h3>
                 </div>
             </div>
         </div>
         <!-- End Icon Cart -->
-    </div> *@
+    </div>
+    <!-- End Icon Cart -->
+</div>
+<form method="get" asp-page="/Payments/Index" class="d-flex gap-2">
+    <select name="statusFilter" class="form-control form-control-sm" style="width:400px;">
+        <option value="">Tümü</option>
+        <option value="Cash" selected="@(Model.StatusFilter == "Cash")">Nakit</option>
+        <option value="CreditCard" selected="@(Model.StatusFilter == "CreditCard")">Kredi Kartı</option>
+        <option value="BankTransfer" selected="@(Model.StatusFilter == "BankTransfer")">Havale</option>
+    </select>
+    <button type="submit" class="btn btn-sm btn-primary">
+        <i class="fa-solid fa-filter"></i>
+    </button>
+</form>
 <div class="row">
     <div class="col-12">
         <div class="card-style clients-table-card mb-30">
@@ -130,11 +140,6 @@
                                         <a class="btn btn-primary btn-sm" asp-page="/Payments/EditPayment" asp-route-id="@payment.Id">
                                             <i class="fa-solid fa-pencil"></i>
                                         </a>
-                                        @* <form asp-page="/Animals/Animals" asp-page-handler="Delete" asp-route-id="@appointment.AnimalId" method="post" style="display:inline;">
-                                <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Silmek istediğinize emin misiniz?')">
-                                    <i class="fa-solid fa-trash"></i>
-                                </button>
-                            </form> *@
                                     </div>
                                 </td>
                             </tr>
@@ -143,15 +148,15 @@
                 </table>
             </div>
         </div>
-        <!-- end card -->
     </div>
-    <div class="row mt-3 mb-3">
+    <div class="d-flex flex-wrap gap-2 mt-3 mb-3">
         @for (int i = 1; i <= Model.PagedPaymentList.PageCount; i++)
         {
-            <div class="col-auto">
-                <a asp-page="/Payments/Index" asp-route-pageNumber="@i" class="btn @(i == Model.PagedPaymentList.PageNumber ? "btn-warning" : "btn-outlined-warning") row">@i</a>
-            </div>
+            <a asp-page="/Payments/Index"
+               asp-route-pageNumber="@i"
+               class="btn @(i == Model.PagedPaymentList.PageNumber ? "btn-primary" : "btn-outline-secondary")">
+                @i
+            </a>
         }
     </div>
 </div>
-<!-- End Row -->

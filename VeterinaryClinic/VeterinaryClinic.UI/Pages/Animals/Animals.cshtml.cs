@@ -32,8 +32,10 @@ namespace VeterinaryClinic.UI.Pages.Animals
         [BindProperty]
         public AnimalDto Animal { get; set; }
 
-        public WeatherDto Weather { get; set; } 
+        public WeatherDto Weather { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string? SearchTerm { get; set; }
         public async Task<IActionResult> OnGetAsync(int pageNumber = 1)
         {
             var client = _httpClientFactory.CreateClient();
@@ -43,18 +45,22 @@ namespace VeterinaryClinic.UI.Pages.Animals
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             }
             var response = await client.GetAsync("https://localhost:7037/api/animals");
-            
 
-            if(response.IsSuccessStatusCode)
+
+            if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
-
-                var options = new JsonSerializerOptions
-                {
-                    PropertyNameCaseInsensitive = true
-                };
+                var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
 
                 AnimalList = JsonSerializer.Deserialize<List<Animal>>(content, options) ?? new List<Animal>();
+
+                if (!string.IsNullOrWhiteSpace(SearchTerm))
+                {
+                    AnimalList = AnimalList
+                        .Where(a => a.Name.Contains(SearchTerm, StringComparison.OrdinalIgnoreCase))
+                        .ToList();
+                }
+
                 PagedAnimalList = AnimalList.ToPagedList(pageNumber, 5);
             }
             else
@@ -66,7 +72,7 @@ namespace VeterinaryClinic.UI.Pages.Animals
             var apiBase = _configuration["OpenWeather:BASE_URL"];
             var weatherResponse = await client.GetAsync("https://localhost:7037/api/external/weather/clinic");
 
-            if(weatherResponse.IsSuccessStatusCode)
+            if (weatherResponse.IsSuccessStatusCode)
             {
                 var content = await weatherResponse.Content.ReadAsStringAsync();
                 var options = new JsonSerializerOptions
@@ -89,14 +95,14 @@ namespace VeterinaryClinic.UI.Pages.Animals
             var client = _httpClientFactory.CreateClient();
             var token = Request.Cookies["JwtToken"];
 
-            if(!string.IsNullOrEmpty(token))
+            if (!string.IsNullOrEmpty(token))
             {
                 client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
             }
 
             var response = await client.DeleteAsync($"https://localhost:7037/api/animals/{id}");
 
-            if(response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode)
             {
                 return RedirectToPage("/Animals/Animals");
             }
