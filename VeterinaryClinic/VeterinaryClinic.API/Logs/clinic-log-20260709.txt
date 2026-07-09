@@ -2386,3 +2386,256 @@ FROM [Animals] AS [a]
 2026-07-09 13:45:52.244 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API) in 674.7147ms
 2026-07-09 13:45:52.262 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API)'
 2026-07-09 13:45:52.276 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/reports/dashboard - 200 null application/json; charset=utf-8 1043.8697ms
+2026-07-09 14:01:23.332 +03:00 [INF] User profile is available. Using 'C:\Users\BURHAN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-09 14:01:26.505 +03:00 [INF] Now listening on: https://localhost:7037
+2026-07-09 14:01:26.676 +03:00 [INF] Now listening on: http://localhost:5095
+2026-07-09 14:10:24.329 +03:00 [INF] User profile is available. Using 'C:\Users\BURHAN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-09 14:10:24.909 +03:00 [INF] Now listening on: https://localhost:7037
+2026-07-09 14:10:24.915 +03:00 [INF] Now listening on: http://localhost:5095
+2026-07-09 14:10:25.201 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-09 14:10:27.274 +03:00 [INF] Hosting environment: Development
+2026-07-09 14:10:27.442 +03:00 [INF] Content root path: C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API
+2026-07-09 14:10:27.574 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/swagger/index.html - null null
+2026-07-09 14:10:28.828 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/swagger/index.html - 200 null text/html;charset=utf-8 1276.385ms
+2026-07-09 14:10:28.861 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-09 14:10:28.865 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/_vs/browserLink - null null
+2026-07-09 14:10:28.908 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/_framework/aspnetcore-browser-refresh.js - 200 14945 application/javascript; charset=utf-8 46.5882ms
+2026-07-09 14:10:29.210 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 345.7968ms
+2026-07-09 14:10:29.358 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/swagger/v1/swagger.json - null null
+2026-07-09 14:10:30.296 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 938.3467ms
+2026-07-09 14:11:21.949 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7037/api/users/login - application/json; charset=utf-8 null
+2026-07-09 14:11:22.255 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.UsersController.Login (VeterinaryClinic.API)'
+2026-07-09 14:11:22.518 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(VeterinaryClinic.Entities.Models.LoginDto) on controller VeterinaryClinic.API.Controllers.UsersController (VeterinaryClinic.API).
+2026-07-09 14:11:27.813 +03:00 [WRN] No store type was specified for the decimal property 'Height' on entity type 'Animal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-09 14:11:27.844 +03:00 [WRN] No store type was specified for the decimal property 'Weight' on entity type 'Animal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-09 14:11:27.847 +03:00 [WRN] No store type was specified for the decimal property 'AmountPaid' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-09 14:11:27.855 +03:00 [WRN] No store type was specified for the decimal property 'Cost' on entity type 'Treatment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-09 14:11:27.861 +03:00 [WRN] No store type was specified for the decimal property 'Temperature' on entity type 'WeatherInfo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-09 14:11:32.296 +03:00 [INF] Executed DbCommand (460ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2026-07-09 14:11:33.414 +03:00 [INF] Executed DbCommand (41ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2026-07-09 14:11:33.796 +03:00 [INF] Executed DbCommand (93ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-07-09 14:11:33.998 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-09 14:11:34.098 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.UsersController.Login (VeterinaryClinic.API) in 11517.7456ms
+2026-07-09 14:11:34.111 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.UsersController.Login (VeterinaryClinic.API)'
+2026-07-09 14:11:34.171 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7037/api/users/login - 200 null application/json; charset=utf-8 12224.8131ms
+2026-07-09 14:11:34.606 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/reports/dashboard - null null
+2026-07-09 14:11:34.988 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API)'
+2026-07-09 14:11:35.058 +03:00 [INF] Route matched with {action = "GetDashboardReport", controller = "Reports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboardReport() on controller VeterinaryClinic.API.Controllers.ReportsController (VeterinaryClinic.API).
+2026-07-09 14:11:35.501 +03:00 [INF] Executed DbCommand (55ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AnimalId], [a].[Date], [a].[Notes], [a].[Status], [a].[Time]
+FROM [Appointments] AS [a]
+2026-07-09 14:11:35.667 +03:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[AmountPaid], [p].[AppointmentId], [p].[PaymentDate], [p].[PaymentMethod]
+FROM [Payments] AS [p]
+2026-07-09 14:11:35.789 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Age], [a].[Breed], [a].[Height], [a].[MedicalHistory], [a].[Name], [a].[OwnerId], [a].[Species], [a].[Weight]
+FROM [Animals] AS [a]
+2026-07-09 14:11:35.932 +03:00 [INF] Executing OkObjectResult, writing value of type 'VeterinaryClinic.Entities.Models.DashboardReportDto'.
+2026-07-09 14:11:35.981 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API) in 881.0915ms
+2026-07-09 14:11:35.998 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API)'
+2026-07-09 14:11:36.022 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/reports/dashboard - 200 null application/json; charset=utf-8 1415.8931ms
+2026-07-09 14:32:08.300 +03:00 [INF] User profile is available. Using 'C:\Users\BURHAN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-09 14:32:09.054 +03:00 [INF] Now listening on: https://localhost:7037
+2026-07-09 14:32:09.056 +03:00 [INF] Now listening on: http://localhost:5095
+2026-07-09 14:32:10.169 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-09 14:32:13.299 +03:00 [INF] Hosting environment: Development
+2026-07-09 14:32:13.411 +03:00 [INF] Content root path: C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API
+2026-07-09 14:32:13.527 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/swagger/index.html - null null
+2026-07-09 14:32:14.416 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/swagger/index.html - 200 null text/html;charset=utf-8 910.7546ms
+2026-07-09 14:32:15.060 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-09 14:32:15.134 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/_vs/browserLink - null null
+2026-07-09 14:32:15.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/_framework/aspnetcore-browser-refresh.js - 200 14945 application/javascript; charset=utf-8 190.2969ms
+2026-07-09 14:32:15.765 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 630.6134ms
+2026-07-09 14:32:16.821 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/swagger/v1/swagger.json - null null
+2026-07-09 14:32:16.978 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 157.3108ms
+2026-07-09 14:33:08.314 +03:00 [INF] User profile is available. Using 'C:\Users\BURHAN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-09 14:33:08.859 +03:00 [INF] Now listening on: https://localhost:7037
+2026-07-09 14:33:09.154 +03:00 [INF] Now listening on: http://localhost:5095
+2026-07-09 14:33:10.961 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/swagger/index.html - null null
+2026-07-09 14:33:11.018 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-09 14:33:11.230 +03:00 [INF] Hosting environment: Development
+2026-07-09 14:33:11.390 +03:00 [INF] Content root path: C:\Users\BURHAN\Desktop\VeterinerKlinikYonetimSistemi\VeterinaryClinic\VeterinaryClinic.API
+2026-07-09 14:33:11.939 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/swagger/index.html - 200 null text/html;charset=utf-8 1000.1657ms
+2026-07-09 14:33:12.095 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-09 14:33:12.101 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/_vs/browserLink - null null
+2026-07-09 14:33:12.160 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/_framework/aspnetcore-browser-refresh.js - 200 14945 application/javascript; charset=utf-8 65.7949ms
+2026-07-09 14:33:12.356 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/_vs/browserLink - 200 null text/javascript; charset=UTF-8 258.6483ms
+2026-07-09 14:33:13.956 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7037/swagger/v1/swagger.json - null null
+2026-07-09 14:33:13.997 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7037/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 41.0436ms
+2026-07-09 14:33:24.319 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7037/api/users/login - application/json; charset=utf-8 null
+2026-07-09 14:33:24.433 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.UsersController.Login (VeterinaryClinic.API)'
+2026-07-09 14:33:24.550 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(VeterinaryClinic.Entities.Models.LoginDto) on controller VeterinaryClinic.API.Controllers.UsersController (VeterinaryClinic.API).
+2026-07-09 14:33:28.470 +03:00 [WRN] No store type was specified for the decimal property 'Height' on entity type 'Animal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-09 14:33:28.477 +03:00 [WRN] No store type was specified for the decimal property 'Weight' on entity type 'Animal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-09 14:33:28.480 +03:00 [WRN] No store type was specified for the decimal property 'AmountPaid' on entity type 'Payment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-09 14:33:28.488 +03:00 [WRN] No store type was specified for the decimal property 'Cost' on entity type 'Treatment'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-09 14:33:28.493 +03:00 [WRN] No store type was specified for the decimal property 'Temperature' on entity type 'WeatherInfo'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-07-09 14:33:32.422 +03:00 [INF] Executed DbCommand (311ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2026-07-09 14:33:33.311 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2026-07-09 14:33:33.593 +03:00 [INF] Executed DbCommand (52ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-07-09 14:33:33.847 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-09 14:33:33.904 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.UsersController.Login (VeterinaryClinic.API) in 9326.4214ms
+2026-07-09 14:33:33.931 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.UsersController.Login (VeterinaryClinic.API)'
+2026-07-09 14:33:34.015 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7037/api/users/login - 200 null application/json; charset=utf-8 9704.0057ms
+2026-07-09 14:33:35.072 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/reports/dashboard - null null
+2026-07-09 14:33:35.606 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API)'
+2026-07-09 14:33:35.724 +03:00 [INF] Route matched with {action = "GetDashboardReport", controller = "Reports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboardReport() on controller VeterinaryClinic.API.Controllers.ReportsController (VeterinaryClinic.API).
+2026-07-09 14:33:36.191 +03:00 [INF] Executed DbCommand (71ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AnimalId], [a].[Date], [a].[Notes], [a].[Status], [a].[Time]
+FROM [Appointments] AS [a]
+2026-07-09 14:33:36.506 +03:00 [INF] Executed DbCommand (132ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[AmountPaid], [p].[AppointmentId], [p].[PaymentDate], [p].[PaymentMethod]
+FROM [Payments] AS [p]
+2026-07-09 14:33:36.764 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Age], [a].[Breed], [a].[Height], [a].[MedicalHistory], [a].[Name], [a].[OwnerId], [a].[Species], [a].[Weight]
+FROM [Animals] AS [a]
+2026-07-09 14:33:36.890 +03:00 [INF] Executing OkObjectResult, writing value of type 'VeterinaryClinic.Entities.Models.DashboardReportDto'.
+2026-07-09 14:33:36.964 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API) in 1220.5877ms
+2026-07-09 14:33:37.008 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API)'
+2026-07-09 14:33:37.017 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/reports/dashboard - 200 null application/json; charset=utf-8 1944.6034ms
+2026-07-09 14:33:42.193 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/animals - null null
+2026-07-09 14:33:42.243 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.AnimalsController.GetAll (VeterinaryClinic.API)'
+2026-07-09 14:33:42.260 +03:00 [INF] Route matched with {action = "GetAll", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller VeterinaryClinic.API.Controllers.AnimalsController (VeterinaryClinic.API).
+2026-07-09 14:33:42.317 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Age], [a].[Breed], [a].[Height], [a].[MedicalHistory], [a].[Name], [a].[OwnerId], [a].[Species], [a].[Weight]
+FROM [Animals] AS [a]
+2026-07-09 14:33:42.325 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VeterinaryClinic.Entities.Concrete.Animal, VeterinaryClinic.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-09 14:33:42.360 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.AnimalsController.GetAll (VeterinaryClinic.API) in 94.5809ms
+2026-07-09 14:33:42.367 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.AnimalsController.GetAll (VeterinaryClinic.API)'
+2026-07-09 14:33:42.374 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/animals - 200 null application/json; charset=utf-8 180.6482ms
+2026-07-09 14:33:42.434 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/external/weather/clinic - null null
+2026-07-09 14:33:42.442 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.WeatherForecastController.GetClinicWeather (VeterinaryClinic.API)'
+2026-07-09 14:33:42.455 +03:00 [INF] Route matched with {action = "GetClinicWeather", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetClinicWeather() on controller VeterinaryClinic.API.Controllers.WeatherForecastController (VeterinaryClinic.API).
+2026-07-09 14:33:42.464 +03:00 [INF] Klinik hava durumu isteği: Gaziantep
+2026-07-09 14:33:42.799 +03:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2026-07-09 14:33:42.807 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.WeatherForecastController.GetClinicWeather (VeterinaryClinic.API) in 347.9046ms
+2026-07-09 14:33:42.818 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.WeatherForecastController.GetClinicWeather (VeterinaryClinic.API)'
+2026-07-09 14:33:42.825 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/external/weather/clinic - 200 515 application/json 391.1341ms
+2026-07-09 14:33:54.371 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7037/api/users/login - application/json; charset=utf-8 null
+2026-07-09 14:33:54.377 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.UsersController.Login (VeterinaryClinic.API)'
+2026-07-09 14:33:54.379 +03:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(VeterinaryClinic.Entities.Models.LoginDto) on controller VeterinaryClinic.API.Controllers.UsersController (VeterinaryClinic.API).
+2026-07-09 14:33:54.429 +03:00 [INF] Executed DbCommand (24ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2026-07-09 14:33:54.857 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[FullName], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2026-07-09 14:33:54.947 +03:00 [INF] Executed DbCommand (48ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-07-09 14:33:54.962 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-09 14:33:54.966 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.UsersController.Login (VeterinaryClinic.API) in 584.7972ms
+2026-07-09 14:33:54.998 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.UsersController.Login (VeterinaryClinic.API)'
+2026-07-09 14:33:55.007 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7037/api/users/login - 200 null application/json; charset=utf-8 635.6532ms
+2026-07-09 14:33:55.148 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/reports/dashboard - null null
+2026-07-09 14:33:55.203 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API)'
+2026-07-09 14:33:55.224 +03:00 [INF] Route matched with {action = "GetDashboardReport", controller = "Reports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboardReport() on controller VeterinaryClinic.API.Controllers.ReportsController (VeterinaryClinic.API).
+2026-07-09 14:33:55.380 +03:00 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AnimalId], [a].[Date], [a].[Notes], [a].[Status], [a].[Time]
+FROM [Appointments] AS [a]
+2026-07-09 14:33:55.656 +03:00 [INF] Executed DbCommand (74ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[AmountPaid], [p].[AppointmentId], [p].[PaymentDate], [p].[PaymentMethod]
+FROM [Payments] AS [p]
+2026-07-09 14:33:55.704 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Age], [a].[Breed], [a].[Height], [a].[MedicalHistory], [a].[Name], [a].[OwnerId], [a].[Species], [a].[Weight]
+FROM [Animals] AS [a]
+2026-07-09 14:33:55.832 +03:00 [INF] Executing OkObjectResult, writing value of type 'VeterinaryClinic.Entities.Models.DashboardReportDto'.
+2026-07-09 14:33:55.849 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API) in 600.4066ms
+2026-07-09 14:33:55.881 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API)'
+2026-07-09 14:33:55.890 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/reports/dashboard - 200 null application/json; charset=utf-8 742.4996ms
+2026-07-09 14:34:07.147 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/animals - null null
+2026-07-09 14:34:07.151 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.AnimalsController.GetAll (VeterinaryClinic.API)'
+2026-07-09 14:34:07.153 +03:00 [INF] Route matched with {action = "GetAll", controller = "Animals"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller VeterinaryClinic.API.Controllers.AnimalsController (VeterinaryClinic.API).
+2026-07-09 14:34:07.166 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Age], [a].[Breed], [a].[Height], [a].[MedicalHistory], [a].[Name], [a].[OwnerId], [a].[Species], [a].[Weight]
+FROM [Animals] AS [a]
+2026-07-09 14:34:07.169 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VeterinaryClinic.Entities.Concrete.Animal, VeterinaryClinic.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-09 14:34:07.173 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.AnimalsController.GetAll (VeterinaryClinic.API) in 16.4683ms
+2026-07-09 14:34:07.182 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.AnimalsController.GetAll (VeterinaryClinic.API)'
+2026-07-09 14:34:07.184 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/animals - 200 null application/json; charset=utf-8 36.7292ms
+2026-07-09 14:34:07.191 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/external/weather/clinic - null null
+2026-07-09 14:34:07.219 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.WeatherForecastController.GetClinicWeather (VeterinaryClinic.API)'
+2026-07-09 14:34:07.221 +03:00 [INF] Route matched with {action = "GetClinicWeather", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetClinicWeather() on controller VeterinaryClinic.API.Controllers.WeatherForecastController (VeterinaryClinic.API).
+2026-07-09 14:34:07.226 +03:00 [INF] Klinik hava durumu isteği: Gaziantep
+2026-07-09 14:34:07.469 +03:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2026-07-09 14:34:07.476 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.WeatherForecastController.GetClinicWeather (VeterinaryClinic.API) in 250.998ms
+2026-07-09 14:34:07.771 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.WeatherForecastController.GetClinicWeather (VeterinaryClinic.API)'
+2026-07-09 14:34:08.019 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/external/weather/clinic - 200 515 application/json 828.1269ms
+2026-07-09 14:34:08.553 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/appointments - null null
+2026-07-09 14:34:08.571 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.AppointmentsController.GetAll (VeterinaryClinic.API)'
+2026-07-09 14:34:08.601 +03:00 [INF] Route matched with {action = "GetAll", controller = "Appointments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller VeterinaryClinic.API.Controllers.AppointmentsController (VeterinaryClinic.API).
+2026-07-09 14:34:08.623 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AnimalId], [a].[Date], [a].[Notes], [a].[Status], [a].[Time]
+FROM [Appointments] AS [a]
+2026-07-09 14:34:08.628 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VeterinaryClinic.Entities.Concrete.Appointment, VeterinaryClinic.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-09 14:34:08.662 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.AppointmentsController.GetAll (VeterinaryClinic.API) in 57.6638ms
+2026-07-09 14:34:08.669 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.AppointmentsController.GetAll (VeterinaryClinic.API)'
+2026-07-09 14:34:08.674 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/appointments - 200 null application/json; charset=utf-8 120.8621ms
+2026-07-09 14:34:08.745 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/external/weather/clinic - null null
+2026-07-09 14:34:08.753 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.WeatherForecastController.GetClinicWeather (VeterinaryClinic.API)'
+2026-07-09 14:34:08.758 +03:00 [INF] Route matched with {action = "GetClinicWeather", controller = "WeatherForecast"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetClinicWeather() on controller VeterinaryClinic.API.Controllers.WeatherForecastController (VeterinaryClinic.API).
+2026-07-09 14:34:08.761 +03:00 [INF] Klinik hava durumu isteği: Gaziantep
+2026-07-09 14:34:08.989 +03:00 [INF] Executing ContentResult with HTTP Response ContentType of application/json
+2026-07-09 14:34:08.996 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.WeatherForecastController.GetClinicWeather (VeterinaryClinic.API) in 234.3623ms
+2026-07-09 14:34:09.020 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.WeatherForecastController.GetClinicWeather (VeterinaryClinic.API)'
+2026-07-09 14:34:09.037 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/external/weather/clinic - 200 515 application/json 291.6409ms
+2026-07-09 14:34:09.986 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/treatments - null null
+2026-07-09 14:34:10.009 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.TreatmentsController.Get (VeterinaryClinic.API)'
+2026-07-09 14:34:10.025 +03:00 [INF] Route matched with {action = "Get", controller = "Treatments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller VeterinaryClinic.API.Controllers.TreatmentsController (VeterinaryClinic.API).
+2026-07-09 14:34:10.077 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[AppointmentId], [t].[Cost], [t].[Notes], [t].[TreatmentType]
+FROM [Treatments] AS [t]
+2026-07-09 14:34:10.119 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VeterinaryClinic.Entities.Concrete.Treatment, VeterinaryClinic.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-09 14:34:10.129 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.TreatmentsController.Get (VeterinaryClinic.API) in 94.9062ms
+2026-07-09 14:34:10.146 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.TreatmentsController.Get (VeterinaryClinic.API)'
+2026-07-09 14:34:10.152 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/treatments - 200 null application/json; charset=utf-8 165.8622ms
+2026-07-09 14:34:11.379 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/payments - null null
+2026-07-09 14:34:11.396 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.PaymentsController.GetAll (VeterinaryClinic.API)'
+2026-07-09 14:34:11.415 +03:00 [INF] Route matched with {action = "GetAll", controller = "Payments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller VeterinaryClinic.API.Controllers.PaymentsController (VeterinaryClinic.API).
+2026-07-09 14:34:11.447 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[AmountPaid], [p].[AppointmentId], [p].[PaymentDate], [p].[PaymentMethod]
+FROM [Payments] AS [p]
+2026-07-09 14:34:11.462 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[VeterinaryClinic.Entities.Concrete.Payment, VeterinaryClinic.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-09 14:34:11.504 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.PaymentsController.GetAll (VeterinaryClinic.API) in 77.3883ms
+2026-07-09 14:34:11.513 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.PaymentsController.GetAll (VeterinaryClinic.API)'
+2026-07-09 14:34:11.520 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/payments - 200 null application/json; charset=utf-8 141.5548ms
+2026-07-09 14:34:16.212 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7037/api/reports/dashboard - null null
+2026-07-09 14:34:16.220 +03:00 [INF] Executing endpoint 'VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API)'
+2026-07-09 14:34:16.222 +03:00 [INF] Route matched with {action = "GetDashboardReport", controller = "Reports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetDashboardReport() on controller VeterinaryClinic.API.Controllers.ReportsController (VeterinaryClinic.API).
+2026-07-09 14:34:16.271 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[AnimalId], [a].[Date], [a].[Notes], [a].[Status], [a].[Time]
+FROM [Appointments] AS [a]
+2026-07-09 14:34:16.289 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[AmountPaid], [p].[AppointmentId], [p].[PaymentDate], [p].[PaymentMethod]
+FROM [Payments] AS [p]
+2026-07-09 14:34:16.322 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[Age], [a].[Breed], [a].[Height], [a].[MedicalHistory], [a].[Name], [a].[OwnerId], [a].[Species], [a].[Weight]
+FROM [Animals] AS [a]
+2026-07-09 14:34:16.326 +03:00 [INF] Executing OkObjectResult, writing value of type 'VeterinaryClinic.Entities.Models.DashboardReportDto'.
+2026-07-09 14:34:16.331 +03:00 [INF] Executed action VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API) in 97.5265ms
+2026-07-09 14:34:16.339 +03:00 [INF] Executed endpoint 'VeterinaryClinic.API.Controllers.ReportsController.GetDashboardReport (VeterinaryClinic.API)'
+2026-07-09 14:34:16.346 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7037/api/reports/dashboard - 200 null application/json; charset=utf-8 133.2565ms

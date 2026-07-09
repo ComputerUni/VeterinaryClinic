@@ -72,6 +72,8 @@ app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.MapGet("/", () => Results.Redirect("/code.html"));
+
 app.MapRazorPages();
 
 app.Run();
