@@ -65,7 +65,7 @@
         <!-- End Icon Cart -->
     </div>
 </div>
-<form method="get" asp-page="/Appointments/Index" class="d-flex gap-2">
+<form method="get" asp-page="/Appointments/Index" class="d-flex gap-2 mb-3">
     <select name="statusFilter" class="form-control form-control-sm" style="width:400px; appearance: none; padding-right: 32px;">
         <option value="">Tümü</option>
         <option value="Scheduled" selected="@(Model.StatusFilter == "Scheduled")">Bekleyenler</option>
